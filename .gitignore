@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# DRS agent pipeline
+.agent/run-*.log
+.agent/cron-*.log
+.agent/claude-result-*.json
+/dist
+hoffbrand.md
