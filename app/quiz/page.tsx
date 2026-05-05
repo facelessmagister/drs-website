@@ -6,6 +6,8 @@ const chapters = [
   { id: "2", title: "Erythropoiesis and general aspects of anaemia", questions: 10 },
   { id: "3", title: "Hypochromic anaemias", questions: 10 },
   { id: "4", title: "Iron overload", questions: 10 },
+  { id: "30", title: "Thrombosis 1: Pathogenesis and diagnosis", questions: 10 },
+  { id: "31", title: "Thrombosis 2: Treatment", questions: 10 },
 ];
 
 export default function QuizIndexPage() {
