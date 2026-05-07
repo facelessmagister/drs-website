@@ -9,6 +9,7 @@ const chapters = [
   { id: "30", title: "Thrombosis 1: Pathogenesis and diagnosis", questions: 10 },
   { id: "31", title: "Thrombosis 2: Treatment", questions: 10 },
   { id: "32", title: "Haematological changes in systemic diseases", questions: 10 },
+  { id: "33", title: "Blood transfusion", questions: 10 },
 ];
 
 export default function QuizIndexPage() {
