@@ -8,6 +8,7 @@ const chapters = [
   { id: "4", title: "Iron overload", questions: 10 },
   { id: "5", title: "Megaloblastic anaemias and other macrocytic anaemias", questions: 10 },
   { id: "6", title: "Haemolytic anaemias", questions: 10 },
+  { id: "7", title: "Genetic disorders of haemoglobin", questions: 10 },
   { id: "30", title: "Thrombosis 1: Pathogenesis and diagnosis", questions: 10 },
   { id: "31", title: "Thrombosis 2: Treatment", questions: 10 },
   { id: "32", title: "Haematological changes in systemic diseases", questions: 10 },
