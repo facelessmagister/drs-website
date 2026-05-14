@@ -13,6 +13,7 @@ const chapters = [
   { id: "9", title: "The white cells, part 2: lymphocytes and their benign disorders", questions: 10 },
   { id: "10", title: "The spleen", questions: 10 },
   { id: "11", title: "The aetiology and genetics of haematological neoplasia", questions: 10 },
+  { id: "12", title: "Management of haematological malignancy", questions: 10 },
   { id: "30", title: "Thrombosis 1: Pathogenesis and diagnosis", questions: 10 },
   { id: "31", title: "Thrombosis 2: Treatment", questions: 10 },
   { id: "32", title: "Haematological changes in systemic diseases", questions: 10 },
