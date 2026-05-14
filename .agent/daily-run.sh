@@ -12,7 +12,7 @@ LOG="$AGENT_DIR/run-$(date +%Y%m%d-%H%M%S).log"
 
 tee_log() { tee -a "$LOG"; }
 exec > >(tee -a "$LOG")
-exec 2>>1
+exec 2>&1
 
 echo "========================================"
 echo "DRS Daily Agent Run — $(date)"
