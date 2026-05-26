@@ -19,6 +19,7 @@ const chapters = [
   { id: "15", title: "Myeloproliferative neoplasms", questions: 10 },
   { id: "16", title: "Myelodysplastic neoplasms", questions: 10 },
   { id: "17", title: "Acute lymphoblastic leukaemia", questions: 10 },
+  { id: "18", title: "The chronic lymphocytic leukaemias", questions: 10 },
   { id: "30", title: "Thrombosis 1: Pathogenesis and diagnosis", questions: 10 },
   { id: "31", title: "Thrombosis 2: Treatment", questions: 10 },
   { id: "32", title: "Haematological changes in systemic diseases", questions: 10 },
