@@ -25,6 +25,7 @@ const chapters = [
   { id: "21", title: "Non-Hodgkin lymphomas 2: Individual diseases", questions: 10 },
   { id: "22", title: "Multiple myeloma and related plasma cell neoplasms", questions: 10 },
   { id: "23", title: "Amyloid", questions: 10 },
+  { id: "24", title: "Aplastic anaemia and bone marrow failure syndromes", questions: 10 },
   { id: "30", title: "Thrombosis 1: Pathogenesis and diagnosis", questions: 10 },
   { id: "31", title: "Thrombosis 2: Treatment", questions: 10 },
   { id: "32", title: "Haematological changes in systemic diseases", questions: 10 },
