@@ -29,6 +29,7 @@ const chapters = [
   { id: "25", title: "Haemopoietic stem cell transplantation", questions: 10 },
   { id: "26", title: "Platelets, coagulation and normal haemostasis", questions: 10 },
   { id: "27", title: "Bleeding disorders caused by platelet and vascular abnormalities", questions: 10 },
+  { id: "28", title: "Hereditary coagulation disorders", questions: 10 },
   { id: "30", title: "Thrombosis 1: Pathogenesis and diagnosis", questions: 10 },
   { id: "31", title: "Thrombosis 2: Treatment", questions: 10 },
   { id: "32", title: "Haematological changes in systemic diseases", questions: 10 },
