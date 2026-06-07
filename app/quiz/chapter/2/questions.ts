@@ -136,5 +136,135 @@ export const questions: Question[] = [
     },
     answer: "C",
     explanation: "Hoffbrand Chapter 2 describes the classification of anaemia by MCV into microcytic (<80 fL), normocytic (80–95 fL) and macrocytic (>95 fL) (Table 2.5). The reticulocyte count should rise in anaemia because of erythropoietin increase and be higher the more severe the anaemia. If the reticulocyte count is not raised in an anaemic patient, this suggests impaired marrow function, lack of erythropoietin (renal disease) or lack of erythropoietin stimulus (Table 2.6). Microcytic anaemia is not exclusive to iron deficiency; thalassaemia, sideroblastic anaemia, and some cases of anaemia of chronic disease also cause microcytosis. Macrocytic anaemia has both megaloblastic (vitamin B12/folate deficiency) and non-megaloblastic causes (alcohol, liver disease, myelodysplasia). After acute haemorrhage, the reticulocyte count rises within 2–3 days and peaks at 6–10 days, not within 24 hours."
+  },
+  {
+    num: 351,
+    stem: "A 32-year-old woman develops sudden cyanosis and headache 30 minutes after using a benzocaine throat spray for a dental procedure. Arterial blood gas reveals PaO2 98 mmHg, but pulse oximetry reads 82%. Her venous blood appears dark brown. Which mechanism best explains her acute presentation?",
+    options: {
+      A: "Hereditary deficiency of NADH-methaemoglobin reductase causing chronic inability to reduce ferric iron.",
+      B: "Drug-induced oxidation of haemoglobin iron to the ferric (Fe3+) state, exceeding the reducing capacity of the Embden–Meyerhof pathway.",
+      C: "Sulfhaemoglobinaemia from sulfur incorporation into the porphyrin ring by the local anaesthetic.",
+      D: "Congenital Hb M variant with amino acid substitution in the haem pocket causing lifelong cyanosis.",
+      E: "Acute intravascular haemolysis from G6PD deficiency causing free haemoglobin in plasma."
+    },
+    answer: "B",
+    explanation: "Hoffbrand Chapter 2 describes toxic methaemoglobinaemia occurring when a drug or other toxic substance oxidizes haemoglobin. The Embden–Meyerhof pathway generates NADH, which is needed by methaemoglobin reductase to reduce functionally dead methaemoglobin containing ferric iron to functionally active haemoglobin containing ferrous ions. Approximately 3% of haemoglobin is oxidized each day under normal conditions. Toxic methaemoglobinaemia occurs when oxidative stress from drugs such as local anaesthetics, dapsone, or nitrites exceeds this reductive capacity. The normal PaO2 with disproportionately low pulse oximetry and dark brown blood are characteristic clinical features of methaemoglobinaemia."
+  },
+  {
+    num: 352,
+    stem: "A 7-year-old girl of Northern European ancestry presents with chronic jaundice, splenomegaly, and compensated haemolytic anaemia (Hb 82 g/L). Her blood film shows echinocytes and marked polychromasia. Reticulocytes are 340 × 10^9/L. Haemoglobin electrophoresis and the direct antiglobulin test are normal. Which metabolic defect best accounts for both her haemolysis and her relatively mild symptomatic anaemia despite the low haemoglobin?",
+    options: {
+      A: "Pyruvate kinase deficiency causing ATP depletion, rigid red cells, and compensatory increased 2,3-DPG shifting the oxygen dissociation curve to the right.",
+      B: "G6PD deficiency causing oxidant damage, bite cell formation, and acute episodic haemolysis.",
+      C: "Hereditary spherocytosis due to ankyrin deficiency causing loss of membrane surface area and osmotic fragility.",
+      D: "Hexokinase deficiency causing complete glycolytic arrest and severe neonatal jaundice.",
+      E: "Deficiency of 2,3-DPG phosphatase causing a leftward shift of the oxygen dissociation curve and tissue hypoxia."
+    },
+    answer: "A",
+    explanation: "Hoffbrand Chapter 2 states that the Embden–Meyerhof pathway generates ATP needed for maintenance of red cell volume, shape and flexibility. Pyruvate kinase deficiency impairs the final step of glycolysis, reducing ATP and causing rigid, echinocytic red cells that are destroyed in the spleen. The same chapter notes that anaemia is associated with a rise in 2,3-DPG and a rightward shift of the oxygen dissociation curve, an adaptation that is particularly marked in pyruvate kinase deficiency. This rightward shift facilitates oxygen unloading to tissues, partially compensating for the reduced haemoglobin concentration and explaining the relatively mild symptoms despite significant anaemia."
+  },
+  {
+    num: 353,
+    stem: "A 65-year-old man with multiple myeloma receiving bortezomib-based chemotherapy develops symptomatic anaemia with haemoglobin 76 g/L. His serum erythropoietin level is 18 mIU/mL. He is reluctant to undergo red cell transfusion. Which statement best describes the evidence-based use of erythropoietin-stimulating agents in this setting and the factors that predict response?",
+    options: {
+      A: "Erythropoietin is absolutely contraindicated in all cancer patients because tumour cells universally express EPO receptors and therapy invariably accelerates malignancy.",
+      B: "Erythropoietin may be used as an alternative to transfusion when benefits outweigh risks of tumour progression and venous thrombosis; a low baseline EPO predicts response.",
+      C: "Prolyl hydroxylase inhibitors are first-line for chemotherapy-induced anaemia and carry no risk of tumour progression or thrombosis.",
+      D: "Darbepoetin alfa must be administered daily intravenously to achieve a sustained haemoglobin response in cancer patients.",
+      E: "Erythropoietin therapy requires pre-treatment serum ferritin >500 μg/L and transferrin saturation >50% before any response can occur."
+    },
+    answer: "B",
+    explanation: "Hoffbrand Chapter 2 states that erythropoietin has been associated with progression of some tumours which express EPO receptors and so with reduced survival. It is only indicated as an alternative to blood transfusion in cancer patients with symptomatic anaemia where the benefits outweigh the risks of tumour progression and of venous thrombosis. A low serum erythropoietin level prior to treatment is valuable in predicting an effective response. The chapter also notes that patients often need oral or intravenous iron supplementation during EPO therapy, but extremely high ferritin thresholds are not required."
+  },
+  {
+    num: 354,
+    stem: "A 30-year-old woman at 30 weeks gestation is found to have a haemoglobin of 108 g/L during routine antenatal screening. Her MCV is 93 fL, serum ferritin is 68 μg/L, and she is asymptomatic. Which physiological explanation best accounts for her laboratory findings?",
+    options: {
+      A: "True iron deficiency anaemia caused by increased maternal and foetal iron demands exceeding dietary intake.",
+      B: "Physiological haemodilution from plasma volume expansion exceeding red cell mass expansion, which is a normal adaptation in pregnancy.",
+      C: "Folate deficiency causing early megaloblastic anaemia before macro-ovalocytes and hypersegmented neutrophils appear on the blood film.",
+      D: "Acute occult blood loss from placental insufficiency causing a consumptive coagulopathy.",
+      E: "Chronic renal disease suppressing erythropoietin production and impairing marrow response."
+    },
+    answer: "B",
+    explanation: "Hoffbrand Chapter 2 states that an increase in plasma volume as with splenomegaly or pregnancy may cause anaemia even with a normal total circulating red cell and haemoglobin mass. In normal pregnancy there is a slight rise in MCV, even in the absence of other causes of macrocytosis. This physiological anaemia results from haemodilution, where plasma volume expands by approximately 40–50% while red cell mass increases by only 20–30%. The preserved ferritin, normocytic-to-slightly-macrocytic indices, and absence of symptoms support this interpretation rather than true nutritional deficiency."
+  },
+  {
+    num: 355,
+    stem: "A 72-year-old man with end-stage renal disease on maintenance haemodialysis has symptomatic anaemia (Hb 84 g/L) despite IV iron supplementation. He finds subcutaneous erythropoietin injections burdensome. His nephrologist proposes switching to an oral agent that acts on the HIF-PHD2 oxygen-sensing axis described in Hoffbrand Chapter 2. Which mechanism underlies this therapeutic approach?",
+    options: {
+      A: "Oral daprodustat inhibits PHD2, preventing HIF-1α hydroxylation and raising endogenous erythropoietin production.",
+      B: "Oral roxadustat is a direct EPO receptor agonist that bypasses the need for endogenous EPO synthesis.",
+      C: "Oral vadadustat is a recombinant erythropoietin analogue with gastrointestinal absorption equivalent to subcutaneous dosing.",
+      D: "Hydroxyurea increases Hb F synthesis and improves oxygen-carrying capacity independent of red cell mass.",
+      E: "Deferoxamine chelates iron and indirectly stimulates GATA1 transcription to drive erythropoiesis."
+    },
+    answer: "A",
+    explanation: "Hoffbrand Chapter 2 states that daprodustat, roxadustat and vadadustat, which inhibit PHD2 and raise endogenous erythropoietin production, are in clinical trials for treating the anaemia of chronic renal failure. These orally active prolyl hydroxylase inhibitors prevent PHD2-mediated hydroxylation of HIF-1α, thereby stabilising HIF and stimulating transcription of erythropoietin and other hypoxia-response genes including transferrin receptor and glycolytic enzymes. They are not recombinant EPO analogues or EPO receptor agonists."
+  },
+  {
+    num: 356,
+    stem: "Which of the following statements most accurately describes the biochemical functions of the Embden–Meyerhof glycolytic pathway in mature erythrocytes and the clinical consequences of specific enzymatic defects?",
+    options: {
+      A: "The pathway generates 36 ATP molecules per glucose via oxidative phosphorylation in red cell mitochondria.",
+      B: "Each glucose molecule yields 2 ATP and 2 NADH; ATP maintains cation gradients and membrane deformability, while NADH reduces methaemoglobin via methaemoglobin reductase.",
+      C: "The pathway is entirely absent in mature erythrocytes, which rely exclusively on the pentose phosphate shunt for all metabolic needs.",
+      D: "Pyruvate kinase deficiency causes accumulation of phosphoenolpyruvate, which directly lyses red cells by excessive osmotic pressure.",
+      E: "The Rapoport–Luebering shunt consumes ATP to generate 2,3-DPG, which is required for de novo haemoglobin synthesis in reticulocytes."
+    },
+    answer: "B",
+    explanation: "Hoffbrand Chapter 2 states that the Embden–Meyerhof pathway metabolizes glucose to lactate, generating two molecules of ATP and two molecules of NADH per glucose molecule. This ATP provides energy for maintenance of red cell volume, shape and flexibility. The NADH is needed by methaemoglobin reductase to reduce functionally dead methaemoglobin containing ferric iron to functionally active haemoglobin containing ferrous ions. The Rapoport–Luebering shunt generates 2,3-DPG important in regulating haemoglobin's oxygen affinity, not for de novo haemoglobin synthesis. Red cells lack mitochondria and therefore cannot perform oxidative phosphorylation."
+  },
+  {
+    num: 357,
+    stem: "Which statement best describes the lipid and protein composition of the red cell membrane and the relationship between alterations in membrane constituents and abnormal red cell morphology?",
+    options: {
+      A: "The membrane consists of 80% protein and 20% carbohydrate; phospholipids and cholesterol are absent.",
+      B: "Approximately 50% protein, 20% phospholipids, 20% cholesterol, and up to 10% carbohydrate; alterations in plasma lipids may produce acanthocytes or echinocytes.",
+      C: "Carbohydrates are equally distributed on external and internal surfaces and constitute 30% of membrane mass.",
+      D: "Band 3 protein is exclusively extracellular and serves as the red cell glucose transporter.",
+      E: "The membrane skeleton is composed entirely of actin filaments without spectrin participation."
+    },
+    answer: "B",
+    explanation: "Hoffbrand Chapter 2 states that the red cell membrane comprises approximately 50% protein, 20% phospholipids, 20% cholesterol molecules and up to 10% carbohydrate. Carbohydrates occur only on the external surface, while proteins are either integral, penetrating the lipid bilayer, or form a skeleton on the inner surface. Alterations in lipid composition because of congenital or acquired abnormalities in plasma cholesterol or phospholipid may be associated with other membrane abnormalities such as acanthocytes or echinocytes. Band 3 is the transmembrane anion channel, not a glucose transporter. The membrane skeleton is formed by spectrin, ankyrin, protein 4.1 and actin."
+  },
+  {
+    num: 358,
+    stem: "Which statement most accurately characterises the structural and functional properties of foetal haemoglobin (Hb F) and their physiological significance in placental oxygen transfer?",
+    options: {
+      A: "Hb F consists of α2γ2 chains, binds 2,3-DPG with higher affinity than Hb A, and shifts the oxygen dissociation curve to the right.",
+      B: "Hb F does not bind 2,3-DPG, shifts the oxygen dissociation curve to the left, and enhances oxygen uptake from maternal blood across the placenta.",
+      C: "Hb F is composed of α2δ2 chains and constitutes 10–15% of total haemoglobin at term.",
+      D: "Hb F shifts the curve to the right because γ chains have a larger central cavity accommodating more 2,3-DPG than β chains.",
+      E: "The switch from Hb F to Hb A is driven exclusively by thyroid hormone and is complete by 3–6 weeks after birth."
+    },
+    answer: "B",
+    explanation: "Hoffbrand Chapter 2 states that normal adult blood contains 96–98% Hb A (α2β2), 0.5–0.8% Hb F (α2γ2), and 1.5–3.2% Hb A2 (α2δ2). Foetal haemoglobin is unable to bind 2,3-DPG and shifts the oxygen dissociation curve to the left because it gives up O2 less readily than normal adult haemoglobin. This leftward shift facilitates oxygen transfer from maternal blood, which has a right-shifted curve due to higher 2,3-DPG, across the placenta to foetal blood. The developmental switch from Hb F to Hb A occurs by 3–6 months after birth."
+  },
+  {
+    num: 359,
+    stem: "Which statement best describes the relative indications, complementary roles, and practical differences between bone marrow aspiration and trephine biopsy in the investigation of haematological disorders?",
+    options: {
+      A: "Trephine biopsy is contraindicated in patients with pancytopenia because it causes further marrow suppression.",
+      B: "Trephine biopsy provides a panoramic architectural view of cellularity, fibrosis, and infiltrates, while aspiration provides superior individual cell detail and material for flow cytometry and molecular tests.",
+      C: "Bone marrow aspiration alone is sufficient for all haematological diagnoses, and trephine biopsy is only performed when aspiration is technically unsuccessful.",
+      D: "Trephine biopsy specimens require no fixation and can be reported within 1–2 hours.",
+      E: "Flow cytometry, cytogenetics, and molecular genetics can only be performed on trephine biopsy cores, not on aspirate samples."
+    },
+    answer: "B",
+    explanation: "Hoffbrand Chapter 2 states that a trephine biopsy provides a solid core of bone including marrow and is examined as a histological specimen after fixation, decalcification and sectioning. It provides a panoramic view of the marrow, from which overall marrow architecture, cellularity and presence of fibrosis or abnormal infiltrates can be reliably determined. An aspirate sample is more valuable when individual cell detail is to be examined and is used for flow cytometry, cytogenetics, FISH and molecular tests. The two procedures are complementary; aspiration results are available in 1–2 hours, while trephine takes 1–7 days depending on decalcification."
+  },
+  {
+    num: 360,
+    stem: "Which statement most accurately integrates the WHO definitions of anaemia, the global epidemiology, and the role of the reticulocyte count in assessing whether the marrow is mounting an appropriate compensatory response?",
+    options: {
+      A: "The WHO defines anaemia as Hb <120 g/L for all adults regardless of sex; the global prevalence is 5% and primarily driven by haemoglobinopathies in Europe.",
+      B: "WHO thresholds are <130 g/L for adult males, <120 g/L for non-pregnant females, and <110 g/L for children aged 6–59 months; global prevalence is ~33%, with iron deficiency, inflammation, malaria, and haemoglobinopathies as leading causes.",
+      C: "A normal reticulocyte count in an anaemic patient confirms adequate marrow compensation and definitively excludes iron deficiency or vitamin B12 deficiency.",
+      D: "The reticulocyte count should fall in proportion to the severity of anaemia because erythropoietin suppresses premature red cell release from the marrow.",
+      E: "Global anaemia prevalence is highest in Northern Europe due to high rates of pernicious anaemia and coeliac disease."
+    },
+    answer: "B",
+    explanation: "Hoffbrand Chapter 2 states that the WHO defines anaemia as a haemoglobin level <130 g/L for adult males, <120 g/L for adult non-pregnant females and <110 g/L from the age of 6–59 months. Anaemia was estimated in 2010 to occur in about 33% of the global population, most frequent in South Asia and Sub-Saharan Africa. The main causes are iron deficiency, anaemia of inflammation, sickle cell diseases, thalassaemia, and malaria. The reticulocyte count should rise in anaemia because of erythropoietin increase; if it is not raised, this suggests impaired marrow function, lack of erythropoietin, or ineffective erythropoiesis."
   }
 ];
