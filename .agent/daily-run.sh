@@ -270,6 +270,11 @@ json.dump(d, open(p, "w"), indent=2)
 PYEOF
 python3 "$AGENT_DIR/advance-progress.py" "$NEXT_CH"
 
+# Commit the advanced progress.json so next run's git pull gets correct next_chapter
+git add "$PROGRESS"
+git commit -m "infra: advance progress to chapter $(python3 -c "import json,sys; d=json.load(open('$PROGRESS')); print(d.get('next_chapter','?'))")"
+git push origin main
+
 # Final sanity check
 echo "[9] Final sanity check..."
 CURRENT_STATUS=$(python3 -c "import json,sys; d=json.load(open('$PROGRESS')); print(d.get('status',''))")
