@@ -211,7 +211,7 @@ set +e
 claude -p "$PROMPT" \
     --permission-mode auto \
     --allowedTools "Read,Edit,Write,Bash" \
-    --max-turns 50 \
+    --max-turns 100 \
     2>> "$LOG"
 
 CLAUDE_EXIT=$?
