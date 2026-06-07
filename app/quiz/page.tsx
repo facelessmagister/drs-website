@@ -5,7 +5,7 @@ const chapters = [
   { id: "1", title: "Haemopoiesis", questions: 20 },
   { id: "2", title: "Erythropoiesis and general aspects of anaemia", questions: 20 },
   { id: "3", title: "Hypochromic anaemias", questions: 20 },
-  { id: "4", title: "Iron overload", questions: 10 },
+  { id: "4", title: "Iron overload", questions: 20 },
   { id: "5", title: "Megaloblastic anaemias and other macrocytic anaemias", questions: 10 },
   { id: "6", title: "Haemolytic anaemias", questions: 10 },
   { id: "7", title: "Genetic disorders of haemoglobin", questions: 10 },
