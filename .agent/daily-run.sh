@@ -60,6 +60,12 @@ PHASE=$(python3 -c "import json,sys; d=json.load(open('$PROGRESS')); print(d.get
 CYCLE_ROUND=$(python3 -c "import json,sys; d=json.load(open('$PROGRESS')); print(d.get('cycle_round',1))")
 TOTAL_CHAPTERS=$(python3 -c "import json,sys; d=json.load(open('$PROGRESS')); print(d.get('total_chapters',34))")
 
+# --- 5b. Save next_chapter so we can restore it after Claude (Claude often resets it) ---
+SAVED_NEXT_CHAPTER=$NEXT_CH
+SAVED_NEXT_TITLE="$NEXT_TITLE"
+SAVED_PHASE=$PHASE
+SAVED_CYCLE_ROUND=$CYCLE_ROUND
+
 if [[ -z "$NEXT_CH" ]]; then
     echo "[DONE] No next chapter found. Exiting."
     exit 0
@@ -250,6 +256,18 @@ fi
 
 # Advance progress.json to the next chapter (fixes any incorrect next_chapter/next_title/phase Claude may have set)
 echo "[8] Advancing progress.json..."
+# First, restore the saved next_chapter values that prepare-chapter.py set, in case Claude overwrote them.
+# advance-progress.py needs the CORRECT "next_chapter" to compute the next one in sequence.
+python3 << PYEOF
+import json
+p = "$PROGRESS"
+d = json.load(open(p))
+d["next_chapter"] = $SAVED_NEXT_CHAPTER
+d["next_chapter_title"] = "$SAVED_NEXT_TITLE"
+d["phase"] = "$SAVED_PHASE"
+d["cycle_round"] = $SAVED_CYCLE_ROUND
+json.dump(d, open(p, "w"), indent=2)
+PYEOF
 python3 "$AGENT_DIR/advance-progress.py" "$NEXT_CH"
 
 # Final sanity check
