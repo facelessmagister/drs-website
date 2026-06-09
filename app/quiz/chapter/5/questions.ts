@@ -136,5 +136,135 @@ export const questions: Question[] = [
     },
     answer: "B",
     explanation: "Hoffbrand describes methotrexate as a potent inhibitor of dihydrofolate reductase (Fig. 5.6). During the synthesis of dTMP, the folate polyglutamate coenzyme becomes oxidised from THF to DHF. Dihydrofolate reductase regenerates active THF from DHF. Methotrexate blocks this enzyme, inhibiting all folate-mediated biochemical reactions including DNA synthesis (p. 54). This is therapeutically useful in malignant disease and inflammatory conditions because rapidly dividing cells are preferentially affected. The weaker antagonist pyrimethamine is used against toxoplasmosis, while trimethoprim selectively inhibits bacterial DHF reductase. Toxicity caused by methotrexate or pyrimethamine may be reversed by the reduced folate folinic acid (5-formyl THF). Hoffbrand notes that in the protocols used, this reversal does not eliminate the effectiveness of methotrexate when used in anti-cancer chemotherapy, and in rheumatoid arthritis, folic acid or folinic acid supplementation is commonly co-administered to reduce toxicity without abolishing anti-inflammatory efficacy. Options A, C, D, and E all describe incorrect mechanisms."
+  },
+  {
+    num: 381,
+    stem: "A 76-year-old woman with a history of small intestinal diverticulosis and partial jejunal resection for volvulus 3 years ago presents with progressive unsteadiness, numbness in her feet, and a sore tongue. Laboratory studies show haemoglobin 95 g/L, MCV 118 fL, white cell count 3.5 × 10⁹/L, and platelets 110 × 10⁹/L. Serum vitamin B12 is 105 ng/L. Serum gastrin is normal and both intrinsic factor and parietal cell antibodies are negative. Upper gastrointestinal endoscopy shows a normal gastric mucosa. Which of the following is the most appropriate management strategy?",
+    options: {
+      A: "Administer intramuscular hydroxocobalamin lifelong, as the diagnosis is pernicious anaemia with false-negative antibody tests.",
+      B: "Treat with a course of broad-spectrum antibiotics to reduce bacterial overgrowth, combined with parenteral B12 replacement.",
+      C: "Perform bone marrow biopsy to confirm megaloblastic changes before commencing any vitamin therapy.",
+      D: "Prescribe high-dose oral cyanocobalamin 1000 μg daily, as the jejunal resection preserves the ileal absorption site.",
+      E: "Refer for small bowel transplant because the malabsorption is permanent and refractory to medical therapy."
+    },
+    answer: "B",
+    explanation: "Hoffbrand lists intestinal stagnant loop syndrome—jejunal diverticulosis, blind-loop, and stricture—as causes of severe vitamin B12 deficiency (Table 5.3). In bacterial overgrowth syndromes, colonising bacteria consume dietary B12 in the proximal small intestine before it reaches the ileal IF-cubam receptor, causing malabsorption. The negative intrinsic factor and parietal cell antibodies, normal serum gastrin, and normal gastric mucosa effectively exclude pernicious anaemia. Bone marrow biopsy is unnecessary when the clinical picture and B12 level are clear. Oral B12 is inappropriate because the problem is not intrinsic factor deficiency but bacterial consumption of the vitamin proximal to the absorption site. Small bowel transplant is disproportionate. The correct approach is to treat bacterial overgrowth with antibiotics and simultaneously replenish B12 parenterally, as the neurological syndrome indicates severe deficiency requiring rapid correction."
+  },
+  {
+    num: 382,
+    stem: "A 4-year-old boy is referred with pallor, bilateral ankle oedema, and delayed motor milestones. Urinalysis shows proteinuria (2+). Full blood count reveals haemoglobin 82 g/L, MCV 124 fL, white cell count 4.1 × 10⁹/L, and platelets 135 × 10⁹/L. Serum vitamin B12 is 380 ng/L (normal). Bone marrow aspirate shows marked erythroid hyperplasia with megaloblastic changes and giant metamyelocytes. Serum homocysteine is 45 μmol/L (elevated) but serum methylmalonic acid is normal. His parents are first cousins. Which of the following is the most likely underlying defect?",
+    options: {
+      A: "Pernicious anaemia with delayed onset because maternal antibody transfer temporarily protected the child.",
+      B: "Congenital selective malabsorption of vitamin B12 due to mutation of the ileal IF-B12 receptor proteins cubilin or amnionless.",
+      C: "Dietary B12 deficiency because the family follows a strict vegan diet with inadequate supplementation.",
+      D: "Transcobalamin deficiency preventing cellular uptake of B12 despite normal serum levels.",
+      E: "Congenital lack of intrinsic factor due to mutation of the GIF gene presenting at approximately 2 years of age."
+    },
+    answer: "B",
+    explanation: "Hoffbrand describes congenital selective malabsorption of B12 due to genetic mutation of the IF-B12 receptor proteins cubilin or amnionless, which usually presents in infancy or childhood and is associated with proteinuria in 90% of cases (p. 56). The child has megaloblastic anaemia with normal serum B12—ruling out simple dietary deficiency—and the presence of proteinuria with consanguineous parents strongly supports this autosomal recessive disorder (Imerslund-Gräsbeck syndrome). Transcobalamin deficiency also causes megaloblastic anaemia with normal serum B12 but does not cause proteinuria. Congenital lack of intrinsic factor (mutations in GIF gene) presents at around 2 years when maternal stores are exhausted, but serum B12 would be low, not normal, and proteinuria would not occur. Pernicious anaemia is an adult autoimmune disease. The elevated homocysteine with normal methylmalonic acid reflects impaired methionine synthase activity at the tissue level despite adequate serum B12, consistent with failure of ileal absorption."
+  },
+  {
+    num: 383,
+    stem: "A 64-year-old man who underwent total gastrectomy for early gastric cancer 5 years ago presents with fatigue, mild dyspnoea on exertion, and paraesthesia in his hands. He stopped attending his follow-up clinic 2 years ago and has not received vitamin injections since. Full blood count shows haemoglobin 108 g/L, MCV 115 fL, and white cell count 4.2 × 10⁹/L. Serum vitamin B12 is 95 ng/L. Serum folate and red cell folate are normal. Which of the following statements best explains his presentation and the most appropriate long-term management?",
+    options: {
+      A: "Total gastrectomy removes the site of IF production, making lifelong parenteral B12 mandatory; he should resume hydroxocobalamin 1000 μg intramuscularly every 3 months indefinitely.",
+      B: "After 5 years, the gastric remnant or intestinal adaptation should have restored sufficient IF secretion, so his B12 deficiency must be due to inadequate dietary intake.",
+      C: "Because he had early gastric cancer, the B12 deficiency is caused by malignant recurrence rather than the gastrectomy, and he needs oncological restaging.",
+      D: "Oral cyanocobalamin 50 μg daily is adequate because the duodenum can absorb B12 via passive diffusion once the stomach is removed.",
+      E: "The normal folate levels indicate that folate supplementation alone will restore his haemoglobin and prevent neurological progression."
+    },
+    answer: "A",
+    explanation: "Hoffbrand explicitly states that total gastrectomy causes severe B12 deficiency because the parietal cells that synthesise intrinsic factor are completely removed (Table 5.3). Prophylactic vitamin B12 is given 3-monthly to those who have had total gastrectomy or ileal resection (Table 5.9). The patient's presentation 5 years post-surgery with macrocytic anaemia, low serum B12, and neurological symptoms is classic for preventable deficiency due to loss of prophylaxis. There is no gastric remnant after total gastrectomy to adapt. While dietary B12 can be absorbed via passive diffusion at a rate of about 1% regardless of intrinsic factor, this is insufficient to maintain adequate B12 status; oral doses of 500–1000 μg daily are required if oral therapy is chosen, not 50 μg. Folate supplementation would correct the haematological response but allow the neuropathy to progress, as Hoffbrand repeatedly warns (p. 63). Malignant recurrence would not typically present with isolated B12 deficiency and macrocytosis."
+  },
+  {
+    num: 384,
+    stem: "A 31-year-old woman with well-controlled generalised epilepsy on phenytoin 300 mg daily for 6 years attends preconception counselling. She has no other medical conditions. Full blood count shows haemoglobin 121 g/L, MCV 103 fL, white cell count 6.0 × 10⁹/L, and platelets 245 × 10⁹/L. Serum folate is 2.2 μg/L (low-normal) and red cell folate is 145 μg/L (low). Her previous neurologist advised her that folic acid can reduce phenytoin efficacy. Which of the following is the most appropriate management recommendation?",
+    options: {
+      A: "Switch to levetiracetam immediately and prescribe folic acid 400 μg daily, as all anticonvulsants are equally teratogenic and folate requirements are standard.",
+      B: "Continue phenytoin and prescribe folic acid 5 mg daily from before conception through the first 12 weeks, as anticonvulsant-induced folate deficiency increases NTD risk and high-dose folate is indicated.",
+      C: "Stop all anticonvulsants during pregnancy because the teratogenic risk outweighs the seizure risk, and rely on folate supplementation alone to prevent NTD.",
+      D: "Advise against pregnancy because phenytoin is absolutely contraindicated in women of childbearing potential regardless of folate status.",
+      E: "Recommend standard folic acid 400 μg daily only, as her MCV is only mildly elevated and she is not frankly anaemic."
+    },
+    answer: "B",
+    explanation: "Hoffbrand lists anticonvulsants and barbiturates among the causes of folate deficiency (Table 5.5), and the mechanism is thought to involve increased folate metabolism or impaired intestinal absorption. The lower the maternal red cell folate, the higher the incidence of neural tube defects, with no apparent threshold (Fig. 5.12). Women taking anticonvulsants such as phenytoin are at increased risk of NTDs, and the UK recommendation is 5 mg folic acid daily from before conception through at least the first 12 weeks for high-risk women (Hoffbrand p. 63). Switching anticonvulsants may be considered in some cases, but phenytoin can be continued with high-dose folate if seizure control is excellent and the patient wishes to remain on it. Stopping all anticonvulsants is dangerous because uncontrolled seizures in pregnancy carry maternal and foetal mortality risks. Standard 400 μg is insufficient for this high-risk category. Folic acid does not abolish phenytoin's anticonvulsant effect when given at these doses."
+  },
+  {
+    num: 385,
+    stem: "A 48-year-old man with alcohol dependence (60 units/week) presents for routine health screening. He is asymptomatic. Full blood count shows haemoglobin 142 g/L, MCV 107 fL, and normal white cell and platelet counts. Serum vitamin B12 is 480 ng/L, serum folate 8.5 μg/L, and red cell folate 520 μg/L. Liver function tests show ALT 68 U/L, AST 82 U/L, and γ-GT 340 U/L. Thyroid function is normal. Which of the following mechanisms best explains the macrocytosis in the absence of anaemia?",
+    options: {
+      A: "The patient has early megaloblastic anaemia due to occult folate deficiency despite normal serum and red cell folate, requiring bone marrow biopsy.",
+      B: "Chronic ethanol exposure causes non-megaloblastic macrocytosis by increasing lipid deposition on the red cell membrane and altering erythroblast maturation time.",
+      C: "The elevated liver enzymes indicate compensated haemolysis, and reticulocytosis explains the macrocytosis.",
+      D: "Alcohol is directly toxic to erythroid progenitors, causing defective nuclear maturation identical to vitamin B12 deficiency.",
+      E: "The normal haemoglobin and isolated macrocytosis are diagnostic of myelodysplastic neoplasia, and bone marrow examination is mandatory."
+    },
+    answer: "B",
+    explanation: "Hoffbrand lists alcohol as the most frequent cause of a raised MCV in the absence of anaemia (Table 5.10). Alcohol causes non-megaloblastic macrocytosis, in which the bone marrow erythropoiesis is normoblastic. The mechanism is not fully clear but is thought to involve increased lipid deposition on the red cell membrane and alterations of erythroblast maturation time in the marrow (p. 63). The normal B12, serum folate, and red cell folate effectively exclude megaloblastic anaemia, making bone marrow biopsy unnecessary when the clinical context is clear. Reticulocytosis does occur in haemolytic anaemia and can elevate MCV, but this patient has normal haemoglobin and no evidence of haemolysis (normal bilirubin, no mention of raised reticulocytes). Myelodysplastic neoplasia can cause macrocytosis but would typically show additional abnormalities such as thrombocytopenia, neutropenia, or dysplastic features; isolated macrocytosis in an alcoholic patient is far more consistent with alcohol effect."
+  },
+  {
+    num: 386,
+    stem: "Regarding the enterohepatic circulation of vitamin B12, which of the following statements most accurately describes its quantitative importance and clinical relevance in the pathogenesis of deficiency?",
+    options: {
+      A: "The enterohepatic circulation contributes approximately 50–80 μg of B12 daily to the body, completely eliminating the need for dietary B12 in individuals with normal ileal function.",
+      B: "Bile contains 5–10 μg of B12 daily that is reabsorbed via the ileal IF-cubam mechanism; this recycling helps maintain body stores for 2–4 years and partially protects strict vegans from severe deficiency.",
+      C: "The enterohepatic circulation occurs exclusively in the duodenum and jejunum via passive diffusion, explaining why ileal resection does not abolish it.",
+      D: "Dietary B12 and biliary B12 compete for binding to haptocorrin in the stomach, and failure of pancreatic protease release blocks both pathways equally.",
+      E: "The enterohepatic circulation is the principal source of B12 for breast-fed infants, and maternal biliary secretion directly enters breast milk via the hepatic portal vein."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Table 5.2 shows that the enterohepatic circulation provides 5–10 μg/day of B12. This recycling is substantial because the minimal adult daily requirement is only 2 μg, and body stores of 2–3 mg are sufficient for 2–4 years. Hoffbrand notes that in vegetarians and people subsisting on a poor-quality diet low in B12-rich foods, an intact enterohepatic circulation usually (but not invariably) helps protect them from severe B12 deficiency (p. 55). The ileum is the exclusive site of intrinsic factor-mediated absorption; duodenal/jejunal passive diffusion is quantitatively insignificant for maintaining stores. Pancreatic proteases are needed to release dietary B12 from haptocorrin, but this does not apply to the enterohepatic cycle of endogenous B12. Maternal B12 in breast milk is derived from plasma transcobalamin, not directly from biliary secretion."
+  },
+  {
+    num: 387,
+    stem: "Which of the following best explains the paradox of megaloblastic anaemia with normal or elevated serum vitamin B12 in congenital transcobalamin (TC, transcobalamin II) deficiency?",
+    options: {
+      A: "TC-bound B12 is the only fraction that delivers cobalamin to cellular receptors; haptocorrin-bound B12 is metabolically inert and cannot enter marrow or neural tissue.",
+      B: "Transcobalamin deficiency increases hepatic synthesis of haptocorrin, which compensates by delivering B12 directly to tissues via the CD320 receptor.",
+      C: "In TC deficiency, serum B12 falls to undetectable levels within weeks because haptocorrin is rapidly catabolised, and the reported normal values represent assay interference by anti-TC antibodies.",
+      D: "TC is synthesised by gastric parietal cells and its absence prevents IF-B12 binding to the ileal cubam receptor, causing malabsorption identical to pernicious anaemia.",
+      E: "The methylmalonyl-CoA mutase reaction proceeds independently of TC because adenosylcobalamin is synthesised in mitochondria from free unbound cobalamin."
+    },
+    answer: "A",
+    explanation: "Hoffbrand explains that although transcobalamin (TC, also called transcobalamin II) is the essential plasma protein for transferring B12 into cells, the amount of B12 on TC is normally very low (<50 ng/L) because most B12 in plasma is bound to haptocorrin (p. 53). B12 bound to haptocorrin in the blood does not transfer to marrow; the B12 is functionally 'dead'. In congenital TC deficiency due to germline TCN2 mutations, serum B12 is normal because the haptocorrin-bound fraction is still present and detected by standard assays, but marrow cells cannot acquire B12, resulting in megaloblastic anaemia. The CD320 receptor recognises TC-B12, not haptocorrin-B12. TC is not synthesised by parietal cells. Adenosylcobalamin synthesis in mitochondria requires B12 to be delivered by TC."
+  },
+  {
+    num: 388,
+    stem: "Which of the following statements most accurately compares the mechanisms by which hydroxycarbamide (hydroxyurea) and methotrexate produce megaloblastic or macrocytic changes in erythroid precursors?",
+    options: {
+      A: "Both drugs inhibit dihydrofolate reductase, but methotrexate is 1000-fold more potent than hydroxycarbamide, explaining the difference in clinical severity.",
+      B: "Hydroxycarbamide inhibits ribonucleotide reductase, depleting deoxyribonucleotide pools and slowing DNA synthesis independently of folate metabolism; methotrexate inhibits DHFR and blocks regeneration of active folate coenzymes.",
+      C: "Hydroxycarbamide alkylates the dUMP binding site on thymidylate synthase, causing direct inhibition of dTMP synthesis that can be reversed by folinic acid rescue.",
+      D: "Methotrexate directly inhibits thymidylate synthase, whereas hydroxycarbamide inhibits purine synthesis by blocking the conversion of inosine monophosphate to xanthosine monophosphate.",
+      E: "Both drugs cause macrocytosis by increasing red cell membrane lipid content, a non-megaloblastic mechanism similar to alcohol-induced macrocytosis."
+    },
+    answer: "B",
+    explanation: "Hoffbrand distinguishes between two major classes of drug-induced megaloblastic change (Table 5.1 and p. 63). Hydroxycarbamide (hydroxyurea) and cytarabine are antimetabolites that mainly inhibit DNA synthesis at the level of ribonucleotide reductase or DNA polymerase, respectively, causing pyrimidine depletion and megaloblastic marrow changes. In contrast, methotrexate and pyrimethamine are competitive inhibitors of dihydrofolate reductase (DHFR), blocking regeneration of tetrahydrofolate from dihydrofolate and starving all folate-dependent reactions including dTMP synthesis (Fig. 5.6). Folinic acid (5-formyl THF) can reverse methotrexate toxicity because it bypasses the blocked DHFR step, but it does not reverse hydroxycarbamide toxicity because the defect is upstream of folate metabolism. Neither drug alkylates DNA or directly inhibits thymidylate synthase. Hydroxycarbamide does not cause non-megaloblastic macrocytosis."
+  },
+  {
+    num: 389,
+    stem: "In a patient with macrocytosis (MCV 105 fL), normal serum B12, normal folate, a normoblastic bone marrow, and no evidence of haemolysis, which combination of findings most reliably distinguishes non-megaloblastic macrocytosis due to liver disease from that due to hypothyroidism?",
+    options: {
+      A: "Liver disease shows target cells, acanthocytes, and elevated transaminases; hypothyroidism shows reduced thyroxine (T4), elevated thyroid-stimulating hormone (TSH), and may have mildly elevated creatine kinase.",
+      B: "Liver disease causes pancytopenia with giant metamyelocytes in the marrow; hypothyroidism causes isolated macrocytosis with hypersegmented neutrophils.",
+      C: "Hypothyroidism produces markedly elevated serum bilirubin and lactate dehydrogenase due to ineffective erythropoiesis, whereas liver disease shows normal bilirubin and LDH.",
+      D: "Liver disease is associated with a profoundly hypocellular bone marrow, whereas hypothyroidism causes erythroid hyperplasia with megaloblastic changes.",
+      E: "Both conditions produce identical morphological and biochemical pictures, and the only reliable distinction is a trial of thyroxine replacement with repeat MCV measurement."
+    },
+    answer: "A",
+    explanation: "Hoffbrand lists liver disease and myxoedema (hypothyroidism) among the non-megaloblastic causes of macrocytosis (Table 5.10). In both conditions, the bone marrow is normoblastic, not megaloblastic, and serum B12 and folate are normal. The distinction rests on clinical and laboratory features specific to each underlying disease. Liver disease—particularly when advanced—produces target cells (due to excess membrane cholesterol), acanthocytes, and elevated hepatic transaminases or γ-glutamyl transferase. Hypothyroidism is characterised biochemically by low free T4 and elevated TSH; creatine kinase may be mildly elevated due to myopathic changes. Options B, C, and D all incorrectly attribute megaloblastic features (pancytopenia, giant metamyelocytes, hypersegmented neutrophils, ineffective erythropoiesis with high bilirubin/LDH) or hypocellularity to these conditions; these features belong to megaloblastic anaemia, aplastic anaemia, or myelodysplasia, not uncomplicated liver disease or hypothyroidism."
+  },
+  {
+    num: 390,
+    stem: "Regarding the pharmacological basis of folate antagonism, which statement most accurately explains why standard-dose trimethoprim does not typically cause megaloblastic anaemia in humans, whereas methotrexate does?",
+    options: {
+      A: "Trimethoprim selectively inhibits bacterial dihydrofolate reductase with only very weak activity against the human enzyme; methotrexate is a potent competitive inhibitor of human DHFR.",
+      B: "Trimethoprim is a prodrug that requires activation by bacterial β-lactamase and therefore has no activity against human cells.",
+      C: "Trimethoprim inhibits thymidylate synthase directly, bypassing the folate cycle, whereas methotrexate inhibits DHFR; the net biochemical effect is identical.",
+      D: "Trimethoprim is rapidly excreted in bile before reaching erythroid precursors, whereas methotrexate accumulates in bone marrow due to enterohepatic recirculation.",
+      E: "Trimethoprim causes megaloblastic anaemia only at doses above 10 mg/kg/day, and standard cotrimoxazole regimens do not reach this threshold."
+    },
+    answer: "A",
+    explanation: "Hoffbrand states that trimethoprim is active against bacterial DHFR reductase but only very weakly against the human enzyme, and is used alone or in combination with a sulphonamide as cotrimoxazole, especially to treat urinary tract infections (p. 54). In contrast, methotrexate is a potent competitive inhibitor of human DHFR that blocks regeneration of tetrahydrofolate from dihydrofolate, inhibiting all folate-mediated biochemical reactions including DNA synthesis (Fig. 5.6). This pharmacological selectivity explains why trimethoprim is safe at standard doses for human erythropoiesis, whereas methotrexate predictably produces megaloblastic changes. The other options describe incorrect mechanisms: trimethoprim is not a prodrug, does not inhibit thymidylate synthase directly, and its safety is not primarily due to rapid biliary excretion or dose thresholds."
   }
 ];
