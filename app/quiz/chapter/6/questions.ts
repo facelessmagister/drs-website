@@ -136,5 +136,135 @@ export const questions: Question[] = [
     },
     answer: "B",
     explanation: "Hoffbrand states that G6PD functions to reduce nicotinamide adenine dinucleotide phosphate (NADP) to NADPH, and that this reaction is the only source of NADPH needed for the production of reduced glutathione (GSH). Reduced glutathione normally protects haemoglobin and red cell membranes from oxidant stress. In G6PD deficiency, impaired NADPH and GSH synthesis renders red cells susceptible to oxidant stress, resulting in Heinz body formation (oxidized, denatured haemoglobin), membrane damage, and intravascular or extravascular haemolysis. Option A is incorrect because G6PD does not catalyse the conversion of 6-phosphogluconate to ribulose-5-phosphate (that is 6-phosphogluconate dehydrogenase), and the defect does not primarily impair glycolytic ATP production. Option C describes pyruvate kinase, not G6PD. Option D is incorrect because G6PD is X-linked, not autosomal dominant, and heterozygous females may have a substantial proportion of G6PD-deficient red cells due to lyonization. Option E is incorrect because G6PD affects the pentose phosphate pathway, not the Embden–Meyerhof pathway."
+  },
+  {
+    num: 391,
+    stem: "A 2-year-old girl of African descent presents with severe pallor, jaundice, and massive splenomegaly. Her parents are known carriers of hereditary elliptocytosis. Laboratory studies: Hb 52 g/L, reticulocytes 3%, total bilirubin 78 μmol/L (unconjugated). The blood film shows bizarre fragmented erythrocytes, microspherocytes, and marked poikilocytosis with numerous elliptocytes. Which of the following is the most appropriate next step in management?",
+    options: {
+      A: "Initiate high-dose corticosteroids as first-line therapy",
+      B: "Perform an urgent bone marrow transplant from a matched sibling donor",
+      C: "Refer for splenectomy after appropriate vaccination and antimicrobial prophylaxis",
+      D: "Commence daily hydroxyurea to reduce sickling",
+      E: "Administer intravenous immunoglobulin and observe for spontaneous resolution"
+    },
+    answer: "C",
+    explanation: "Hoffbrand describes hereditary pyropoikilocytosis as a severe haemolytic anaemia occurring in patients who are homozygous or doubly heterozygous for mutations causing hereditary elliptocytosis; it is most common in patients of African descent. The blood film shows fragmented cells, microspherocytes, and marked poikilocytosis. Splenectomy results in clinical improvement, though vaccination and antimicrobial prophylaxis are essential given the risk of post-splenectomy sepsis. Corticosteroids are not indicated for this membrane defect. Bone marrow transplant is not standard therapy. Hydroxyurea is used in sickle cell disease, not pyropoikilocytosis. IVIG is used in immune cytopenias, not hereditary membrane disorders."
+  },
+  {
+    num: 392,
+    stem: "A 24-year-old woman with known hereditary spherocytosis presents with sudden worsening fatigue and pallor following a flu-like illness with fever and arthralgia. Her baseline Hb is normally 95 g/L with reticulocytes 14%. Today: Hb 46 g/L, reticulocytes 0.3%. The blood film reveals giant pronormoblasts with viral cytopathic changes. Which of the following is the most appropriate immediate management?",
+    options: {
+      A: "Start high-dose prednisolone 1 mg/kg/day",
+      B: "Administer intravenous immunoglobulin and monitor haemoglobin",
+      C: "Urgently transfuse cross-matched red cells and consider IVIG for parvovirus B19",
+      D: "Perform emergency splenectomy",
+      E: "Commence erythropoietin stimulating agents"
+    },
+    answer: "C",
+    explanation: "Hoffbrand states that aplastic crises in hereditary spherocytosis are usually precipitated by parvovirus B19 infection, which switches off erythropoiesis. The hallmark is a sudden fall in both haemoglobin and reticulocyte count in a patient with chronic compensated haemolysis. Giant pronormoblasts in the marrow (or occasionally in peripheral blood) are characteristic of parvovirus B19 infection. Management involves blood transfusion for severe symptomatic anaemia and intravenous immunoglobulin in selected cases. Corticosteroids and splenectomy are not indicated for aplastic crisis. Erythropoietin is not effective when erythroid progenitors are directly infected and suppressed by parvovirus."
+  },
+  {
+    num: 393,
+    stem: "A 6-year-old boy presents with sudden-onset dark urine, pallor, and abdominal pain following an upper respiratory tract infection. His mother notes that the urine darkens dramatically when he plays outside in cold weather. Laboratory studies: Hb 68 g/L, LDH 820 U/L, haptoglobins undetectable, urine dipstick positive for blood with no RBCs on microscopy. The direct antiglobulin test is negative. The Donath–Landsteiner test is positive. Which of the following best describes the antibody and the expected clinical course?",
+    options: {
+      A: "An IgM antibody directed against the I antigen; the condition requires long-term rituximab therapy",
+      B: "An IgG antibody with P blood group specificity that binds in the cold and causes complement-mediated lysis in warm conditions; the condition is usually self-limiting",
+      C: "An IgA warm autoantibody requiring prolonged corticosteroid therapy",
+      D: "An IgG anti-Rh antibody causing extravascular haemolysis; splenectomy is curative",
+      E: "A monoclonal IgM kappa paraprotein causing chronic cold agglutinin disease"
+    },
+    answer: "B",
+    explanation: "Hoffbrand describes paroxysmal cold haemoglobinuria as a rare syndrome of acute intravascular haemolysis after cold exposure, caused by the Donath–Landsteiner antibody. This is an IgG antibody with specificity for the P blood group antigens; it binds to red cells in the cold but causes lysis with complement in warm conditions. Viral infections are predisposing causes and the condition is usually self-limiting. Option A describes cold agglutinin disease. Option C is incorrect because the DAT is negative and the antibody is cold-reactive IgG, not warm IgA. Option D describes warm autoimmune haemolytic anaemia. Option E describes the monoclonal IgM paraprotein seen in primary cold agglutinin disease, which is a chronic lymphoproliferative disorder."
+  },
+  {
+    num: 394,
+    stem: "A 71-year-old man presents with progressive fatigue and dark-coloured urine eight months after undergoing aortic valve replacement with a mechanical prosthesis. Laboratory studies: Hb 79 g/L, reticulocytes 6%, LDH 1100 U/L, total bilirubin 56 μmol/L (unconjugated), haptoglobins undetectable. The blood film shows numerous schistocytes and polychromasia. Which of the following is the most likely mechanism of his haemolysis?",
+    options: {
+      A: "Warm autoimmune antibody-mediated extravascular destruction of red cells in the spleen",
+      B: "Physical fragmentation of red cells due to high shear stress across an abnormal prosthetic surface",
+      C: "G6PD deficiency triggered by oxidative stress from cardiopulmonary bypass",
+      D: "Complement-mediated intravascular lysis due to PNH clone expansion",
+      E: "Iron deficiency anaemia causing microcytic hypochromic cells that fragment in circulation"
+    },
+    answer: "B",
+    explanation: "Hoffbrand classifies cardiac haemolysis under red cell fragmentation syndromes. Prosthetic heart valves, patches, grafts, and perivalvular leaks can cause physical damage to red cells on abnormal surfaces, resulting in mechanical haemolysis with schistocytes, elevated LDH, and intravascular features. The timeline of 8 months post-surgery and the presence of schistocytes are characteristic. Warm AIHA would show microspherocytes and a positive DAT, not schistocytes. G6PD deficiency would show bite cells and Heinz bodies. PNH is not associated with prosthetic valve surgery. Iron deficiency does not cause intravascular fragmentation or schistocyte formation."
+  },
+  {
+    num: 395,
+    stem: "A 28-year-old woman with systemic lupus erythematosus presents with sudden onset of fatigue, jaundice, and widespread petechial purpura. Laboratory studies: Hb 58 g/L, platelets 14 × 10⁹/L, reticulocytes 11%, total bilirubin 72 μmol/L (unconjugated), LDH 950 U/L. The direct antiglobulin test is positive for both IgG and complement (C3d). Peripheral blood film shows microspherocytes and polychromasia. Which of the following is the most likely diagnosis and most appropriate first-line treatment?",
+    options: {
+      A: "Thrombotic thrombocytopenic purpura; commence plasma exchange immediately",
+      B: "Evans' syndrome; commence prednisolone 1–2 mg/kg/day",
+      C: "Disseminated intravascular coagulation; administer unfractionated heparin",
+      D: "Primary cold agglutinin disease; start rituximab monotherapy",
+      E: "Paroxysmal nocturnal haemoglobinuria; initiate eculizumab"
+    },
+    answer: "B",
+    explanation: "Hoffbrand describes Evans' syndrome as the coexistence of autoimmune haemolytic anaemia and immune thrombocytopenic purpura, noting that warm AIHA may occur in association with systemic lupus erythematosus. The DAT is typically positive for IgG and complement, and the blood film shows microspherocytes from extravascular splenic destruction. The simultaneous presence of severe immune-mediated thrombocytopenia and haemolysis in a patient with SLE is diagnostic of Evans' syndrome. First-line treatment is corticosteroids (prednisolone 1–2 mg/kg/day). TTP would show schistocytes and neurological or renal involvement without a positive DAT. DIC would show coagulopathy and fragmented cells. Cold agglutinin disease would show C3d-only DAT and acrocyanosis. PNH would show intravascular haemolysis, thrombosis, and a negative DAT."
+  },
+  {
+    num: 396,
+    stem: "Regarding Southeast Asian ovalocytosis, which of the following statements most accurately describes the molecular defect and its biological significance?",
+    options: {
+      A: "A mutation in the ankyrin gene causes loss of vertical interactions between the membrane skeleton and lipid bilayer, producing spherocytes",
+      B: "A 9-amino acid deletion at the junction of the cytoplasmic and transmembrane domains of band 3 renders the red cell rigid and resistant to malarial parasite invasion",
+      C: "A defect in spectrin heterodimer formation produces elliptocytes and increases membrane deformability",
+      D: "A deficiency of protein 4.2 (pallidin) reduces mean channel fluorescence on eosin-5-maleimide testing",
+      E: "An X-linked defect in the G6PD enzyme renders red cells susceptible to oxidant stress and Heinz body formation"
+    },
+    answer: "B",
+    explanation: "Hoffbrand states that Southeast Asian ovalocytosis is caused by a 9-amino acid deletion at the junction of the cytoplasmic and transmembrane domains of the band 3 protein. This deletion makes the cells rigid and resistant to invasion by malarial parasites, providing a selective advantage in malaria-endemic regions. Most cases are not anaemic and asymptomatic; treatment is rarely required. Option A describes hereditary spherocytosis. Option C describes hereditary elliptocytosis. Option D describes a rare subset of hereditary spherocytosis. Option E describes G6PD deficiency, which is X-linked and unrelated to Southeast Asian ovalocytosis."
+  },
+  {
+    num: 397,
+    stem: "In intravascular haemolysis, which of the following sequences most accurately describes the pathophysiological pathway leading to haemosiderinuria?",
+    options: {
+      A: "Free haemoglobin binds haptoglobin → complex is filtered by glomeruli → iron is deposited in tubular cells → haemosiderin appears in urine when tubular reabsorptive capacity is exceeded",
+      B: "Haemoglobin is converted to biliverdin in macrophages → bilirubin is conjugated in hepatocytes → urobilinogen is excreted in urine",
+      C: "Free haemoglobin is filtered by glomeruli → reabsorbed by renal tubular cells → iron accumulates in tubular epithelium → shed as haemosiderin granules in urine",
+      D: "Haemoglobin binds albumin to form methaemalbumin → filtered by glomeruli → iron is released in urine as free ferritin",
+      E: "Haemoglobin is phagocytosed by splenic macrophages → iron is exported via ferroportin → excess iron is excreted renally"
+    },
+    answer: "C",
+    explanation: "Hoffbrand describes intravascular haemolysis as releasing free haemoglobin that rapidly saturates plasma haptoglobins. The excess free haemoglobin is filtered by the glomerulus. If the rate of haemolysis exceeds renal tubular reabsorptive capacity, free haemoglobin enters the urine (haemoglobinuria). Iron released from haemoglobin within renal tubular cells is stored as haemosiderin, which is subsequently shed into the urine and detectable by Prussian blue staining. Option A is incorrect because the haptoglobin-bound complex is too large to be filtered and is cleared by reticuloendothelial cells. Option B describes the extravascular bilirubin pathway. Option D confuses methaemalbuminaemia with urinary iron excretion. Option E describes extravascular haemolysis in the spleen."
+  },
+  {
+    num: 398,
+    stem: "Which of the following best explains why splenectomy reliably normalizes the haemoglobin in hereditary spherocytosis but only partially alleviates the anaemia in pyruvate kinase deficiency?",
+    options: {
+      A: "In pyruvate kinase deficiency, the spleen is not involved in red cell destruction; hepatic macrophages are the primary site",
+      B: "In hereditary spherocytosis, spherocytes are formed in the spleen and destroyed there; in pyruvate kinase deficiency, red cells are intrinsically rigid from ATP depletion and are destroyed throughout the reticuloendothelial system",
+      C: "Pyruvate kinase deficiency is autosomal dominant, whereas hereditary spherocytosis is autosomal recessive, affecting inheritance patterns but not splenic function",
+      D: "In pyruvate kinase deficiency, 2,3-DPG accumulation causes a left shift in the oxygen-dissociation curve, masking the true severity of haemolysis",
+      E: "Hereditary spherocytosis responds to splenectomy because the membrane defect is corrected surgically, whereas the enzyme defect in pyruvate kinase deficiency is irreversible"
+    },
+    answer: "B",
+    explanation: "Hoffbrand explains that in hereditary spherocytosis, spherocytes are primarily destroyed in the spleen because they lose membrane surface area and cannot deform through splenic microcirculation; therefore, splenectomy reliably raises haemoglobin to normal. In pyruvate kinase deficiency, red cells become rigid due to reduced ATP formation, and although splenectomy may alleviate the anaemia, it does not cure the condition because the intrinsically ATP-depleted cells continue to be destroyed throughout the reticuloendothelial system. Option A is incorrect because the spleen does participate in PK deficiency. Option C is incorrect because PK deficiency is autosomal recessive, not dominant. Option D is incorrect because 2,3-DPG accumulation causes a right shift, not left. Option E is incorrect because splenectomy does not correct the membrane defect; it simply removes the organ responsible for destroying the abnormal cells."
+  },
+  {
+    num: 399,
+    stem: "Regarding targeted complement inhibition in primary cold agglutinin disease, which of the following accurately describes the mechanism of action and rationale for each agent?",
+    options: {
+      A: "Eculizumab inhibits C1s to prevent IgM binding to red cells; sutimlimab inhibits C5 to block terminal membrane attack complex formation",
+      B: "Eculizumab is a monoclonal antibody against C5 that prevents terminal complement activation; sutimlimab inhibits C1s to block classical pathway initiation at the level of the C1 complex",
+      C: "Pegcetacoplan inhibits C1s to prevent C4 cleavage; rituximab blocks CD20 on red cells to inhibit complement deposition",
+      D: "Sutimlimab blocks C3 convertase activity directly; eculizumab enhances C3b degradation by factor I",
+      E: "All three agents — eculizumab, pegcetacoplan, and sutimlimab — act at the same point in the complement cascade by inhibiting C5 cleavage"
+    },
+    answer: "B",
+    explanation: "Hoffbrand states that eculizumab is a monoclonal antibody that inhibits complement C5, thereby preventing terminal complement activation and intravascular haemolysis in cold agglutinin disease. Sutimlimab inhibits complement C1s, blocking the classical pathway at its initiation point and preventing downstream complement activation on IgM-coated red cells. Pegcetacoplan is a pegylated peptide that inhibits complement C3. These agents represent distinct targets in the complement cascade. Option A reverses the mechanisms of eculizumab and sutimlimab. Option C incorrectly assigns pegcetacoplan to C1s and mischaracterizes rituximab, which targets CD20 on B lymphocytes, not red cells. Option D is incorrect because sutimlimab does not block C3 convertase. Option E is incorrect because the three agents act at different levels (C3, C5, and C1s)."
+  },
+  {
+    num: 400,
+    stem: "Regarding neonatal jaundice in glucose-6-phosphate dehydrogenase (G6PD) deficiency, which of the following statements most accurately explains the pathophysiology and guides management?",
+    options: {
+      A: "The jaundice is caused primarily by acute intravascular haemolysis triggered by oxidant stress at birth; exchange transfusion is never needed",
+      B: "The jaundice is usually not caused by excess haemolysis but by G6PD deficiency affecting neonatal liver function; phototherapy and exchange transfusion may be required to prevent kernicterus",
+      C: "The jaundice results from conjugated hyperbilirubinaemia due to biliary atresia associated with the G6PD Mediterranean variant",
+      D: "Neonatal jaundice in G6PD deficiency is exclusively caused by co-inheritance of Gilbert's syndrome, which is mandatory for clinical expression",
+      E: "The jaundice is due to unconjugated hyperbilirubinaemia from massive splenic destruction of G6PD-deficient red cells; splenectomy is indicated"
+    },
+    answer: "B",
+    explanation: "Hoffbrand explains that G6PD-deficient babies are prone to neonatal jaundice, and that in severe cases phototherapy and exchange transfusion are needed to avoid kernicterus. Crucially, the jaundice is usually not caused by excess haemolysis but by deficiency of G6PD affecting neonatal liver function. Gilbert's syndrome may also be present as a co-existing factor reducing the liver's ability to metabolise bilirubin, but it is not mandatory. Option A is incorrect because the jaundice is not primarily haemolytic and exchange transfusion may indeed be needed. Option C is incorrect because biliary atresia is not associated with G6PD deficiency. Option D is incorrect because Gilbert's syndrome is not mandatory. Option E is incorrect because massive splenic destruction is not the mechanism and splenectomy is not indicated."
   }
 ];
