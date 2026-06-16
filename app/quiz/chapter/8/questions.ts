@@ -136,5 +136,135 @@ export const questions: Question[] = [
     },
     answer: "B",
     explanation: "Hoffbrand describes CGD as resulting from mutations affecting different elements of the respiratory burst oxidase, most commonly the cytochrome b gene on the X chromosome but with 30% autosomal. Chediak-Higashi syndrome is due to mutations in the CHS1 (LYST) gene encoding a lysosomal trafficking regulator, with giant granules in neutrophils and other cells, accompanied by neutropenia, thrombocytopenia, albinism, and peripheral neuropathy. LAD is due to autosomal recessive mutations of surface adhesion proteins such as integrins, causing impaired chemotaxis and recurrent infections. Option A incorrectly swaps the genetic bases of CGD and Chediak-Higashi. Option C is incorrect because only CGD is commonly X-linked; Chediak-Higashi and LAD are autosomal recessive, and albinism is specific to Chediak-Higashi. Option D is incorrect because CGD can be X-linked or autosomal, Chediak-Higashi is autosomal recessive, and LAD is autosomal recessive. Option E is incorrect because the three disorders have completely different genetic bases."
+  },
+  {
+    num: 411,
+    stem: "A 68-year-old man presents with recurrent episodes of relapsing polychondritis, Sweet syndrome, and a macrocytic anaemia. He has been thrombocytopenic for 6 months. Bone marrow examination reveals prominent vacuolization of early myeloid and erythroid precursors. Genetic testing identifies a somatic mutation in UBA1. Which of the following most accurately describes the underlying molecular defect and the most appropriate therapeutic strategy?",
+    options: {
+      A: "UBA1 encodes a transcription factor regulating myeloid differentiation; treatment is with allogeneic stem cell transplantation as first-line therapy",
+      B: "UBA1 encodes the major E1 ubiquitin-activating enzyme; treatment involves symptomatic control with corticosteroids and JAK2 inhibitor ruxolitinib, with stem cell transplantation as a curative option",
+      C: "UBA1 mutations cause defective neutrophil elastase leading to maturation arrest; G-CSF is the mainstay of treatment",
+      D: "UBA1 is located on chromosome 7 and encodes glucocerebrosidase; enzyme replacement therapy with imiglucerase is indicated",
+      E: "The mutation is germline and inherited in an autosomal dominant pattern; prophylactic co-trimoxazole and interferon-γ are indicated"
+    },
+    answer: "B",
+    explanation: "Hoffbrand describes VEXAS syndrome as an adult-onset disease characterized by acquired somatic mutation of the UBA1 gene in haemopoietic progenitor cells. UBA1, located on the X chromosome, encodes the major E1 enzyme that initiates ubiquitylation. Male patients present with macrocytic anaemia, various inflammatory disorders including relapsing polychondritis, Sweet syndrome and vasculitides, and are often thrombocytopenic with prominent vacuolization of early myeloid and erythroid precursors. Treatment is symptomatic control with corticosteroids and the JAK2 inhibitor ruxolitinib which reduces inflammation. Allogeneic stem cell transplantation is a potentially curative option but experience is limited. Option A is incorrect because UBA1 is not a transcription factor and transplantation is not first-line. Option C incorrectly describes severe congenital neutropenia (ELANE2). Option D incorrectly describes Gaucher disease. Option E is incorrect because the mutation is somatic, not germline, and the syndrome does not present in childhood with infections requiring co-trimoxazole and interferon-γ."
+  },
+  {
+    num: 412,
+    stem: "A 4-year-old boy is admitted with high fever, pancytopenia, and massive hepatosplenomegaly. Laboratory studies reveal serum ferritin >20,000 μg/L, low fibrinogen, and markedly elevated soluble CD25 (soluble IL-2 receptor). Bone marrow aspirate shows numerous histiocytes that have ingested red cells, erythroblasts, and platelets. EBV PCR is positive. Which of the following most accurately describes the pathophysiology and immediate management?",
+    options: {
+      A: "Defective phagocyte oxidative metabolism with failure of superoxide generation; treat with prophylactic co-trimoxazole and interferon-γ",
+      B: "Autosomal dominant Pelger-Huët anomaly with bi-lobed neutrophils; no treatment is required",
+      C: "Overwhelming activation of macrophages and T lymphocytes causing a cytokine storm; treat the underlying infection and use immunomodulatory and anti-macrophage agents",
+      D: "Germline mutation in the glucocerebrosidase gene causing lysosomal storage; start enzyme replacement therapy with imiglucerase",
+      E: "Clonal proliferation of plasmacytoid dendritic cells expressing CD4; treat with cladribine and cytarabine"
+    },
+    answer: "C",
+    explanation: "Hoffbrand describes haemophagocytic lymphohistiocytosis (HLH) as a rare, recessively inherited or more frequently acquired disease defined by overwhelming activation of macrophages and T lymphocytes causing a cytokine storm. It is usually precipitated by viral (especially EBV), bacterial or fungal infection. Patients present with fever and pancytopenia, often with splenomegaly and liver dysfunction. Bone marrow shows increased histiocytes ingesting red cells, white cells and platelets. Laboratory features include very elevated serum ferritin, reduced fibrinogen, low NK cell activity, and elevated soluble CD25. Treatment is of the underlying infection with supportive care, and with anti-macrophage and immunomodulatory drugs including corticosteroids, etoposide, ciclosporin, ruxolitinib, rituximab or anti-thymocyte globulin. Targeted therapy blocking specific cytokines and JAK-STAT pathways may improve outcomes. Option A describes chronic granulomatous disease. Option B describes the benign Pelger-Huët anomaly. Option D describes Gaucher disease. Option E incorrectly describes a plasmacytoid dendritic cell neoplasm rather than HLH."
+  },
+  {
+    num: 413,
+    stem: "A 22-year-old woman presents with a 2-year history of recurrent fever, severe oral ulceration, and pharyngitis occurring every 21 days like clockwork. During episodes, her absolute neutrophil count falls to 0.1 × 10⁹/L, recovering spontaneously after 4–5 days. Monocyte counts rise as neutrophils fall. Genetic testing reveals a germline mutation in ELANE2. Which of the following is the most appropriate long-term management?",
+    options: {
+      A: "Immediate allogeneic stem cell transplantation because cyclical neutropenia invariably progresses to acute myeloid leukaemia",
+      B: "Prophylactic broad-spectrum antibiotics alone; G-CSF is contraindicated as it worsens the cyclic oscillations",
+      C: "Subcutaneous G-CSF administration, which reduces the depth and duration of neutropenic nadir and the frequency of infections",
+      D: "High-dose corticosteroids during each cycle to suppress an autoimmune mechanism of peripheral neutrophil destruction",
+      E: "Splenectomy to reduce sequestration and correct the neutropenia"
+    },
+    answer: "C",
+    explanation: "Hoffbrand describes cyclical neutropenia as a rare syndrome with 2- to 4-week periodicity in which severe but temporary neutropenia occurs; monocytes tend to rise as neutrophils fall. Germline mutations of ELANE2, the gene for neutrophil elastase, underlie some cases. G-CSF is effective at raising the neutrophil count in various benign chronic neutropenic states, including cyclical neutropenia, and reduces the severity of the neutropenic nadir and associated infections. Option A is incorrect because while some forms of severe congenital neutropenia predispose to myeloid neoplasia, cyclical neutropenia does not invariably progress to AML and stem cell transplantation is not first-line. Option B is incorrect because G-CSF is not contraindicated; it is beneficial. Option D is incorrect because corticosteroids impair neutrophil function and there is no autoimmune peripheral destruction mechanism in cyclical neutropenia. Option E is incorrect because the neutropenia is due to cyclic failure of production, not splenic sequestration."
+  },
+  {
+    num: 414,
+    stem: "A 62-year-old woman with a 25-year history of seropositive rheumatoid arthritis presents with recurrent bacterial skin infections and fever. Examination reveals splenomegaly. Laboratory studies show Hb 102 g/L, WBC 2.8 × 10⁹/L with neutrophils 0.4 × 10⁹/L, platelets 98 × 10⁹/L. Rheumatoid factor is present at high titre. Bone marrow shows normal or increased myeloid precursors. Which of the following is the most appropriate management strategy?",
+    options: {
+      A: "Commence G-CSF alongside vigorous treatment of infections; consider splenectomy or rituximab if refractory, while monitoring for clonal evolution",
+      B: "Start methotrexate and high-dose corticosteroids to suppress the rheumatoid arthritis, as this will reliably normalize the neutrophil count",
+      C: "Perform urgent allogeneic stem cell transplantation because Felty syndrome is a clonal myelodysplastic neoplasia",
+      D: "Begin prophylactic co-trimoxazole and interferon-γ as the neutropenia reflects defective respiratory burst function",
+      E: "Administer intravenous iron supplementation because the anaemia is due to iron deficiency from chronic disease"
+    },
+    answer: "A",
+    explanation: "Hoffbrand lists Felty syndrome under causes of neutropenia as associated with rheumatoid arthritis. It is characterized by neutropenia with splenomegaly in the setting of long-standing seropositive RA. The neutropenia may be due to immune-mediated inhibition of myelopoiesis or peripheral destruction. Management includes treatment of infections, and G-CSF is effective at raising the neutrophil count in benign chronic neutropenic states. Corticosteroids or splenectomy have been associated with good results in some patients with autoimmune neutropenia, although corticosteroids impair neutrophil function and should not be used indiscriminately. Rituximab may also be effective. Option B is incorrect because while controlling RA is important, corticosteroids can impair neutrophil function and may not reliably correct the neutropenia. Option C is incorrect because Felty syndrome is not a clonal myelodysplastic neoplasia. Option D incorrectly applies CGD therapy; the neutropenia in Felty is not due to NADPH oxidase defects. Option E is incorrect because the anaemia is likely anaemia of chronic disease or related to the underlying inflammatory state, not primarily iron deficiency."
+  },
+  {
+    num: 415,
+    stem: "A 14-month-old girl is referred with massive hepatosplenomegaly, failure to thrive, and developmental regression. Ophthalmological examination reveals a cherry-red spot in the macula. Bone marrow aspirate shows numerous foam cells of similar size to Gaucher cells. Which of the following most accurately describes the enzymatic defect and the expected clinical course?",
+    options: {
+      A: "Deficiency of glucocerebrosidase leading to glucosylceramide accumulation; enzyme replacement therapy is effective in reversing CNS disease",
+      B: "Deficiency of sphingomyelinase due to mutations in genes for lysosomal and cholesterol trafficking proteins; neurodegeneration and lung involvement are often fatal",
+      C: "Deficiency of hexosaminidase A causing GM2 ganglioside accumulation; the condition is commonest in Ashkenazi Jewish populations",
+      D: "Defective lysosomal trafficking due to CHS1 (LYST) mutation; giant granules are seen in neutrophils and albinism is characteristic",
+      E: "Deficiency of the E1 ubiquitin-activating enzyme UBA1; treatment is with corticosteroids and ruxolitinib"
+    },
+    answer: "B",
+    explanation: "Hoffbrand describes Niemann-Pick disease as caused by sphingomyelinase deficiency due to mutations in the genes for lysosomal and cholesterol trafficking proteins. Sphingomyelin and cholesterol accumulate in macrophages causing massive hepatosplenomegaly. This is often fatal due to neurodegeneration or lung involvement. Physical and mental development is commonly affected. A cherry-red spot is commonly seen in the retina of affected infants. Pancytopenia is a regular feature and in marrow aspirates foam cells of similar size to Gaucher cells are seen. Option A describes Gaucher disease; enzyme replacement does not reverse CNS disease in neuronopathic forms. Option C describes Tay-Sachs disease, not Niemann-Pick. Option D describes Chediak-Higashi syndrome. Option E describes VEXAS syndrome."
+  },
+  {
+    num: 416,
+    stem: "Regarding monocyte kinetics, tissue differentiation, and the reticuloendothelial system, which of the following statements most accurately integrates the lifespan of circulating monocytes, their tissue transformation, and the functional diversity of macrophages?",
+    options: {
+      A: "Monocytes spend 6–10 hours in the circulation before entering tissues; after transformation to macrophages they survive only 4–5 days and must be continuously replenished from the blood",
+      B: "Monocytes circulate for 20–40 hours, then enter tissues where they mature into macrophages with an extravascular lifespan of several months to years; in tissues they become self-replicating without blood replenishment",
+      C: "Monocytes and granulocytes arise from separate lineage-committed progenitors that do not share a common precursor; GM-CSF stimulates only granulocytes while M-CSF stimulates only monocytes",
+      D: "Tissue macrophages are terminally differentiated cells that lose all proliferative capacity and cannot adapt their function to different tissue microenvironments",
+      E: "Monocytes transform directly into dendritic cells in lymph nodes and lose all phagocytic capability; dendritic cells are not part of the reticuloendothelial system"
+    },
+    answer: "B",
+    explanation: "Hoffbrand describes monocytes as spending only a short time in the marrow and, after circulating for 20–40 hours, leaving the blood to enter tissues where they mature and carry out their principal functions. Their extravascular life span after transformation to macrophages (histiocytes) may be as long as several months or even years. In tissues the macrophages become self-replicating without replenishment from the blood. They assume specific functions in different tissues, e.g. lymph nodes (macrophages, antigen-presenting cells), brain (microglia), liver (Kupffer cells), lung (alveolar macrophages), kidney (intraglomerular mesangial cells), and serosal macrophages. GM-CSF and M-CSF are involved in monocyte production and activation. Option A incorrectly applies neutrophil kinetics (6–10 hours circulation, 4–5 days in tissues) to monocytes. Option C is incorrect because granulocytes and monocytes are formed from a common precursor cell. Option D is incorrect because tissue macrophages do become self-replicating and adapt functionally to their tissue environment. Option E is incorrect because while dendritic cells derive mainly from a separate lineage, monocytes mature into macrophages, not dendritic cells, and macrophages retain phagocytic capability."
+  },
+  {
+    num: 417,
+    stem: "Regarding the peripheral blood findings of reactive neutrophilia with immature cells, which of the following statements most accurately distinguishes a leukaemoid reaction from a leuco-erythroblastic reaction and integrates their underlying pathophysiology?",
+    options: {
+      A: "A leukaemoid reaction is characterized by the presence of erythroblasts and granulocyte precursors in the blood, most commonly due to metastatic neoplasm in the marrow or primary myelofibrosis",
+      B: "A leuco-erythroblastic reaction is an excessive reactive leucocytosis with immature myeloid cells but no erythroblasts; it is typically caused by severe bacterial infection or severe haemolysis",
+      C: "A leukaemoid reaction is an excessive reactive leucocytosis with immature myeloid cells (myeloblasts, promyelocytes, myelocytes) in peripheral blood, caused by severe infection, severe haemolysis, or metastatic cancer; a leuco-erythroblastic reaction additionally contains erythroblasts and is due to marrow infiltration or fibrosis",
+      D: "Both reactions are exclusively seen in chronic myeloid leukaemia and indicate progression to blast crisis; immediate cytoreductive therapy with hydroxyurea is indicated",
+      E: "The leukaemoid reaction is defined by eosinophil counts >1.5 × 10⁹/L for 6 months with tissue damage; it requires corticosteroids as first-line therapy"
+    },
+    answer: "C",
+    explanation: "Hoffbrand describes the leukaemoid reaction as an excessive reactive leucocytosis usually characterized by the presence of immature cells (myeloblasts, promyelocytes, myelocytes) in the peripheral blood. Underlying disorders include severe or chronic infections, severe haemolysis, or metastatic cancer. Leukaemoid reactions are often particularly marked in children. The leuco-erythroblastic reaction is characterized by the presence of erythroblasts and granulocyte precursors in the blood. It is due to metastatic infiltration of the marrow or certain benign or neoplastic blood disorders, including primary myelofibrosis, acute and chronic myeloid leukaemias, myeloma, lymphoma, miliary tuberculosis, severe megaloblastic anaemia, severe haemolysis, osteopetrosis, and secondary marrow fibrosis. Option A and B reverse the definitions. Option D is incorrect because both reactions are reactive, not specific to CML blast crisis. Option E incorrectly describes the hypereosinophilic syndrome."
+  },
+  {
+    num: 418,
+    stem: "Regarding ethnic variation in neutrophil counts and the Duffy antigen chemokine receptor (DARC), which of the following statements most accurately integrates the genetic basis, evolutionary selection pressure, and clinical significance?",
+    options: {
+      A: "Up to 98% of people of West African origin carry a DARC polymorphism causing loss of expression on red cells, which protects against Plasmodium falciparum malaria and raises the neutrophil count by 0.3–0.5 × 10⁹/L",
+      B: "The DARC polymorphism is inherited in an autosomal dominant pattern and causes severe congenital neutropenia due to defective neutrophil elastase; G-CSF is required for treatment",
+      C: "Up to 98% of people of West African origin carry a DARC polymorphism causing loss of red cell DARC expression, which protects against Plasmodium vivax malaria and is associated with a lower median neutrophil count of 0.3–0.5 × 10⁹/L without clinical consequence",
+      D: "Loss of DARC expression occurs exclusively on leucocytes and causes leucocyte adhesion deficiency with recurrent bacterial and fungal infections",
+      E: "The DARC polymorphism is located on the Y chromosome and explains the higher neutrophil counts seen in males of all ethnicities"
+    },
+    answer: "C",
+    explanation: "Hoffbrand describes that up to 98% of people of West African origin carry a polymorphism in the Duffy antigen chemokine receptor gene DARC which leads to loss of DARC expression on red cells. This has been selected for during evolution because the malaria parasite Plasmodium vivax uses DARC as a receptor to enter the red cell. DARC is a chemokine receptor and the loss of its expression affords some protection from malaria. Loss on leucocytes is associated with lowering of the median neutrophil count by around 0.3–0.5 × 10⁹/L. A similar effect is seen in some populations in the Middle East. The reduction in the neutrophil count may result from increased neutrophil margination. This occurs in other ethnic groups without significant clinical consequences. Option A is incorrect because the protection is against Plasmodium vivax, not P. falciparum, and the neutrophil count is lowered, not raised. Option B is incorrect because DARC is unrelated to ELANE2 or severe congenital neutropenia. Option D is incorrect because DARC loss does not cause leucocyte adhesion deficiency, which is due to integrin mutations. Option E is incorrect because DARC is not on the Y chromosome and does not explain sex-based differences in neutrophil counts."
+  },
+  {
+    num: 419,
+    stem: "Regarding the oxygen-dependent and oxygen-independent mechanisms of microbial killing by neutrophils, which of the following statements most accurately describes the enzymatic pathways, their interactions, and the contribution of NETosis?",
+    options: {
+      A: "The oxygen-dependent pathway generates superoxide via NADH oxidase; myeloperoxidase is absent from primary granules and has no role in bacterial killing",
+      B: "Superoxide, hydrogen peroxide, and activated oxygen species are generated from O₂ and NADPH; myeloperoxidase in primary granules reacts with H₂O₂ and halide to kill bacteria, while lactoferrin, nitric oxide, microbicidal proteins, and NETs provide additional killing mechanisms",
+      C: "Bacterial killing is exclusively oxygen-independent and relies solely on lactoferrin depriving bacteria of iron; NADPH oxidase is only active during phagocytosis of viruses",
+      D: "NETs consist of RNA and defensins released only during necrosis; they have no role in thrombosis or inflammation",
+      E: "Nitric oxide is generated exclusively by eosinophils through arginase and is not involved in neutrophil-mediated microbial killing"
+    },
+    answer: "B",
+    explanation: "Hoffbrand describes killing and digestion as occurring by oxygen-dependent and oxygen-independent pathways. In the oxygen-dependent reactions, superoxide (O₂⁻), hydrogen peroxide (H₂O₂) and other activated oxygen species are generated from O₂ and reduced NADPH. In neutrophils, H₂O₂ reacts with myeloperoxidase and intracellular halide to kill bacteria; activated oxygen may also be involved. Nitric oxide (NO), generated through NO synthase from L-arginine, is an oxygen-independent mechanism. Another non-oxidative microbicidal mechanism involves microbicidal proteins such as cathepsin G, lysozyme, and elastase. Lactoferrin is bacteriostatic by depriving bacteria of iron and by generating free radicals. NETs consist of a network of extracellular strings of DNA associated with modified histones and granular enzymes which together kill microbes. NETosis may result from cell disintegration or from viable cells, and its importance in inflammation and thrombosis is discussed in Chapter 29. Option A is incorrect because NADPH oxidase (not NADH) generates superoxide, and myeloperoxidase is present in primary granules and is critical for killing. Option C is incorrect because killing is not exclusively oxygen-independent and NADPH oxidase is active during bacterial phagocytosis. Option D is incorrect because NETs contain DNA, not RNA, and are released by both necrosis and viable cells, and they do contribute to thrombosis. Option E is incorrect because NO is generated by neutrophils via NO synthase, not by eosinophils via arginase."
+  },
+  {
+    num: 420,
+    stem: "Regarding the WHO 2022 classification of histiocytic and dendritic cell neoplasms and their molecular drivers, which of the following statements most accurately describes the shared pathological features and targeted therapeutic approaches?",
+    options: {
+      A: "All histiocytic neoplasms are driven by mutations in the UBA1 gene on the X chromosome; treatment is with corticosteroids and JAK2 inhibitors",
+      B: "Histiocytic and dendritic cell neoplasms frequently show mutations in the MAPK pathway (BRAF, ARAF, MAP2K1, NRAS, KRAS); CD163 is a useful marker, and BRAF or MEK inhibitors are targeted treatment options",
+      C: "Histiocytic neoplasms are uniformly CD1a-negative and S100-negative; Langerhans cell histiocytosis does not express langerin and is treated exclusively with chemotherapy",
+      D: "Juvenile xanthogranuloma is caused by BRAF V600E mutations and responds to vemurafenib; Erdheim-Chester disease is caused by mutations in the M-CSF receptor",
+      E: "Plasmacytoid dendritic cell neoplasms express myeloid antigens CD33 and CD11b and are negative for CD4; they are treated with enzyme replacement therapy"
+    },
+    answer: "B",
+    explanation: "Hoffbrand states that dendritic and histiocytic neoplasms frequently show mutations in the MAPK pathway of genes BRAF, ARAF, MAP2K1, NRAS and KRAS. CD163 is positive and so a useful marker. Treatments have been developed that target the MAPK pathway such as BRAF and MEK inhibitors. Langerhans cell histiocytosis, the commonest histiocytic disorder, is associated with langerin (CD207) positive, CD1a and S100 positive histiocytes. The BRAF V600E mutation is present in a majority of cases. Erdheim-Chester disease shares similar molecular drivers with LCH and can co-exist with it. Juvenile xanthogranuloma is caused by mutations of the receptor for M-CSF, not BRAF. Plasmacytoid dendritic cells lack myeloid antigens, have a plasma cell appearance, but express early T-cell markers including CD4. Option A is incorrect because UBA1 mutations drive VEXAS syndrome, not histiocytic neoplasms. Option C is incorrect because LCH is CD1a-positive, S100-positive, and langerin-positive, and targeted therapy is now available. Option D reverses the mutations of juvenile xanthogranuloma (M-CSF receptor) and incorrectly assigns BRAF V600E to it. Option E is incorrect because plasmacytoid dendritic cells express CD4 and lack myeloid antigens, and they are not treated with enzyme replacement therapy."
   }
 ];
