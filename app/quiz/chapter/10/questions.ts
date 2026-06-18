@@ -136,5 +136,135 @@ export const questions: Question[] = [
     },
     answer: "B",
     explanation: "Hoffbrand Table 10.5 reproduces the British Society for Haematology suggested schedule for vaccine immunization in individuals with asplenia or splenic hypofunction, originally published by Davies et al. (2011). For children over 5 years (regardless of vaccination history), the schedule includes HibMenC vaccine, pneumococcal polysaccharide vaccine (PPV), and meningococcal ACWY conjugate vaccine, with PPV boosters every 5 years. Where possible, the vaccination course should ideally be started at least 2 weeks before surgery. The text also recommends prophylactic oral penicillin 250 mg bd, usually for life, with high-risk groups including those aged under 16 years. All types of vaccine, including live vaccines, can be given safely to hyposplenic individuals, although the immune response to vaccination may be impaired. This comprehensive approach addresses the lifelong susceptibility to encapsulated organisms that defines the post-splenectomy state."
+  },
+  {
+    num: 431,
+    stem: `A 52-year-old man presents with 6 months of progressive fatigue, left upper quadrant fullness and early satiety. Examination reveals massive splenomegaly extending toward the right iliac fossa. Full blood count shows haemoglobin 98 g/L, white cell count 145 × 10⁹/L with a marked left shift and basophilia, and platelets 680 × 10⁹/L. Which of the following best explains the splenic enlargement and guides the most appropriate immediate management?`,
+    options: {
+      A: `The spleen is infiltrated by metastatic adenocarcinoma; whole-body PET-CT is required and splenectomy is potentially curative.`,
+      B: `This is primary myelofibrosis with extensive extramedullary haemopoiesis; a JAK2 inhibitor should be started and splenectomy is first-line therapy.`,
+      C: `Portal hypertension from occult cirrhosis is causing congestive splenomegaly and hypersplenism; treatment is a non-selective beta-blocker and transjugular portosystemic shunt.`,
+      D: `Chronic myeloid leukaemia with leucostasis and splenic infiltration is the most likely cause; urgent cytoreduction and BCR::ABL1 fusion testing are required.`,
+      E: `Tropical splenomegaly syndrome should be suspected because of the massive spleen; antimalarial therapy is the priority.`
+    },
+    answer: "D",
+    explanation: `Hoffbrand's Essential Haematology, 9th Edition, lists chronic myeloid leukaemia among the causes of massive splenomegaly (Table 10.1). CML characteristically produces a greatly enlarged spleen through leukaemic infiltration and congestion, accompanied by marked leucocytosis with left shift and often thrombocytosis. The clinical picture of massive splenomegaly with a very high white cell count and basophilia is classic for CML rather than primary myelofibrosis, portal hypertension or tropical splenomegaly syndrome. Immediate management requires confirmation by cytogenetics or molecular testing for the BCR::ABL1 fusion and rapid cytoreduction to reduce leucostasis, with targeted therapy thereafter.`
+  },
+  {
+    num: 432,
+    stem: `A 19-year-old university student with confirmed infectious mononucleosis becomes pale, tachycardic and hypotensive after being tackled during a rugby match. He has marked left upper quadrant tenderness and referred pain to the left shoulder. Bedside focused abdominal ultrasound for trauma (FAST) demonstrates free fluid surrounding the spleen. Which of the following is the most appropriate immediate management decision?`,
+    options: {
+      A: `Arrange an urgent contrast-enhanced CT scan of the abdomen to grade the splenic injury before any surgical intervention.`,
+      B: `Proceed immediately to laparotomy because hypotension with suspected splenic rupture indicates haemodynamic instability and active intraperitoneal bleeding.`,
+      C: `Perform splenic artery angioembolization, which is preferred over surgery in all patients with traumatic splenic rupture.`,
+      D: `Admit for observation with strict bed rest and serial haemoglobin measurements over the next 2 weeks.`,
+      E: `Administer platelet transfusion and recombinant factor VIIa to correct bleeding before operative control.`
+    },
+    answer: "B",
+    explanation: `Hoffbrand's Essential Haematology, 9th Edition, notes that splenectomy is now performed much more frequently after splenic rupture than for haematological disorders, and that focused abdominal ultrasound for trauma (FAST) is particularly useful for unstable patients with a ruptured spleen. A young patient with known infectious mononucleosis who becomes hypotensive after abdominal trauma, with left upper quadrant pain, shoulder tip pain and FAST-positive free fluid, has a high probability of splenic rupture with active bleeding. In haemodynamically unstable trauma, the priority is rapid resuscitation and surgical control of haemorrhage rather than CT imaging. Angioembolization may preserve splenic function in selected stable patients, but it is not the first choice in the unstable patient.`
+  },
+  {
+    num: 433,
+    stem: `A 32-year-old woman with chronic immune thrombocytopenia has relapsed after corticosteroids, intravenous immunoglobulin and a thrombopoietin receptor agonist. Her platelet count is 14 × 10⁹/L despite therapy and she is scheduled for laparoscopic splenectomy. Which of the following preoperative plans is most appropriate?`,
+    options: {
+      A: `No additional vaccines or antibiotics are needed because she still has a spleen in situ and only post-splenectomy patients are at risk of encapsulated bacterial infection.`,
+      B: `Give pneumococcal conjugate and polysaccharide vaccines, HibMenC and MenACWY conjugate vaccines at least 2 weeks before surgery, and arrange lifelong oral penicillin 250 mg twice daily starting postoperatively.`,
+      C: `Give meningococcal vaccine only, because Neisseria meningitidis is the greatest threat after splenectomy and other vaccines are optional.`,
+      D: `Start prophylactic aspirin immediately preoperatively to prevent the anticipated post-splenectomy thrombocytosis.`,
+      E: `Defer all vaccination until at least 14 days after splenectomy because live vaccines are contraindicated before surgery.`
+    },
+    answer: "B",
+    explanation: `Hoffbrand's Essential Haematology, 9th Edition, Table 10.5 gives the suggested immunization schedule for individuals with asplenia or splenic hypofunction, recommending that the vaccination course should ideally be started at least 2 weeks before surgery. For those over 5 years of age the schedule includes HibMenC, pneumococcal polysaccharide vaccine and meningococcal ACWY conjugate vaccine, with PPV boosters every 5 years. The text also recommends prophylactic oral penicillin 250 mg twice daily, usually for life, with high-risk groups including patients under 16 years of age. All vaccine types, including live vaccines, can be given safely to hyposplenic individuals, so preoperative immunization is both safe and desirable.`
+  },
+  {
+    num: 434,
+    stem: `A 68-year-old man with primary myelofibrosis has massive painful splenomegaly, early satiety, an 8 kg weight loss and recurrent left pleuritic pain. Bone marrow biopsy shows megakaryocyte hyperplasia and reticulin fibrosis, and he is JAK2 V617F-positive and transfusion-dependent. Which of the following best represents current expert-level management of his splenomegaly?`,
+    options: {
+      A: `Emergency splenectomy because massive splenomegaly in myelofibrosis is an absolute indication for surgery regardless of medical options.`,
+      B: `Observation with periodic blood transfusions because splenomegaly in myelofibrosis rarely causes clinically important complications.`,
+      C: `A JAK1/JAK2 inhibitor such as ruxolitinib as first-line cytoreductive therapy, with splenectomy reserved for selected patients who fail or cannot tolerate medical therapy.`,
+      D: `Hydroxyurea alone typically produces durable complete resolution of massive splenomegaly and should be used before any JAK inhibitor.`,
+      E: `Therapeutic splenic irradiation is the preferred initial treatment because it avoids surgical and infectious risks entirely.`
+    },
+    answer: "C",
+    explanation: `Hoffbrand's Essential Haematology, 9th Edition, states that with advances in drug treatment of immune thrombocytopenia, chemotherapy and immunotherapy for lymphomas and chronic lymphocytic leukaemia, and the introduction of JAK2 inhibitors for primary myelofibrosis, splenectomy for these conditions is now much less frequently indicated than previously. In JAK2-mutated myelofibrosis, a JAK1/JAK2 inhibitor such as ruxolitinib is the established medical therapy for symptomatic splenomegaly and constitutional symptoms. Splenectomy remains an option for selected patients with refractory symptomatic splenomegaly, severe cytopenias due to hypersplenism, or complications such as portal hypertension, but it carries significant perioperative risk and lifelong infectious prophylaxis is required.`
+  },
+  {
+    num: 435,
+    stem: `A 34-year-old man returns from rural India with 8 weeks of fever, drenching night sweats, weight loss and abdominal distension. Examination shows massive splenomegaly and hepatomegaly. Full blood count reveals haemoglobin 76 g/L, white cell count 2.4 × 10⁹/L and platelets 68 × 10⁹/L. Bone marrow aspirate shows macrophages distended with intracellular amastigotes. Which of the following is the most accurate diagnosis?`,
+    options: {
+      A: `Tropical splenomegaly syndrome from chronic malaria exposure; antimalarial therapy is definitive.`,
+      B: `Acute falciparum malaria with overwhelming parasitaemia causing hypersplenism; intravenous artesunate is required.`,
+      C: `Visceral leishmaniasis (kala-azar), in which Leishmania donovani complex parasites reside within macrophages of the spleen, liver and bone marrow.`,
+      D: `Splenic diffuse large B-cell lymphoma with bone marrow infiltration; R-CHOP chemotherapy should be started.`,
+      E: `Gaucher disease with glucocerebrosidase deficiency causing storage histiocytes in marrow and massive splenomegaly.`
+    },
+    answer: "C",
+    explanation: `Hoffbrand's Essential Haematology, 9th Edition, Table 10.1 lists leishmaniasis as an infectious cause of splenomegaly, and specifically among the causes that can produce massive splenomegaly. Visceral leishmaniasis is characterized by prolonged fever, weight loss, pancytopenia and massive hepatosplenomegaly resulting from macrophage infection by Leishmania amastigotes. The presence of amastigote-laden macrophages in the bone marrow is diagnostic. Tropical splenomegaly syndrome is associated with high IgM and malarial antibodies rather than intracellular parasites, and acute malaria would show parasitaemia on blood film. Gaucher disease produces storage macrophages (Gaucher cells) with a characteristic wrinkled cytoplasm, not amastigotes.`
+  },
+  {
+    num: 436,
+    stem: `Which of the following statements most accurately compares the roles of ultrasound, CT, MRI and PET in evaluating the spleen?`,
+    options: {
+      A: `CT is the first-line modality for routine splenic size measurement and for assessing blood flow in the splenic, portal and hepatic veins; PET is reserved for iron quantification.`,
+      B: `MRI is preferred for initial trauma assessment in haemodynamically unstable patients because it avoids ionizing radiation and is faster than ultrasound.`,
+      C: `Ultrasound is the most frequently used technique to image the spleen and to assess blood flow in the splenic, portal and hepatic veins; CT gives superior structural detail and lymphadenopathy detection, MRI provides improved fine detail, and PET is used for lymphoma staging and residual disease.`,
+      D: `PET alone is the investigation of choice for all splenic masses because it reliably distinguishes benign cysts from lymphoma without the need for biopsy.`,
+      E: `FAST ultrasound cannot detect free peritoneal fluid and should never be used when splenic rupture is suspected.`
+    },
+    answer: "C",
+    explanation: `Hoffbrand's Essential Haematology, 9th Edition, states that ultrasound is the most frequently used technique to image the spleen and can detect whether blood flow in the splenic, portal and hepatic veins is normal, as well as assessing liver size and consistency. It adds that focused abdominal ultrasound for trauma (FAST) is particularly useful for unstable patients, such as those with ruptured spleen. CT is preferable for detecting structural detail and associated lymphadenopathy, for example in lymphoma staging. MRI also gives improved fine detail structure, while PET is used particularly for initial staging and for detecting residual disease after treatment of lymphoma. Each modality therefore has a complementary role rather than a single best test for every scenario.`
+  },
+  {
+    num: 437,
+    stem: `Regarding the modern indications for splenectomy, which statement best integrates the impact of recent therapeutic advances?`,
+    options: {
+      A: `Splenectomy remains the first-line treatment for all adults with chronic immune thrombocytopenia because pharmacological therapies are uniformly ineffective.`,
+      B: `The most frequent indication for splenectomy is now treatment of haematological disorders, whereas traumatic rupture is a rare event.`,
+      C: `With advances in immune thrombocytopenia drugs, lymphoma chemoimmunotherapy and JAK2 inhibitors for primary myelofibrosis, splenectomy for haematological disease is now much less frequently indicated; trauma is currently the more common indication.`,
+      D: `Splenectomy should be avoided after traumatic rupture because post-splenectomy sepsis is inevitable within the first year.`,
+      E: `Prophylactic splenectomy is recommended for all patients with hereditary spherocytosis in the neonatal period to prevent gallstone disease.`
+    },
+    answer: "C",
+    explanation: `Hoffbrand's Essential Haematology, 9th Edition, explains that surgical removal of the spleen may be indicated for treatment of haematological disorders but now much more frequently after splenic rupture. The text attributes this shift to advances in drug treatment of immune thrombocytopenia, chemotherapy and immunotherapy for lymphomas and chronic lymphocytic leukaemia, and the introduction of JAK2 inhibitors for primary myelofibrosis, all of which have made splenectomy for these conditions much less frequently indicated than previously. Splenectomy remains appropriate for selected cases of refractory ITP, certain haemolytic anaemias, lymphoid neoplasms and myelofibrosis, but trauma has become the dominant contemporary indication.`
+  },
+  {
+    num: 438,
+    stem: `Which combination of peripheral blood findings is most characteristic of functional hyposplenism, whether due to splenectomy or a non-surgical cause?`,
+    options: {
+      A: `Howell–Jolly bodies, target cells, acanthocytes and sometimes Pappenheimer bodies; post-splenectomy thrombocytosis, lymphocytosis or monocytosis may also be seen.`,
+      B: `Schistocytes, nucleated red cells and marked leukoerythroblastosis with tear-drop poikilocytosis.`,
+      C: `Macrocytosis, hypersegmented neutrophils and a low serum vitamin B12 concentration.`,
+      D: `Sickle cells, Howell–Jolly bodies and basophilic stippling reflecting accelerated erythropoiesis.`,
+      E: `Acanthocytes alone are pathognomonic for hyposplenism and always indicate abetalipoproteinaemia.`
+    },
+    answer: "A",
+    explanation: `Hoffbrand's Essential Haematology, 9th Edition, Table 10.3 details the blood film appearances of hyposplenism, which include target cells, acanthocytes, irregularly contracted or crenated cells, Howell–Jolly bodies (DNA remnants) and siderotic iron granules (Pappenheimer bodies). The text also notes that long-term alterations after splenectomy may include persistent thrombocytosis, lymphocytosis or monocytosis. Schistocytes and tear-drop cells are more typical of mechanical damage or myelofibrosis; macrocytosis with hypersegmented neutrophils points to megaloblastic anaemia; and while acanthocytes can occur in hyposplenism, they are not pathognomonic and may be seen in other conditions such as abetalipoproteinaemia or severe liver disease.`
+  },
+  {
+    num: 439,
+    stem: `Why are patients with absent or hypofunctional spleens particularly vulnerable to overwhelming infection by encapsulated bacteria such as Streptococcus pneumoniae?`,
+    options: {
+      A: `They cannot produce IgG against protein antigens because splenic T cells are the sole source of T-helper function for systemic antibody responses.`,
+      B: `They lose the marginal-zone B-cell population that mounts rapid T-independent IgM responses to polysaccharide capsular antigens, allowing unchecked bacterial proliferation and dissemination.`,
+      C: `The spleen is the only site of neutrophil production, and hyposplenism therefore causes severe neutropenia and impaired phagocytosis.`,
+      D: `Complement component C3 is exclusively synthesized in the spleen, so its absence prevents opsonisation of encapsulated organisms.`,
+      E: `Encapsulated bacteria are intracellular pathogens that are normally killed by splenic red pulp macrophages through oxygen-dependent mechanisms unique to the spleen.`
+    },
+    answer: "B",
+    explanation: `Hoffbrand's Essential Haematology, 9th Edition, describes how macrophages and dendritic cells in the marginal zone initiate immune responses and present antigen to B and T cells, and notes that a unique set of B cells are able to produce an IgM response to bacterial pathogens without the help of T cells. This arrangement is particularly efficient at mounting an immune response to encapsulated bacteria. Loss of the spleen removes the marginal-zone B-cell niche required for rapid T-independent IgM production against polysaccharide capsules, which is why Streptococcus pneumoniae, Haemophilus influenzae type B and Neisseria meningitidis cause fulminant sepsis in hyposplenic patients. Other immune functions, including IgG responses and complement production, are not spleen-dependent.`
+  },
+  {
+    num: 440,
+    stem: `Which statement best describes the process of splenic 'pitting' and its relationship to red cell quality control?`,
+    options: {
+      A: `Pitting is the mechanical fragmentation of senescent red cells by turbulent shear forces in the trabecular arteries, independent of macrophage activity.`,
+      B: `The spleen removes inclusions such as Howell–Jolly bodies, Heinz bodies and Pappenheimer bodies from intact red cells as they traverse the red pulp cords, improving the survival of mildly abnormal cells.`,
+      C: `Pitting occurs only after complete intravascular haemolysis has released haemoglobin into the plasma, with macrophages scavenging cell fragments.`,
+      D: `Howell–Jolly bodies are nuclear remnants that are added to red cells by the spleen to mark them for destruction in the liver.`,
+      E: `Pitting requires an intact endothelial lining of the splenic cords and therefore occurs exclusively in the closed circulation.`
+    },
+    answer: "B",
+    explanation: `Hoffbrand's Essential Haematology, 9th Edition, explains that the spleen has an essential role in the quality control of red cells by filtering, culling and pitting, removing excess DNA (Howell–Jolly bodies), siderotic granules (Pappenheimer bodies) and Heinz bodies. Figure 10.2 shows a peripheral blood film in splenic atrophy with Howell–Jolly bodies, Pappenheimer bodies and misshapen cells. Pitting is the process by which splenic macrophages extract inclusions from red cells without destroying the cells themselves, allowing cells with minor abnormalities to continue in the circulation. Severely rigid or antibody-coated cells are unable to negotiate the red pulp cords and sinuses and are instead culled by macrophages.`
   }
 ];

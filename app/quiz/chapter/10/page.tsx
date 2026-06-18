@@ -10,7 +10,7 @@ export default function QuizPage() {
           Hoffbrand — Chapter 10: The spleen
         </h1>
         <p className="mt-2 text-slate-400">
-          10 single best answer (SBA) questions · Expert level
+          20 single best answer (SBA) questions · Expert level
         </p>
       </div>
       <QuizClient />
