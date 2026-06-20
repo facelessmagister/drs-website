@@ -136,5 +136,135 @@ export const questions: Question[] = [
     },
     answer: "A",
     explanation: "Hoffbrand Table 12.5 lists monoclonal antibodies and their mechanisms. Rituximab, ofatumumab, and obinutuzumab are anti-CD20 antibodies that induce apoptosis. Alemtuzumab (anti-CD52) lyses target cells by complement fixation. Gemtuzumab ozogamicin (anti-CD33 with calicheamicin cytotoxin) kills myeloid cells. Inotuzumab ozogamicin targets CD22. Blinatumomab is the bispecific CD20/CD3 antibody that recruits cytotoxic T cells. Brentuximab (anti-CD30) is effective in Hodgkin lymphoma, not myeloma. Anti-CD20 antibodies have multiple mechanisms including direct apoptosis, complement-dependent cytotoxicity, and ADCC, not exclusively ADCC."
+  },
+  {
+    num: 451,
+    stem: "A 38-year-old woman with newly diagnosed diffuse large B-cell lymphoma is scheduled for R-CHOP chemotherapy. She has poor peripheral venous access, and her occupation requires frequent swimming and gym training. Her oncology team recommends insertion of a central venous catheter for administration of vesicant chemotherapy. Which of the following devices is most appropriate for her priorities?",
+    options: {
+      A: "A totally implantable venous access device (Port-a-Cath/Mediport) with a subcutaneous reservoir and septum, because it has no external components and permits normal bathing and swimming.",
+      B: "A tunnelled Hickman-style catheter, because it is the most durable device and is placed in the operating theatre, making it ideal for patients who swim regularly.",
+      C: "A peripherally inserted central catheter (PICC line) in the cephalic or brachial vein, because it can be inserted at the bedside and is suitable for months of vesicant administration.",
+      D: "Repeated peripheral cannulation, because the risk of extravasation from doxorubicin is negligible when administered slowly through a large antecubital vein.",
+      E: "A non-tunnelled central venous catheter inserted via the internal jugular vein in the emergency department, because it is the most rapidly inserted option for immediate chemotherapy."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes three main central venous catheter types used in haematological malignancy: Hickman/Broviac-style tunnelled catheters, totally implantable venous access devices (Port-a-Cath/Mediport), and peripherally inserted central catheters (PICC lines) (Fig. 12.1). A totally implantable device consists of a subcutaneous reservoir with a silicone septum through which a needle is inserted; because no catheter components protrude, patients can bathe and swim normally. This makes it the most appropriate choice for this patient. A Hickman catheter has external components that restrict swimming and bathing. A PICC line can be inserted at the bedside but typically does not last as long and is generally less suitable than a tunnelled or implanted device for prolonged intensive vesicant chemotherapy. Vesicants such as doxorubicin should not be given through peripheral veins because extravasation causes severe soft tissue necrosis. A non-tunnelled emergency catheter is not appropriate for planned long-term chemotherapy administration."
+  },
+  {
+    num: 452,
+    stem: "A 78-year-old man with acute myeloid leukaemia is noted to have a haemoglobin concentration of 56 g/L. He has ischaemic cardiomyopathy with a left ventricular ejection fraction of 30% and stage 4 chronic kidney disease. He is euvolemic but mildly dyspnoeic on exertion. Which of the following transfusion strategies best balances correction of anaemia with minimization of transfusion-associated circulatory overload (TACO)?",
+    options: {
+      A: "Transfuse single units of red cells slowly with close monitoring of fluid balance and respiratory status, and consider prophylactic diuretics, because TACO risk is heightened by cardiac and renal impairment.",
+      B: "Transfuse two units of red cells rapidly to achieve a swift rise in haemoglobin and avoid repeated nursing observations.",
+      C: "Withhold transfusion until haemoglobin falls below 50 g/L, because the risk of TACO always outweighs the benefit of transfusion in older patients.",
+      D: "Administer recombinant erythropoietin alone and avoid red cell transfusion entirely, because erythropoietin raises haemoglobin more rapidly than transfusion in acute leukaemia.",
+      E: "Give a loop diuretic only if TACO develops, because prophylactic diuretics cause intravascular volume depletion and worsen renal function."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, notes that transfusion thresholds for red cells depend on symptoms and speed of onset of anaemia, with many units transfusing when haemoglobin is below 70 g/L and a higher threshold in older or ischaemic patients. Transfusion-associated circulatory overload (TACO) is pulmonary oedema secondary to volume overload; risk factors include pre-existing cardiac, respiratory, or renal impairment. Close monitoring, transfusion of single units, and prophylactic diuretics reduce TACO risk. Rapid transfusion of two units in this high-risk patient would precipitate pulmonary oedema. Withholding transfusion until an arbitrary lower threshold is unsafe because his symptoms and cardiac reserve already warrant intervention. Erythropoietin-stimulating agents do not act rapidly enough for symptomatic acute anaemia and are discussed mainly for myelodysplastic neoplasms. Prophylactic diuretics are a recognized preventive measure in high-risk patients, not merely reactive treatment."
+  },
+  {
+    num: 453,
+    stem: "A 64-year-old man with chronic lymphocytic leukaemia received fludarabine-based therapy 8 weeks ago. He presents with a 5-day history of dry cough, fever of 38.6°C, and progressive dyspnoea. Arterial blood gas on room air shows PaO2 62 mmHg. High-resolution CT chest demonstrates diffuse bilateral ground-glass opacities. Serum beta-D-glucan is elevated, and lactate dehydrogenase is 620 U/L. Which of the following is the most appropriate immediate management?",
+    options: {
+      A: "High-dose intravenous co-trimoxazole, because Pneumocystis jirovecii pneumonitis is the most likely diagnosis in a patient who has received intensive or fludarabine-containing chemotherapy.",
+      B: "Start voriconazole empirically, because ground-glass infiltrates in a neutropenic patient are classic for invasive aspergillosis.",
+      C: "Administer nebulized pentamidine, because it is more effective than co-trimoxazole for treatment of established Pneumocystis jirovecii pneumonitis.",
+      D: "Begin intravenous aciclovir, because herpes viruses are the most common cause of pneumonitis in patients with lymphoproliferative disorders.",
+      E: "Initiate broad-spectrum antibacterial therapy alone and defer anti-Pneumocystis therapy until bronchoscopy confirms the organism, because empirical treatment risks unnecessary toxicity."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, identifies Pneumocystis jirovecii (carinii) as an important cause of pneumonitis in patients who have received intensive combination chemotherapy or fludarabine. Prophylaxis is given with co-trimoxazole, atovaquone, or nebulized pentamidine; treatment is with high-dose co-trimoxazole. The clinical presentation of subacute dry cough, fever, hypoxia, diffuse ground-glass infiltrates, elevated LDH, and elevated beta-D-glucan in a patient recently treated with fludarabine is classic for Pneumocystis jirovecii pneumonitis. Voriconazole is used for Aspergillus, which typically produces nodular lesions with a ground-glass halo, not diffuse ground-glass infiltrates. Nebulized pentamidine is less effective than co-trimoxazole and is used for prophylaxis, not first-line treatment. Aciclovir treats herpes viruses such as HSV and VZV, which do not produce this radiological pattern. Delaying therapy pending bronchoscopy is dangerous because Pneumocystis pneumonitis can progress rapidly in immunosuppressed patients."
+  },
+  {
+    num: 454,
+    stem: "A 59-year-old woman with follicular lymphoma receiving maintenance rituximab develops a painful vesicular rash in a T4 dermatomal distribution. She is afebrile but reports burning pain. She was vaccinated against varicella as a child. Which of the following is the most appropriate management?",
+    options: {
+      A: "Initiate high-dose oral or intravenous aciclovir/valaciclovir, because varicella zoster virus reactivation is common in lymphoproliferative disorders and requires prompt antiviral therapy.",
+      B: "Administer the live attenuated varicella zoster vaccine (Zostavax) immediately to abort the outbreak, because it boosts cellular immunity against herpes zoster.",
+      C: "Treat with oral amoxicillin-clavulanate, because the vesicular rash most likely represents bacterial cellulitis superimposed on chemotherapy-induced skin toxicity.",
+      D: "Apply topical aciclovir cream alone, because localized zoster in immunocompetent patients does not require systemic therapy.",
+      E: "Withhold antiviral therapy and monitor, because prior varicella vaccination confers lifelong sterilizing immunity and prevents reactivation."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that varicella zoster virus frequently reactivates in patients with lymphoproliferative diseases to cause shingles, which requires treatment with high doses of aciclovir or valaciclovir. The dermatomal vesicular rash in a patient receiving rituximab for lymphoma is classic for herpes zoster reactivation. The live attenuated varicella vaccine (Zostavax) is contraindicated for many patients with haematological malignancy; furthermore, vaccination is preventive, not therapeutic during an active outbreak. Bacterial cellulitis does not follow a dermatomal distribution. Topical therapy alone is insufficient in an immunosuppressed patient, in whom zoster can disseminate. Prior varicella vaccination prevents primary infection but does not provide sterilizing immunity against latent VZV reactivation."
+  },
+  {
+    num: 455,
+    stem: "A 22-year-old man with B-cell acute lymphoblastic leukaemia is receiving induction chemotherapy that includes L-asparaginase. On day 12, he develops epistaxis and oozing from his gums. Laboratory studies show fibrinogen 0.8 g/L, prothrombin time 22 seconds, activated partial thromboplastin time 58 seconds, and antithrombin activity 45%. Platelet count is 85 × 10⁹/L. Which of the following is the most appropriate supportive intervention?",
+    options: {
+      A: "Support with fresh frozen plasma, cryoprecipitate, and antithrombin concentrate as needed, because L-asparaginase depletes clotting factors and antithrombin by depriving hepatocytes of asparagine.",
+      B: "Administer therapeutic low-molecular-weight heparin immediately, because the low antithrombin level indicates disseminated intravascular coagulation requiring anticoagulation.",
+      C: "Give vitamin K alone, because L-asparaginase induces a pure vitamin K deficiency similar to warfarin effect.",
+      D: "Transfuse platelets to a count above 100 × 10⁹/L and observe, because the coagulopathy will correct spontaneously once asparaginase is stopped.",
+      E: "Prescribe tranexamic acid without plasma support, because antifibrinolytic therapy is sufficient for asparaginase-associated hypofibrinogenaemia."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, notes that L-asparaginase is an enzyme derived from bacteria that breaks down the amino acid asparagine in the circulation, depriving ALL cells of an essential amino acid. However, it also disturbs blood clotting by reducing synthesis of clotting factors and antithrombin. Support with vitamin K, fresh frozen plasma, cryoprecipitate, or antithrombin concentrates may be required. Heparin requires antithrombin to be effective and would be inappropriate in this hypocoagulable state; low antithrombin here reflects decreased synthesis, not disseminated intravascular coagulation. Vitamin K deficiency is not the mechanism. Platelet transfusion alone does not correct the coagulation factor and antithrombin deficiencies. Tranexamic acid in the presence of active coagulopathy and potential thrombotic risk from asparaginase is not sufficient and could promote thrombosis."
+  },
+  {
+    num: 456,
+    stem: "Regarding the rationale for combination chemotherapy and repeated treatment courses in haematological malignancy, which of the following statements most accurately integrates the log kill hypothesis with the need for multi-agent regimens?",
+    options: {
+      A: "Each chemotherapy course kills a constant fraction of tumour cells rather than a fixed number, allowing normal haemopoietic recovery between courses, while combinations of drugs acting at different molecular sites minimize the emergence of drug resistance.",
+      B: "A single course of cytotoxic therapy is usually sufficient to eradicate all neoplastic cells, and additional courses are given only to suppress benign haemopoietic cells.",
+      C: "Combining drugs with identical mechanisms of action produces additive cell killing without increasing toxicity, because resistance develops only to single-agent therapy.",
+      D: "Cytotoxic drugs selectively spare quiescent neoplastic cells, so repeated courses are needed to drive these cells into a proliferative phase before killing them.",
+      E: "The log kill hypothesis predicts that the absolute number of cells killed increases with each successive course, so cure is guaranteed after a predetermined number of cycles."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, explains that cytotoxic drugs are combined in regimens that minimize the potential for resistance by using agents that act at different sites (Fig. 12.6). Many agents act specifically on dividing cells, and it is unusual for all neoplastic cells to be killed by a single course. Several courses are therefore given, gradually eradicating the neoplastic cell burden according to the log kill hypothesis, while residual normal haemopoietic cells recover between courses. Identical-mechanism combinations increase toxicity without avoiding resistance. Quiescent cells are generally less sensitive to many cytotoxic agents, but the log kill hypothesis does not rely on driving them into cycle. The log kill hypothesis implies a constant fractional kill, not an increasing absolute number of cells killed per course, and cure is not guaranteed by a fixed number of cycles."
+  },
+  {
+    num: 457,
+    stem: "Regarding the mechanism of action and toxicity of anthracycline antibiotics used in haematological malignancies, which of the following statements is most accurate?",
+    options: {
+      A: "Anthracyclines intercalate into DNA and bind topoisomerase II, generating free radicals that damage cardiac myocytes; cumulative dose-dependent cardiomyopathy is the major dose-limiting toxicity.",
+      B: "Anthracyclines inhibit ribonucleotide reductase, preventing conversion of ribonucleotides to deoxyribonucleotides, and cause pulmonary fibrosis as their principal toxicity.",
+      C: "Anthracyclines bind to tubulin and prevent microtubule polymerization, leading to metaphase arrest; their dose-limiting toxicity is peripheral neuropathy.",
+      D: "Anthracyclines are purine analogues that inhibit adenosine deaminase and produce prolonged immunosuppression with low CD4 counts.",
+      E: "Anthracyclines alkylate DNA purine bases to crosslink DNA strands and primarily cause haemorrhagic cystitis."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes anthracyclines such as doxorubicin, daunorubicin, and idarubicin as cytotoxic antibiotics that intercalate into DNA and bind strongly to topoisomerases, which relieve torsional stress in replicating DNA by nicking and resealing strands. Blockade of topoisomerase activity prevents DNA replication. Table 12.5 lists their particular side effects as cardiac toxicity and hair loss; cardiomyopathy is cumulative and dose-dependent. Ribonucleotide reductase inhibition is the mechanism of hydroxycarbamide. Tubulin binding is the mechanism of vinca alkaloids. Purine analogues include fludarabine and pentostatin. DNA crosslinking is characteristic of alkylating agents such as cyclophosphamide, which causes haemorrhagic cystitis."
+  },
+  {
+    num: 458,
+    stem: "Regarding vinca alkaloids such as vincristine, which of the following statements most accurately describes their mechanism of action and principal adverse effect?",
+    options: {
+      A: "Vinca alkaloids bind to tubulin and prevent its polymerization into microtubules, blocking mitosis in metaphase; peripheral and autonomic neuropathy is the characteristic dose-limiting toxicity.",
+      B: "Vinca alkaloids inhibit DNA polymerase by incorporating into DNA as false pyrimidine nucleotides, causing cerebellar toxicity at high doses.",
+      C: "Vinca alkaloids generate superoxide radicals that degrade preformed DNA and cause dose-related pulmonary fibrosis.",
+      D: "Vinca alkaloids inhibit the proteasome, leading to accumulation of ubiquitinated proteins and causing thrombocytopenia and peripheral neuropathy.",
+      E: "Vinca alkaloids are folate antagonists that competitively inhibit dihydrofolate reductase and cause mucositis and myelosuppression."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that vincristine is a vinca alkaloid derived from the periwinkle plant. It binds to tubulin and prevents its polymerization to microtubules, thereby blocking cell division in metaphase. Table 12.5 lists its particular side effects as peripheral or bladder/gut neuropathy. Cytarabine is the pyrimidine analogue incorporated into DNA and causes cerebellar toxicity at high doses. Bleomycin generates superoxide radicals and causes pulmonary fibrosis. Proteasome inhibitors such as bortezomib cause neuropathy and thrombocytopenia through a different mechanism. Methotrexate is the folate antagonist that causes mucositis."
+  },
+  {
+    num: 459,
+    stem: "Regarding proteasome inhibitors such as bortezomib, ixazomib, and carfilzomib, which of the following statements most accurately describes their mechanism of action and clinical use?",
+    options: {
+      A: "They inhibit the 26S proteasome, leading to accumulation of misfolded and ubiquitinated proteins that trigger endoplasmic reticulum stress and apoptosis; they are widely used in myeloma and some lymphomas.",
+      B: "They inhibit Bruton tyrosine kinase in B-cell receptor signalling, causing bleeding and atrial fibrillation as characteristic toxicities.",
+      C: "They block the JAK2-STAT signalling pathway and are primarily indicated for myeloproliferative neoplasms such as primary myelofibrosis.",
+      D: "They inhibit the BCL-2 anti-apoptotic protein and are most commonly complicated by tumour lysis syndrome.",
+      E: "They are demethylating agents that reduce DNA methylation on cytosine residues and are used in myelodysplastic neoplasms."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, notes that bortezomib, ixazomib, and carfilzomib are proteasome inhibitors used widely in the treatment of myeloma and some lymphomas (Table 12.5). Inhibition of the proteasome prevents degradation of ubiquitinated proteins, leading to accumulation of misfolded proteins, endoplasmic reticulum stress, and activation of apoptotic pathways in neoplastic plasma cells. Bruton tyrosine kinase inhibitors such as ibrutinib cause bleeding and atrial fibrillation. JAK2 inhibitors such as ruxolitinib are used in myelofibrosis and polycythaemia vera. The BCL-2 inhibitor venetoclax causes tumour lysis syndrome. Azacitidine and decitabine are demethylating agents used in myelodysplastic neoplasms."
+  },
+  {
+    num: 460,
+    stem: "Regarding immune checkpoint inhibitors used in selected haematological malignancies, which of the following statements is most accurate?",
+    options: {
+      A: "They block inhibitory signals mediated by PD-1, PD-L1, or CTLA4, thereby overcoming T-cell self-tolerance to neoplastic cells; they can be useful in relapsed Hodgkin lymphoma and post-allogeneic SCT relapse, but may cause autoimmune toxicities.",
+      B: "They are bispecific antibodies that recruit CD3-positive cytotoxic T cells to CD20-positive B cells, causing neurotoxicity and cytokine release syndrome.",
+      C: "They bind to CD30 on malignant cells and deliver a microtubule-disrupting agent, making them standard first-line therapy for Hodgkin lymphoma.",
+      D: "They inhibit the programmed cell death protein 1 receptor on tumour cells directly, thereby inducing apoptosis of malignant lymphocytes.",
+      E: "They activate chimeric antigen receptors on autologous T cells to target CD19, leading to cytokine release syndrome and B-cell aplasia."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes immune checkpoint inhibitors as antibodies designed to overcome T-cell self-tolerance to neoplastic cells. Approved checkpoint inhibitors block PD-1, PD-L1, or CTLA4 molecules that mediate self-tolerance. They can be useful in some cases of relapsed Hodgkin lymphoma or in leukaemias relapsed after allogeneic stem cell transplantation, but are associated with autoimmune manifestations including myocarditis, colitis, thyroid disease, iridocyclitis, hepatic injury, and kidney dysfunction. Blinatumomab is the bispecific CD20/CD3 antibody. Brentuximab vedotin targets CD30 with a microtubule inhibitor but is not standard first-line therapy for all Hodgkin lymphoma. PD-1 inhibitors act on T cells, not directly on tumour cells, to restore anti-tumour immunity. CAR-T cells are bioengineered T-cell receptors targeting CD19, distinct from checkpoint inhibitors."
   }
 ];
