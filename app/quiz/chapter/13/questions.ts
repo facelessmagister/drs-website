@@ -136,5 +136,135 @@ export const questions: Question[] = [
     },
     answer: "A",
     explanation: "Hoffbrand's Essential Haematology, 9th Edition, Figure 13.9 and accompanying text illustrate the treatment algorithm for fit patients with AML. Favourable-risk patients receive remission induction (typically daunorubicin and cytarabine) with gemtuzumab ozogamicin, particularly in t(8;21) and inv(16), and proceed to consolidation chemotherapy if they achieve adequate MRD response; allogeneic SCT is not used in first remission for favourable risk unless MRD-positive or relapse occurs. Intermediate and adverse-risk patients are considered for allogeneic SCT in first remission based on a balance of relapse risk versus transplant-related mortality (Table 13.6). FLT3 inhibitors such as midostaurin are given with front-line DA chemotherapy in FLT3-mutated AML. CPX-351 is specifically indicated for secondary AML or AML with myelodysplasia-related changes, not all de novo AML. FLT3 inhibitors are standard front-line for FLT3-mutated disease, not contraindicated."
+  },
+  {
+    num: 461,
+    stem: "A 37-year-old woman with newly diagnosed acute promyelocytic leukaemia is started on all-trans retinoic acid (ATRA) and arsenic trioxide. On day 7 she develops fever, dyspnoea, hypoxia, bilateral pulmonary infiltrates on chest X-ray, and weight gain of 4 kg over 48 hours. Her white cell count has risen from 4.2 × 10⁹/L to 18.5 × 10⁹/L. Which of the following is the most appropriate immediate management?",
+    options: {
+      A: "Commence systemic corticosteroids promptly and continue ATRA/arsenic trioxide; add hydroxyurea if leucocytosis worsens, as this presentation represents differentiation syndrome.",
+      B: "Discontinue ATRA and arsenic trioxide permanently because the pulmonary infiltrates indicate drug-induced interstitial pneumonitis.",
+      C: "Start broad-spectrum antibiotics and antifungals alone, because fever with neutropenia in AML always indicates infection.",
+      D: "Perform urgent bronchoscopy and lung biopsy to confirm leukaemic pulmonary infiltration before initiating any specific therapy.",
+      E: "Switch to standard daunorubicin and cytarabine induction because differentiation syndrome proves ATRA-based therapy has failed."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes differentiation syndrome (formerly ATRA syndrome) as a complication of acute promyelocytic leukaemia treatment arising from neutrophilia following differentiation of promyelocytes, presenting with fever, hypoxia with pulmonary infiltrates, and fluid overload (weight gain). Treatment is with corticosteroids, and ATRA/arsenic trioxide is only discontinued in very severe cases. Leucocytosis may be managed with hydroxyurea or an anthracycline. Discontinuing ATRA permanently is incorrect because the syndrome is treatable and ATRA remains essential. Antibiotics alone miss the non-infectious diagnosis. Bronchoscopy is unnecessary and delays life-saving therapy. Switching to standard chemotherapy is incorrect because ATRA/arsenic remains the backbone of APML therapy."
+  },
+  {
+    num: 462,
+    stem: "A 54-year-old man with FLT3-ITD-mutated acute myeloid leukaemia achieved complete remission after daunorubicin, cytarabine, and midostaurin, but relapses 8 months later with 45% blasts in the marrow. He is deemed fit for further therapy and has a matched sibling donor available. Which management strategy best aligns with Hoffbrand's recommendations?",
+    options: {
+      A: "Start gilteritinib to induce a second remission, with the goal of proceeding to allogeneic stem cell transplantation once remission is achieved.",
+      B: "Proceed directly to allogeneic stem cell transplantation without salvage chemotherapy, because any delay in transplant increases relapse risk.",
+      C: "Re-challenge with the original daunorubicin and cytarabine plus midostaurin regimen, because re-induction with first-line therapy is preferred in early relapse.",
+      D: "Best supportive care with transfusion support, because relapse within 12 months confers an incurable prognosis.",
+      E: "Administer intrathecal methotrexate for central nervous system prophylaxis, because FLT3-ITD AML has a high propensity for isolated CNS relapse."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that relapse is the major cause of treatment failure in AML and that for patients with FLT3 mutations who relapse, gilteritinib may induce a second remission prior to transplantation. Traditional approaches include salvage chemotherapy followed by allogeneic stem cell transplantation with standard or reduced-intensity conditioning, and regimens not used prior to relapse such as FLAG-IDA may be options. Proceeding directly to transplant without cytoreduction is generally not recommended when salvage therapy can achieve remission. Re-challenging with first-line therapy is less effective than targeted salvage in relapsed disease. Best supportive care is too pessimistic for a fit patient with a suitable donor. Central nervous system prophylaxis is not standard in AML."
+  },
+  {
+    num: 463,
+    stem: "A 28-year-old man presents with bilateral testicular masses, periorbital swelling, and skin nodules. Biopsy of a skin nodule shows sheets of myeloperoxidase-positive immature myeloid blasts. Bone marrow aspirate shows 12% blasts with normal karyotype and no defining genetic abnormality. Flow cytometry confirms a myeloid immunophenotype. Which diagnosis and treatment approach is most accurate?",
+    options: {
+      A: "Myeloid sarcoma (extramedullary AML) with concurrent marrow involvement; manage as AML with systemic induction chemotherapy and consider local therapy for symptomatic sites.",
+      B: "Non-Hodgkin lymphoma with aberrant myeloperoxidase expression; treat with CHOP-like lymphoma chemotherapy.",
+      C: "Blastic plasmacytoid dendritic cell neoplasm; confirm with CD4/CD56/CD123/TCL1 positivity and treat with AML or ALL protocols.",
+      D: "Metastatic solid tumour; perform immunohistochemistry for cytokeratin and S100 to exclude carcinoma or melanoma.",
+      E: "Acute lymphoblastic leukaemia with myeloid antigen co-expression; treat with an ALL-based protocol."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, defines myeloid sarcoma as a disease resembling a solid tumour composed of clustered myeloid blast cells, also called extramedullary leukaemia, granulocytic sarcoma, or chloroma. Bone marrow involvement often occurs concurrently, and the lesion is classified and managed as AML. The presence of myeloperoxidase-positive blasts with a myeloid immunophenotype excludes lymphoma. Blastic plasmacytoid dendritic cell neoplasm expresses CD123, CD4, CD56, and TCL1 but is negative for lineage markers such as myeloperoxidase. Metastatic solid tumour would not show sheets of myeloid blasts. Mixed phenotype leukaemia requires robust evidence of both myeloid and lymphoid lineage markers, which is absent here."
+  },
+  {
+    num: 464,
+    stem: "A 61-year-old woman previously treated with adjuvant cyclophosphamide, doxorubicin, and fluorouracil for breast cancer 4 years ago now presents with fatigue and pancytopenia. Bone marrow shows 35% myeloblasts, multilineage dysplasia, and complex karyotype. Next-generation sequencing identifies a TP53 mutation. Which of the following best characterizes this disease and its optimal initial therapy?",
+    options: {
+      A: "Therapy-related myeloid neoplasm secondary to prior cytotoxic exposure, characterized by TP53 mutation and complex karyotype; CPX-351 (Vyxeos) is the preferred induction regimen, though prognosis is generally poor.",
+      B: "De novo AML with myelodysplasia-related changes, because the breast cancer chemotherapy is too remote to be causally related.",
+      C: "AML with defining genetic abnormality due to TP53 mutation, which permits diagnosis with <20% blasts.",
+      D: "Primary myelofibrosis in blast crisis; treat with JAK inhibitor therapy.",
+      E: "Standard daunorubicin and cytarabine induction is superior to CPX-351 because anthracycline exposure from prior chemotherapy is minimal."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that AML secondary to cytotoxic drugs or radiation commonly exhibits mutations in TP53 or KMT2A (MLL) and that the clinical response is usually poor. CPX-351 (Vyxeos), a liposomal nanoparticle preparation of cytarabine and daunorubicin, is specifically indicated in patients with secondary AML or AML with myelodysplasia-related changes. Prior cytotoxic exposure is a recognized cause of therapy-related myeloid neoplasms. TP53 mutation is classified under myelodysplasia-related or adverse-risk categories, not as a defining genetic abnormancy permitting diagnosis with fewer than 20% blasts. Primary myelofibrosis would show marrow fibrosis and massive splenomegathy. Standard daunorubicin and cytarabine is less preferred than CPX-351 in this high-risk secondary subgroup."
+  },
+  {
+    num: 465,
+    stem: "A 78-year-old man with newly diagnosed acute myeloid leukaemia is found to have an isocitrate dehydrogenase 1 (IDH1) mutation and normal karyotype. He has poor performance status and is deemed unfit for intensive chemotherapy. His white cell count is 8.5 × 10⁹/L. Which treatment strategy is most appropriate?",
+    options: {
+      A: "Azacitidine combined with ivosidenib, as this targeted combination is suitable for IDH1-mutated AML in unfit patients.",
+      B: "Venetoclax with azacitidine alone, reserving ivosidenib for relapse after hypomethylating agent failure.",
+      C: "Daunorubicin and cytarabine induction with midostaurin, because IDH1 mutation confers a favourable prognosis.",
+      D: "Oral azacitidine maintenance monotherapy, because maintenance is the preferred initial treatment for unfit patients.",
+      E: "Best supportive care, because patients over 75 years with poor performance status cannot tolerate any anti-leukaemic therapy."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes non-intensive treatment pathways for unfit patients and specifically notes that targeted therapies such as ivosidenib for IDH1-mutated AML together with a hypomethylating agent have a role (Fig. 13.10 and Table 13.7). Venetoclax with azacitidine is the broad standard of care but the IDH1 mutation specifically supports ivosidenib-based therapy. Intensive chemotherapy is inappropriate given advanced age and poor performance status. Oral azacitidine maintenance is considered for patients over 55 who are ineligible for allogeneic stem cell transplantation after remission, not as initial therapy. Best supportive care is too restrictive given the available targeted options."
+  },
+  {
+    num: 466,
+    stem: "Regarding the immunophenotypic diagnosis of acute myeloid leukaemia and its subtypes, which of the following marker associations is most accurate?",
+    options: {
+      A: "CD13, CD33, and CD117 are usually positive in AML; CD11c, CD14, and CD64 support monocytic differentiation; CD41 and CD61 support megakaryoblastic differentiation.",
+      B: "CD3 and CD19 positivity definitively identifies mixed phenotype acute leukaemia when co-expressed with CD33.",
+      C: "Terminal deoxynucleotidyl transferase (TdT) positivity is characteristic of AML blasts and indicates myeloid lineage.",
+      D: "CD34 negativity excludes a diagnosis of AML, because CD34 is uniformly expressed on all AML blasts.",
+      E: "Glycophorin A (CD235a) positivity indicates granulocytic differentiation and excludes erythroid leukaemia."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, Table 13.3 lists immunological markers in AML: CD13, CD33, CD34, and CD117 are usually positive; CD11c, CD14, and CD64 indicate monocytic differentiation; glycophorin (CD235a) and CD36 indicate erythroid differentiation; CD41 and CD61 indicate megakaryoblastic differentiation. Figure 13.1 demonstrates that terminal deoxynucleotidyl transferase expression is characteristic of a lymphoid lineage. CD3 and CD19 are lymphoid markers; their co-expression with myeloid markers defines mixed phenotype acute leukaemia only when lineage-specific criteria are met. CD34 is expressed on most stem cells but not all AML blasts. Glycophorin A indicates erythroid, not granulocytic, differentiation."
+  },
+  {
+    num: 467,
+    stem: "Regarding cytochemical staining in acute myeloid leukaemia, which statement best distinguishes the utility of myeloperoxidase, Sudan black B, and non-specific esterase?",
+    options: {
+      A: "Myeloperoxidase and Sudan black B stain myeloid cytoplasm and are usually bright in Auer rods; non-specific esterase is used to identify monocytic differentiation.",
+      B: "Non-specific esterase is the most specific marker of granulocytic lineage and is positive in all AML subtypes.",
+      C: "Sudan black B is used exclusively to diagnose acute promyelocytic leukaemia and has no utility in other AML subtypes.",
+      D: "Myeloperoxidase positivity is pathognomonic for acute promyelocytic leukaemia and excludes other forms of AML.",
+      E: "Cytochemistry has replaced flow cytometry as the gold standard for immunophenotyping in modern haematology practice."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, Table 13.3 and Figure 13.2 describe cytochemical staining in AML: myeloperoxidase and Sudan black B demonstrate myeloid differentiation and are usually bright in Auer rods; non-specific esterase identifies monocytic differentiation. Non-specific esterase is not specific for granulocytic lineage. Sudan black B is useful across myeloid subtypes, not exclusively acute promyelocytic leukaemia. Myeloperoxidase positivity occurs in many AML subtypes and is not pathognomonic for APML. The text notes that cytochemistry is no longer performed in centres where newer and more definitive tests such as flow cytometry are available."
+  },
+  {
+    num: 468,
+    stem: "Regarding the integration of gemtuzumab ozogamicin into acute myeloid leukaemia therapy, which statement most accurately reflects its mechanism of action and clinical indication?",
+    options: {
+      A: "Gemtuzumab ozogamicin is an anti-CD33 monoclonal antibody conjugated to calicheamicin; it is combined with chemotherapy, particularly in favourable-risk AML such as t(8;21) and inv(16), where it has become standard of care.",
+      B: "It is a FLT3 tyrosine kinase inhibitor used only in relapsed or refractory FLT3-mutated disease.",
+      C: "It is an anti-CD123 immunotoxin indicated for blastic plasmacytoid dendritic cell neoplasm.",
+      D: "It works by inhibiting BCL-2 and is combined with hypomethylating agents in unfit patients.",
+      E: "It targets the PML::RARα fusion protein and is therefore reserved for acute promyelocytic leukaemia."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, Table 13.7 and the treatment section describe gemtuzumab ozogamicin as a monoclonal immune-conjugate targeted against CD33 and conjugated to the calicheamicin cytotoxin. It provides an additional therapeutic option in combination with daunorubicin and cytarabine for initial or consolidation AML therapy, particularly in favourable-risk disease including t(8;21) and inv(16), where it has become standard of care. FLT3 inhibitors include midostaurin and gilteritinib. CD123-targeting agents include tagraxofusp. Venetoclax inhibits BCL-2. ATRA and arsenic trioxide target the PML::RARα fusion protein in acute promyelocytic leukaemia."
+  },
+  {
+    num: 469,
+    stem: "Regarding the prognostic interaction of NPM1 and FLT3 internal tandem duplication (ITD) mutations in cytogenetically normal acute myeloid leukaemia, which statement is most accurate?",
+    options: {
+      A: "NPM1 mutation without FLT3-ITD is generally favourable, whereas NPM1 mutation co-occurring with FLT3-ITD is classified as intermediate risk; FLT3-ITD alone in the absence of NPM1 mutation carries adverse prognostic significance.",
+      B: "FLT3-ITD always confers favourable risk when it co-occurs with NPM1 mutation, regardless of allelic ratio or co-mutation burden.",
+      C: "NPM1 mutation is a definitive marker of adverse prognosis because it promotes nucleolar disorganization and uncontrolled proliferation.",
+      D: "The presence of either NPM1 or FLT3-ITD mutation downgrades a case from AML with defining genetic abnormalities to AML defined by differentiation.",
+      E: "CEBPA mutation and FLT3-ITD together define a favourable-risk subgroup in the 2022 ELN classification."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, Table 13.5 lists molecular genetics in AML prognostication: NPM1 mutation and CEBPA mutation are favourable, whereas wild-type or mutated NPM1 with FLT3-ITD is intermediate, and mutations of TP53, RUNX1, ASXL1, and spliceosome mutations are unfavourable. The 2022 ELN risk stratification recognizes NPM1-mutated AML without FLT3-ITD as favourable, NPM1-mutated with FLT3-ITD as intermediate, and FLT3-ITD without NPM1 mutation as adverse. FLT3-ITD allelic ratio and co-mutations further refine risk. NPM1 mutation is a defining genetic abnormality in the WHO 2022 classification, not an adverse marker. CEBPA mutation is favourable but not in combination with FLT3-ITD."
+  },
+  {
+    num: 470,
+    stem: "Regarding blastic plasmacytoid dendritic cell neoplasm (BPDCN), which statement most accurately describes its immunophenotype and therapeutic approach?",
+    options: {
+      A: "BPDCN expresses CD123, CD4, CD56, and TCL1, but is negative for lineage markers such as myeloperoxidase; treatment includes intensive AML or ALL protocols and allogeneic SCT, with emerging CD123-targeted therapies.",
+      B: "BPDCN is immunophenotypically identical to acute promyelocytic leukaemia and responds to ATRA and arsenic trioxide.",
+      C: "It expresses CD13, CD33, and CD117 with strong myeloperoxidase positivity, and is therefore treated as standard AML.",
+      D: "It is a B-lymphoid neoplasm expressing CD19, CD22, and CD79a, best treated with rituximab-containing lymphoma regimens.",
+      E: "BPDCN is a T-cell neoplasm expressing CD3, CD5, and CD7, and responds to T-cell ALL protocols."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes blastic plasmacytoid dendritic cell neoplasm as a rare aggressive neoplasia placed in the myeloid disorders category with a 'myeloid' pattern of genetic mutations, though the cell of origin is unclear. It is important to differentiate BPDCN from AML with leukaemia cutis. BPDCN immunophenotypically expresses CD123, CD4, CD56, and TCL1, but is negative for lineage markers such as myeloperoxidase. Treatments include intensive AML or ALL protocols including stem cell transplantation, and novel CD123-targeting treatments have an emerging role. ATRA/arsenic, standard AML chemotherapy based on myeloid markers, B-cell, or T-cell regimens are incorrect because BPDCN lacks lineage-specific markers."
   }
 ];
