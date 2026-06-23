@@ -136,5 +136,135 @@ export const questions: Question[] = [
     },
     answer: "A",
     explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that allogeneic SCT is a potentially curative treatment for CML, but because of the risks associated with the procedure, it is usually reserved for TKI failures or patients presenting in accelerated or acute phase. The results are better when it is performed in chronic rather than these later phases. The 5-year survival is over 80%. Relapse of CML after the transplant is a significant problem, but donor leucocyte infusions are highly effective in CML, particularly if relapse is diagnosed early by molecular detection of the BCR::ABL1 transcript. SCT is not offered to all patients at diagnosis because TKIs provide excellent long-term control with near-normal life expectancy. SCT is not contraindicated in blast crisis, though outcomes are worse. Donor leucocyte infusions remain highly effective for post-transplant relapse. Outcomes are superior in chronic phase, not blast crisis."
+  },
+  {
+    num: 471,
+    stem: "A 29-year-old woman is found incidentally to have a white cell count of 245 × 10⁹/L. She is asymptomatic but has a palpable spleen 8 cm below the left costal margin. The blood film shows a full spectrum of granulopoiesis with 8% basophils, and the platelet count is 820 × 10⁹/L. Which of the following is the most appropriate next step to establish a diagnosis of chronic myeloid leukaemia?",
+    options: {
+      A: "Perform reverse transcriptase PCR (RT–PCR) for BCR::ABL1 transcripts on peripheral blood; the diagnosis is confirmed by the presence of the BCR::ABL1 fusion regardless of whether the Philadelphia chromosome is visible on karyotype.",
+      B: "Measure the leukocyte alkaline phosphatase (LAP) score; a low score distinguishes CML from a leukaemoid reaction and is sufficient to start imatinib.",
+      C: "Perform a bone marrow trephine biopsy alone; cytogenetics are unnecessary because the blood film is diagnostic of CML.",
+      D: "Order a JAK2 V617F mutation test; this mutation is the molecular hallmark of CML and other myeloproliferative neoplasms.",
+      E: "Send peripheral blood for conventional karyotyping and, if the Philadelphia chromosome is absent, conclude the patient has an atypical myeloproliferative neoplasm rather than CML."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, notes that the diagnosis of CML is assisted by the characteristic Philadelphia chromosome, which is seen by karyotypic examination in most patients (Fig. 14.1d). However, in a minority of patients the Ph chromosome is not visible microscopically, yet the same BCR::ABL1 molecular rearrangement is detectable by FISH or RT–PCR; this Ph-negative, BCR::ABL1-positive CML behaves clinically like Ph-positive CML. Therefore, demonstration of the BCR::ABL1 fusion is diagnostic regardless of karyotype. The leukocyte alkaline phosphatase score is low in CML, but it is not specific and does not replace molecular confirmation. Bone marrow examination is useful for karyotype and disease-phase assessment but is not essential for diagnosis. JAK2 V617F is unrelated to CML and is characteristic of BCR::ABL1-negative myeloproliferative neoplasms."
+  },
+  {
+    num: 472,
+    stem: "A 41-year-old man with chronic phase CML has been taking dasatinib 100 mg daily for 8 months and has achieved a BCR::ABL1 transcript level of 0.3%. He presents with progressive dyspnoea and is found to have moderate bilateral pleural effusions on chest imaging. Echocardiography is normal and there is no evidence of infection or heart failure. What is the most appropriate management?",
+    options: {
+      A: "Continue dasatinib at the same dose and add a loop diuretic, because pleural effusions in patients on dasatinib are usually cardiac and resolve with diuresis.",
+      B: "Interrupt dasatinib, drain the effusions for symptomatic relief, and then switch to an alternative TKI such as nilotinib or bosutinib, because dasatinib-related pleural effusion is a recognised toxicity requiring cessation.",
+      C: "Switch directly to ponatinib, because ponatinib is the most potent TKI and is indicated for any grade 2–3 TKI toxicity.",
+      D: "Discontinue all TKI therapy permanently and start hydroxycarbamide, because pleural effusion signals irreversible resistance to BCR::ABL1 inhibition.",
+      E: "Proceed immediately to allogeneic stem cell transplantation, because the development of a treatment-related complication in a responder indicates high-risk disease."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, Table 14.2 lists the characteristic side effects of dasatinib as headache, pleural effusion, pulmonary hypertension, cough and prolonged QT interval. Symptomatic pleural effusion is a well-recognised dasatinib toxicity; management involves temporary or permanent discontinuation of dasatinib, symptomatic drainage if needed, and switching to an alternative TKI once the toxicity has resolved, provided the alternative is not contraindicated. Ponatinib is reserved for resistant or intolerant disease, particularly T315I-mutated CML, and is associated with a high risk of arterial and venous thrombosis. Hydroxycarbamide does not eradicate BCR::ABL1-positive cells and is not appropriate for a patient who has had a good molecular response. Allogeneic SCT is reserved for TKI failure or advanced-phase disease, not for isolated drug toxicity."
+  },
+  {
+    num: 473,
+    stem: "A 45-year-old man is newly diagnosed with chronic phase CML and is classified as high Sokal risk. He has a history of peripheral arterial disease, type 2 diabetes mellitus with microalbuminuria, and a baseline QTc of 480 ms. His full blood count is otherwise compatible with chronic phase. Which of the following is the most appropriate choice of initial tyrosine kinase inhibitor?",
+    options: {
+      A: "Nilotinib 300 mg twice daily, because high Sokal risk demands the most rapid molecular response and nilotinib achieves deeper responses than imatinib regardless of cardiovascular risk.",
+      B: "Dasatinib 100 mg daily, because its lack of effect on SRC family kinases makes it the safest option in patients with vascular disease and QT prolongation.",
+      C: "Imatinib 400 mg daily, because his arterial disease and prolonged QTc substantially increase the risks of nilotinib and bosutinib, whereas imatinib is an established first-line agent with a well-characterised safety profile.",
+      D: "Ponatinib 45 mg daily, because it is the only TKI effective against T315I and should be used upfront in high-risk disease to prevent resistance.",
+      E: "Bosutinib 400 mg daily, because it is associated with the lowest rate of arterial thrombotic events and can be safely used in patients with QTc >480 ms."
+    },
+    answer: "C",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that the choice of initial TKI in chronic phase CML is a patient-specific decision based on disease factors (prognostic score, phase) and patient factors (age, comorbidities, parenthood plans), with selection guided by each drug's side-effect profile (Table 14.2). Nilotinib is associated with peripheral vascular disease and QT prolongation, and bosutinib is also associated with QT prolongation; ponatinib carries the highest risk of arterial and venous thrombosis. Dasatinib inhibits SRC family kinases and can cause pleural effusion and pulmonary hypertension. For this patient with peripheral arterial disease and a prolonged QTc, imatinib remains an appropriate, evidence-based first-line choice with close monitoring."
+  },
+  {
+    num: 474,
+    stem: "A 38-year-old woman with chronic phase CML has been taking imatinib 400 mg daily for 4 years. She previously achieved an undetectable BCR::ABL1 transcript level, but over the past 6 months her transcripts have risen from undetectable to 4% and she has lost major molecular response. She remains adherent to therapy. Which of the following is the most appropriate next step?",
+    options: {
+      A: "Continue imatinib at 400 mg daily and repeat the PCR in 3 months, because a single rising value may represent laboratory fluctuation and does not yet indicate failure.",
+      B: "Increase imatinib to 800 mg daily, because dose escalation is the standard approach to any loss of molecular response.",
+      C: "Perform ABL1 kinase domain mutation screening and switch to a second-generation TKI guided by the mutation profile; if T315I is detected, use ponatinib or asciminib.",
+      D: "Proceed directly to allogeneic stem cell transplantation, because loss of molecular response after a sustained deep response is equivalent to treatment failure.",
+      E: "Switch to hydroxycarbamide and interferon-alpha, because these agents can restore molecular response in patients who have failed imatinib."
+    },
+    answer: "C",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, explains that one mechanism of resistance to TKI therapy is selection of clones carrying mutations within the BCR::ABL1 fusion gene, and that ABL1 kinase domain mutation screening is indicated in the setting of treatment failure or warning during disease monitoring. The pattern of mutation guides second-line TKI choice because certain mutations confer specific resistance to one TKI while sensitivity to other TKIs persists. The T315I mutation is resistant to imatinib, nilotinib, dasatinib and bosutinib, but ponatinib and asciminib retain activity. Loss of major molecular response is a clinically significant change that warrants active intervention and mutation analysis, not continued observation or simple dose escalation. Hydroxycarbamide and interferon do not produce deep molecular responses in this setting."
+  },
+  {
+    num: 475,
+    stem: "A 55-year-old man with a 7-year history of chronic phase CML presents with 28% blasts in the peripheral blood. Bone marrow confirms myeloblastic transformation with 35% blasts. He is treated with a TKI plus acute myeloid leukaemia-type induction chemotherapy and achieves a second chronic phase with a BCR::ABL1 transcript level of 12%. He has a fully HLA-matched sibling donor. Which of the following is the most appropriate next step in management?",
+    options: {
+      A: "Continue the TKI indefinitely as maintenance, because returning to chronic phase after blast crisis is durable without further intervention.",
+      B: "Proceed to allogeneic stem cell transplantation as soon as feasible, because blast crisis has a dismal prognosis and allogeneic SCT offers the best chance of long-term disease control in eligible patients.",
+      C: "Administer donor lymphocyte infusions now, because they are highly effective in CML relapse even without prior transplantation.",
+      D: "Switch to ponatinib alone, because blast crisis is always driven by the T315I mutation.",
+      E: "Repeat the AML-type induction course every 3 months as consolidation, because repeated chemotherapy is superior to SCT in blast crisis."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that acute myeloblastic transformation in CML is difficult to treat and survival is rare beyond 1 year without stem cell transplantation. Although TKIs are used in blast transformation, resistance usually develops within weeks. Allogeneic SCT, where possible, is a valuable option and offers the best chance of long-term disease control. Returning to chronic phase after induction is a window of opportunity to proceed to transplantation in an eligible patient. Donor lymphocyte infusions are effective for relapse after allogeneic SCT, not as primary therapy in the absence of a prior transplant. Blast crisis is not always associated with the T315I mutation. Repeated chemotherapy alone does not provide durable control comparable with SCT."
+  },
+  {
+    num: 476,
+    stem: "Regarding the detection of BCR::ABL1 in suspected chronic myeloid leukaemia, which of the following statements is most accurate?",
+    options: {
+      A: "The BCR::ABL1 fusion can be detected by conventional karyotyping, fluorescence in situ hybridization (FISH), or reverse transcriptase PCR (RT–PCR); a minority of patients are Philadelphia-chromosome negative on karyotype but BCR::ABL1 positive by molecular techniques and behave clinically like Ph-positive CML.",
+      B: "RT–PCR is too insensitive to detect BCR::ABL1 at diagnosis and should only be used for monitoring response after therapy has begun.",
+      C: "FISH analysis cannot be performed on peripheral blood and is therefore obsolete in the molecular era.",
+      D: "A Philadelphia chromosome identified by karyotyping is specific for CML and is never seen in acute lymphoblastic leukaemia.",
+      E: "BCR::ABL1-negative atypical chronic myeloid leukaemia is classified with CML because both respond similarly to imatinib."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, notes that in most patients the Ph chromosome is seen by karyotypic examination, but in a few the same molecular rearrangement is detectable only by FISH or RT–PCR; this Ph-negative, BCR::ABL1-positive CML behaves clinically like Ph-positive CML. FISH can be performed on metaphase and interphase cells, including peripheral blood, and remains a useful adjunct. The Ph translocation is also seen in a minority of cases of acute lymphoblastic leukaemia, particularly those producing the p190 fusion protein. BCR::ABL1-negative atypical CML is a distinct entity classified with the myelodysplastic/myeloproliferative neoplasms and does not respond to imatinib."
+  },
+  {
+    num: 477,
+    stem: "Regarding the BCR::ABL1 fusion transcripts and proteins in Philadelphia-chromosome-positive leukaemias, which of the following statements is most accurate?",
+    options: {
+      A: "The p210 BCR::ABL1 protein is produced by breakpoints in the major breakpoint cluster region (M-BCR) and is characteristic of CML, whereas the p190 protein arises from the minor breakpoint cluster region (m-BCR) and is seen in some cases of Philadelphia-positive acute lymphoblastic leukaemia but not in CML.",
+      B: "Both p210 and p190 proteins are commonly found in chronic phase CML, and the presence of p190 predicts a more favourable response to imatinib.",
+      C: "The p190 protein is produced by breakpoints in the major breakpoint cluster region and is the defining fusion protein of CML.",
+      D: "The p230 protein, arising from breakpoints between exons 19 and 20 of BCR, is the most common variant in CML and is associated with prominent neutrophilic maturation.",
+      E: "The functional difference between p210 and p190 is that only p210 has constitutive tyrosine kinase activity, whereas p190 acts primarily as a transcriptional activator of myeloid genes."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, Fig. 14.1 illustrates that the p210 fusion protein in CML results from breakpoints in the major breakpoint cluster region (M-BCR), whereas in some cases of Ph-positive acute lymphoblastic leukaemia the breakpoint occurs further upstream in the minor breakpoint cluster region (m-BCR), producing a p190 protein. The p190 protein is not seen in CML. Both fusion proteins have enhanced, constitutively active tyrosine kinase activity. Rare p230 variants can occur, but they are not the most common form in CML and many laboratories cannot test for them."
+  },
+  {
+    num: 478,
+    stem: "Regarding resistance to tyrosine kinase inhibitor therapy in chronic myeloid leukaemia, which of the following statements is most accurate?",
+    options: {
+      A: "ABL1 kinase domain mutations are detected by sequencing the ABL1 portion of the BCR::ABL1 fusion and are indicated when patients are in the treatment failure or warning zone; the mutation profile determines selection of second-line or third-line TKI therapy.",
+      B: "The T315I 'gatekeeper' mutation confers resistance to all TKIs because it abolishes the ATP binding site of BCR::ABL1, making any ATP-competitive or allosteric inhibitor ineffective.",
+      C: "Mutation screening is only indicated after a patient has failed two different TKIs, because earlier screening has no impact on treatment selection.",
+      D: "Resistance mutations arise randomly and are unrelated to clonal selection under TKI pressure; they can therefore be ignored if the patient is asymptomatic.",
+      E: "Imatinib resistance always results from the T315I mutation, so any loss of response to imatinib should be treated with ponatinib without sequencing."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that BCR::ABL1 kinase domain mutations may be detected by sequencing the ABL1 gene, and that mutation screening is indicated in the setting of treatment failure or warning during monitoring. The pattern of mutation is useful for selecting second-line therapy because different mutations confer resistance to specific TKIs while preserving sensitivity to others. The T315I mutation confers resistance to imatinib, nilotinib, dasatinib and bosutinib, but ponatinib and asciminib retain activity; it therefore does not abolish the ATP site or render all inhibitors ineffective. Resistance mutations are selected under TKI pressure and are clinically relevant, not random or ignorable."
+  },
+  {
+    num: 479,
+    stem: "Regarding non-tyrosine-kinase-inhibitor therapies in the management of chronic myeloid leukaemia, which of the following statements is most accurate?",
+    options: {
+      A: "Hydroxycarbamide can control the white cell count in chronic phase but does not reduce the proportion of BCR::ABL1-positive cells; interferon-alpha is now mainly used in pregnancy because tyrosine kinase inhibitors are not known to be safe and hydroxycarbamide is teratogenic.",
+      B: "Hydroxycarbamide is as effective as imatinib at inducing major molecular remission and can be used as first-line therapy when a TKI is temporarily unavailable.",
+      C: "Interferon-alpha is contraindicated in pregnancy because it causes severe fetal myelosuppression, whereas hydroxycarbamide is the preferred cytoreductive agent in pregnant patients.",
+      D: "Asciminib binds the ATP binding site of BCR::ABL1 and is therefore ineffective against T315I-mutated disease.",
+      E: "Omacetaxine is a DNA alkylating agent that reduces BCR::ABL1 transcripts by direct cytotoxicity and is approved for newly diagnosed chronic phase CML."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, explains that hydroxycarbamide can control and maintain the white cell count in chronic phase, but does not reduce the percentage of BCR::ABL1-positive cells. Interferon-alpha, often combined with cytarabine in the past, has been largely replaced by TKIs but is still used in pregnant patients because TKIs are not known to be safe in pregnancy and hydroxycarbamide is teratogenic. Asciminib is unique in binding the myristoyl binding site of ABL1 rather than the ATP binding site, and it retains activity in resistant disease including some T315I cases. Omacetaxine is a subcutaneous inhibitor of protein translation approved for relapsed/refractory CML, not a DNA alkylator and not first-line therapy."
+  },
+  {
+    num: 480,
+    stem: "Regarding prognostic scoring at diagnosis of chronic myeloid leukaemia, which of the following statements is most accurate?",
+    options: {
+      A: "Sokal, Hasford and EUTOS scores integrate clinical and laboratory variables such as age, blast percentage, spleen size and platelet count, and they can help guide the choice of initial TKI by identifying patients with more aggressive disease.",
+      B: "The Sokal score is based exclusively on age and is therefore obsolete in the tyrosine kinase inhibitor era.",
+      C: "Prognostic scores are no longer relevant because all patients with chronic phase CML receive identical first-line TKI therapy regardless of risk.",
+      D: "The EUTOS long-term survival score requires cytogenetic response at 18 months and is therefore only useful after treatment has started.",
+      E: "High Sokal risk is an absolute indication for allogeneic stem cell transplantation at diagnosis, because second-generation TKIs have no activity in high-risk disease."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, notes that the Sokal, Hasford and EUTOS long-term survival scores incorporate factors such as age, blast cell percentage, spleen size and platelet count. These scoring systems can be useful in providing guidance for initial TKI choice by identifying patients with more aggressive disease, although choice also depends on patient comorbidities and other factors. They are not obsolete and do not mandate identical therapy for all patients. High Sokal risk does not automatically require transplantation at diagnosis; allogeneic SCT is usually reserved for TKI failure or advanced-phase disease."
   }
 ];

@@ -15,7 +15,7 @@ const chapters = [
   { id: "11", title: "The aetiology and genetics of haematological neoplasia", questions: 20 },
   { id: "12", title: "Management of haematological malignancy", questions: 20 },
   { id: "13", title: "Acute myeloid leukaemia", questions: 20 },
-  { id: "14", title: "Chronic myeloid leukaemia", questions: 10 },
+  { id: "14", title: "Chronic myeloid leukaemia", questions: 20 },
   { id: "15", title: "Myeloproliferative neoplasms", questions: 10 },
   { id: "16", title: "Myelodysplastic neoplasms", questions: 10 },
   { id: "17", title: "Acute lymphoblastic leukaemia", questions: 10 },
