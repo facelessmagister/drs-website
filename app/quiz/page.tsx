@@ -16,7 +16,7 @@ const chapters = [
   { id: "12", title: "Management of haematological malignancy", questions: 20 },
   { id: "13", title: "Acute myeloid leukaemia", questions: 20 },
   { id: "14", title: "Chronic myeloid leukaemia", questions: 20 },
-  { id: "15", title: "Myeloproliferative neoplasms", questions: 10 },
+  { id: "15", title: "Myeloproliferative neoplasms", questions: 20 },
   { id: "16", title: "Myelodysplastic neoplasms", questions: 10 },
   { id: "17", title: "Acute lymphoblastic leukaemia", questions: 10 },
   { id: "18", title: "The chronic lymphocytic leukaemias", questions: 10 },
