@@ -136,5 +136,135 @@ export const questions: Question[] = [
     },
     answer: "A",
     explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that azacitidine and decitabine are DNA methyltransferase inhibitors which inhibit methylation of newly formed DNA. They are nucleoside analogues that irreversibly bind to DNA methyltransferase and also are incorporated into DNA and RNA, causing DNA double-strand breaks. They improve blood counts in 40-50% of higher-risk MDS patients. Azacitidine can improve survival by approximately 9 months compared to supportive care alone. The exact mechanism of clinical activity in MDS is unknown, but the epigenetic modulation is key. They are not MDM2 inhibitors, histone deacetylase inhibitors, proteasome inhibitors, or dependent on cytidine deaminase activation."
+  },
+  {
+    num: 491,
+    stem: "A 71-year-old woman with transfusion-dependent lower-risk MDS has a known SF3B1 mutation and 25% ring sideroblasts. She has been receiving subcutaneous erythropoietin for 6 months but remains transfusion-dependent, with haemoglobin 76 g/L. Her serum endogenous erythropoietin level before starting therapy was 650 U/L. She has no isolated del(5q). Which of the following is the most appropriate next step in management?",
+    options: {
+      A: "Increase the erythropoietin dose to maximum because ESA resistance is usually dose-dependent and higher doses restore response in most patients.",
+      B: "Switch to luspatercept because it improves effective erythropoiesis by binding TGF-beta superfamily ligands and is particularly effective in MDS with ring sideroblasts.",
+      C: "Start azacitidine because ongoing transfusion dependency indicates progression to higher-risk MDS requiring hypomethylating therapy.",
+      D: "Add lenalidomide because SF3B1-mutant MDS with ring sideroblasts commonly responds to lenalidomide.",
+      E: "Initiate anti-thymocyte globulin and ciclosporin because ESA failure in lower-risk MDS usually reflects immune-mediated marrow suppression."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that luspatercept raises haemoglobin levels in MDS by improving effective erythropoiesis and is well established as effective in patients with ring sideroblasts; trials in other types of MDS suggest it may be more effective than ESAs for many patients. Luspatercept is a recombinant fusion protein that binds transforming growth factor-beta (TGF-beta) superfamily ligands, thereby inhibiting aberrant SMAD2/3 signaling and promoting late-stage erythroid differentiation. In this patient, ESA therapy has failed (endogenous EPO was already >500 U/L, a known predictor of poor ESA response), and she has ring sideroblasts, making luspatercept the most appropriate next step. Increasing the EPO dose is unlikely to help after documented failure. Azacitidine is for higher-risk MDS and should not be started solely for transfusion dependency in lower-risk disease. Lenalidomide is specific to del(5q) MDS and is not indicated for SF3B1-mutant ring sideroblasts. Immunosuppression is used in hypoplastic MDS, which is not described here."
+  },
+  {
+    num: 492,
+    stem: "A 68-year-old man is referred with a 6-month history of night sweats, weight loss, gum hypertrophy, and a dragging sensation in the left upper abdomen. Full blood count: haemoglobin 92 g/L, white cell count 18.4 x 10^9/L, neutrophils 6.2 x 10^9/L, monocytes 2.8 x 10^9/L, platelets 85 x 10^9/L. Bone marrow shows 12% blasts, multilineage dysplasia, and no BCR::ABL1 fusion. Which of the following best describes his diagnosis and most appropriate initial management?",
+    options: {
+      A: "Chronic myeloid leukaemia — start imatinib because the elevated white cell count indicates BCR::ABL1-positive disease.",
+      B: "Chronic myelomonocytic leukaemia, proliferative subtype — management may include hydroxycarbamide, azacitidine/decitabine, ruxolitinib, or evaluation for stem cell transplantation.",
+      C: "Acute myeloid leukaemia — start 7+3 induction chemotherapy because the blast count exceeds 10%.",
+      D: "Myelodysplastic neoplasm with increased blasts 2 — treat only with azacitidine because monocytosis is incidental.",
+      E: "Myeloproliferative neoplasm with monocytosis — start a JAK2 inhibitor because the splenomegaly and leukocytosis indicate MPN."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, classifies chronic myelomonocytic leukaemia (CMML) under MDS/MPN neoplasms. CMML is defined by persistent monocytosis ≥0.5 x 10^9/L with monocytes representing ≥10% of circulating white cells, blasts <20% in marrow, dysplasia in other lineages, and absence of BCR::ABL1. The white cell count may exceed 13 x 10^9/L in the proliferative subtype, which is associated with RAS pathway mutations. This patient has monocytosis ≥0.5 x 10^9/L, multilineage dysplasia, blasts <20%, splenomegaly, and no BCR::ABL1, satisfying CMML criteria. Treatment is difficult; options include hydroxycarbamide, azacitidine or decitabine, ruxolitinib, and etoposide for symptom control, with SCT considered in younger patients. CML is incorrect because BCR::ABL1 is absent. AML requires ≥20% blasts. MDS-IB2 alone does not account for the persistent monocytosis and MDS/MPN features. A JAK2 inhibitor would be inappropriate without an MPN driver mutation."
+  },
+  {
+    num: 493,
+    stem: "A 65-year-old man presents with pancytopenia and mild splenic enlargement. Full blood count: haemoglobin 74 g/L, white cell count 2.6 x 10^9/L, neutrophils 0.9 x 10^9/L, platelets 48 x 10^9/L. Bone marrow aspirate is a dry tap; trephine biopsy shows moderate reticulin fibrosis, 8% blasts, and dysplastic megakaryocytes. Molecular testing is negative for JAK2, CALR, and MPL mutations. There is no history of cytotoxic therapy. Which of the following is the most likely diagnosis?",
+    options: {
+      A: "Primary myelofibrosis — the fibrotic marrow and splenomegaly indicate an MPN even without a driver mutation.",
+      B: "Myelodysplastic neoplasm with fibrosis (MDS-f) — dysplasia, cytopenias, absence of MPN driver mutations, and fibrosis support this WHO 2022 subtype.",
+      C: "Aplastic anaemia — pancytopenia with hypocellular marrow indicates immune-mediated marrow failure.",
+      D: "Acute myeloid leukaemia with myelofibrosis — blasts >5% in fibrotic marrow define AML regardless of total blast count.",
+      E: "Therapy-related myeloid neoplasm — the fibrosis and pancytopenia in an elderly patient are typical of t-MDS."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes MDS with fibrosis (MDS-f) as a WHO 2022 subtype characterized by fibrosis in the bone marrow, increased blasts (5-19% in BM, 2-19% in PB), and dysplastic features. In about 10% of MDS cases the marrow is hypocellular and in others there is fibrosis that may cause confusion with primary myelofibrosis. The absence of MPN driver mutations (JAK2, CALR, MPL), the prominent multilineage dysplasia, and the cytopenias argue against primary myelofibrosis and support MDS-f. Aplastic anaemia would show a hypocellular marrow without dysplasia or fibrosis. AML requires ≥20% blasts. There is no history of cytotoxic therapy to support t-MDS."
+  },
+  {
+    num: 494,
+    stem: "A 58-year-old woman is found to have macrocytic anaemia with haemoglobin 86 g/L, MCV 108 fL, and a platelet count of 520 x 10^9/L. Bone marrow aspirate shows 3% blasts, 22% ring sideroblasts, and an SF3B1 mutation by next-generation sequencing. Cytogenetics are normal. She has no del(5q). Which of the following is the most accurate diagnosis and first-line therapeutic consideration?",
+    options: {
+      A: "MDS with isolated del(5q) — start lenalidomide because thrombocytosis is typical of the 5q- syndrome.",
+      B: "MDS/MPN with SF3B1 mutation and thrombocytosis — manage the anaemia, considering luspatercept or ESAs, while recognizing the platelet count ≥450 x 10^9/L places this in the MDS/MPN category.",
+      C: "Essential thrombocythaemia with iron deficiency — start hydroxycarbamide and oral iron.",
+      D: "MDS with increased blasts 1 — start azacitidine because the ring sideroblasts indicate higher-risk disease.",
+      E: "Chronic myelomonocytic leukaemia — start hydroxycarbamide because monocytosis is frequently overlooked in SF3B1 disease."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, classifies MDS/MPN with SF3B1 mutation and thrombocytosis as a rare syndrome that resembles MDS with single-lineage dysplasia with ring sideroblasts but is accompanied by a platelet count >450 x 10^9/L; SF3B1 mutations are present, often accompanied by JAK2 or MPL mutations. The diagnostic threshold is platelet count ≥450 x 10^9/L. This patient has macrocytic anaemia, ring sideroblasts, SF3B1 mutation, and thrombocytosis, fitting this entity rather than isolated MDS-SF3B1. Anaemia should be managed according to lower-risk MDS algorithms, with luspatercept or ESAs considered. del(5q) MDS is incorrect because cytogenetics are normal. Essential thrombocythaemia would not explain ring sideroblasts or SF3B1 mutation. MDS-IB1 requires 5-9% blasts. CMML requires persistent monocytosis, which is absent."
+  },
+  {
+    num: 495,
+    stem: "A 69-year-old man with lower-risk MDS (IPSS-R score 1.5) has symptomatic anaemia with haemoglobin 88 g/L. His serum endogenous erythropoietin level is 320 U/L. He has no isolated del(5q), no ring sideroblasts, and no severe thrombocytopenia. He is transfusion-independent but symptomatic. Which of the following is the most appropriate first-line therapy for his anaemia?",
+    options: {
+      A: "Erythropoiesis-stimulating agents with or without G-CSF, because endogenous EPO <500 U/L predicts a response in approximately 40-50% of cases.",
+      B: "Luspatercept monotherapy, because it has replaced ESAs as first-line treatment for all lower-risk MDS patients regardless of EPO level or ring sideroblast status.",
+      C: "Lenalidomide, because it reduces transfusion requirements in all transfusion-independent lower-risk MDS.",
+      D: "Azacitidine, because symptomatic anaemia in lower-risk MDS indicates higher-risk biology requiring hypomethylating therapy.",
+      E: "Deferasirox iron chelation, because ferritin elevation is common in MDS even without transfusion history."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that erythropoiesis-stimulating agents (ESAs) may improve anaemia in 40-50% of cases with an endogenous erythropoietin level <500 U/L, although the haemoglobin should not be raised above 120 g/L. Patients with low red cell transfusion requirements are more likely to respond. G-CSF shows synergy with ESAs and may increase the erythroid response rate. This patient has lower-risk MDS, EPO <500 U/L, no del(5q), and no ring sideroblasts, making ESA the most appropriate first-line anaemia therapy. Luspatercept is particularly effective in ring sideroblasts and may replace ESAs in some low-risk patients, but this statement is too broad for this patient. Lenalidomide is specific to del(5q) MDS. Azacitidine is reserved for higher-risk MDS. Iron chelation is not indicated in a transfusion-independent patient without documented iron overload."
+  },
+  {
+    num: 496,
+    stem: "Regarding recurrent cytogenetic abnormalities in myelodysplastic neoplasms and their prognostic implications, which of the following statements is most accurate?",
+    options: {
+      A: "Complex karyotype with more than 3 abnormalities has a very good prognosis because the genetic diversity provides multiple therapeutic targets.",
+      B: "Isolated del(5q) is classified as good prognosis and is considered so diagnostic of MDS that it permits diagnosis even without morphological dysplasia.",
+      C: "Monosomy 7 or del(7q) is classified as intermediate prognosis and predicts excellent response to lenalidomide.",
+      D: "Loss of the Y chromosome (-Y) is classified as poor prognosis and mandates immediate treatment with azacitidine.",
+      E: "Trisomy 8 as a single abnormality is always classified as very poor risk and indicates rapid progression to AML."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, summarizes the IPSS-R cytogenetic risk categories in Table 16.2: very good (-Y or del(11q)), good (normal or del(5q)), intermediate (del(7q) or double-independent clones), poor (inv(3) or double including -7/del(7q)), and very poor (complex >3 abnormalities). Several cytogenetic abnormalities, including del(5q), are considered so diagnostic of MDS that they allow diagnosis even in the absence of morphological abnormalities. Isolated del(5q) carries a favourable prognosis and responds well to lenalidomide. Complex karyotype is very poor, not very good. Monosomy 7/del(7q) is intermediate, but lenalidomide is specific to del(5q). -Y is very good and does not mandate azacitidine. Trisomy 8 is not specifically classified as very poor risk in this schema."
+  },
+  {
+    num: 497,
+    stem: "Which of the following best explains the pathophysiological paradox of a hypercellular bone marrow with peripheral pancytopenia in myelodysplastic neoplasms?",
+    options: {
+      A: "Bone marrow fibrosis physically traps haemopoietic cells and prevents their release into the circulation.",
+      B: "Dysplastic haemopoietic precursors undergo increased proliferation but also excessive apoptosis before maturing into functional circulating cells.",
+      C: "Autoantibodies directed against mature neutrophils, red cells, and platelets cause their peripheral destruction.",
+      D: "Hypersplenism sequesters the entire peripheral blood cell pool, causing cytopenias despite normal marrow production.",
+      E: "Deficiency of G-CSF prevents neutrophil egress, while erythropoietin deficiency prevents red cell production."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that a hallmark of MDS is simultaneous proliferation and apoptosis of haemopoietic cells (ineffective haemopoiesis), leading to the paradox of a hypercellular bone marrow but pancytopenia in peripheral blood. The clonal stem cells proliferate, but dysplastic precursors fail to differentiate normally and undergo premature apoptosis within the marrow, so insufficient mature cells reach the periphery. Marrow fibrosis is present in only a minority of cases and does not explain the common hypercellular MDS phenotype. Autoimmune peripheral destruction is not the primary mechanism. Hypersplenism may occur in MDS/MPN overlap but is not typical of MDS. G-CSF and EPO deficiency are not the central defect; in fact, endogenous EPO is often elevated."
+  },
+  {
+    num: 498,
+    stem: "Regarding ring sideroblasts in myelodysplastic neoplasms, which of the following statements is most accurate?",
+    options: {
+      A: "A ring sideroblast is defined by the presence of 3 or more iron granules in any erythroid precursor, and the finding is strongly associated with TET2 mutations.",
+      B: "A pathological ring sideroblast is defined by 5 or more iron granules encircling at least one-third of the nucleus, and nearly all cases are associated with SF3B1 mutations.",
+      C: "Ring sideroblasts represent iron deposition in macrophages and are best treated with iron chelation to reduce mitochondrial iron overload.",
+      D: "Ring sideroblasts are identified on Wright-Giemsa stain and are pathognomonic for del(5q) syndrome.",
+      E: "Ring sideroblasts result from JAK2-mediated dysregulation of mitochondrial iron transport and predict response to ruxolitinib."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, defines a pathological ring sideroblast as an erythroid precursor with five or more iron granules encircling at least one-third of the nucleus. Ring sideroblasts are caused by iron deposition in the mitochondria of erythroblasts. A striking genotype-phenotype correlation is mutation in SF3B1, which encodes a component of the RNA spliceosome; SF3B1 mutations are seen in almost all cases of MDS with ring sideroblasts. In the absence of SF3B1 mutation, ≥15% ring sideroblasts allow classification as MDS with low blasts and ring sideroblasts. TET2 mutations are associated with CHIP and other MDS subtypes but not specifically ring sideroblasts. Iron chelation treats transfusion overload, not ring sideroblasts per se. Ring sideroblasts are identified with Perls' stain, not Wright-Giemsa, and are not specific to del(5q). JAK2 mutations are characteristic of MPNs, not ring sideroblasts."
+  },
+  {
+    num: 499,
+    stem: "Regarding the WHO 2022 classification of myelodysplastic/myeloproliferative neoplasms (MDS/MPN), which of the following statements is most accurate?",
+    options: {
+      A: "Chronic myelomonocytic leukaemia (CMML) requires persistent monocytosis ≥1.0 x 10^9/L and a positive BCR::ABL1 fusion gene.",
+      B: "CMML is defined by persistent monocytosis ≥0.5 x 10^9/L with monocytes representing ≥10% of white cells, blasts <20% in blood and marrow, absence of BCR::ABL1, and dysplasia or a clonal abnormality.",
+      C: "MDS/MPN with neutrophilia is characterized by the presence of the BCR::ABL1 fusion gene and responds to imatinib.",
+      D: "MDS/MPN with SF3B1 mutation and thrombocytosis requires a platelet count <450 x 10^9/L and absence of SF3B1 mutation.",
+      E: "MDS/MPN neoplasms are defined exclusively by increased circulating blasts without any dysplastic features."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes MDS/MPN neoplasms as disorders showing both dysplastic features and increased circulating cells. Table 16.5 summarizes the WHO 2022 classification. CMML is defined by persistent monocytosis ≥0.5 x 10^9/L with monocytes representing ≥10% of circulating white cells, blasts <20% in peripheral blood and bone marrow, no BCR::ABL1, and meeting CML/MPN exclusion criteria; supporting criteria include dysplasia affecting one or more myeloid lineages or an acquired clonal abnormality. MDS/MPN with neutrophilia (formerly atypical CML) is BCR::ABL1 negative. MDS/MPN with SF3B1 mutation and thrombocytosis requires platelets ≥450 x 10^9/L and SF3B1 mutation. These entities require dysplasia, not just increased blasts."
+  },
+  {
+    num: 500,
+    stem: "Regarding the mechanism of action of luspatercept in the treatment of anaemia associated with lower-risk myelodysplastic neoplasms, which of the following statements is most accurate?",
+    options: {
+      A: "Luspatercept is a DNA methyltransferase inhibitor that reverses aberrant DNA methylation in erythroid progenitors.",
+      B: "Luspatercept is a recombinant fusion protein that binds TGF-beta superfamily ligands and improves effective erythropoiesis by promoting late-stage erythroid differentiation.",
+      C: "Luspatercept is a proteasome inhibitor that selectively degrades casein kinase 1 in del(5q) cells.",
+      D: "Luspatercept is an erythropoietin receptor agonist that directly stimulates erythropoietin signaling.",
+      E: "Luspatercept is an oral iron chelator that reduces mitochondrial iron accumulation in ring sideroblasts."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that luspatercept raises haemoglobin levels in MDS by improving effective erythropoiesis and is well established as effective in patients with ring sideroblasts; trials suggest it may be more effective than ESAs for many patients. Luspatercept is a recombinant fusion protein composed of modified activin receptor type IIB linked to an Fc domain; it binds multiple TGF-beta superfamily ligands, thereby inhibiting aberrant SMAD2/3 signaling that suppresses late-stage erythroid differentiation in MDS. This mechanism is distinct from DNA methyltransferase inhibitors such as azacitidine and decitabine. Lenalidomide, not luspatercept, augments ubiquitin-mediated degradation of casein kinase 1 in del(5q) cells. Luspatercept is not an EPO receptor agonist and not an iron chelator."
   }
 ];

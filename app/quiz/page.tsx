@@ -17,7 +17,7 @@ const chapters = [
   { id: "13", title: "Acute myeloid leukaemia", questions: 20 },
   { id: "14", title: "Chronic myeloid leukaemia", questions: 20 },
   { id: "15", title: "Myeloproliferative neoplasms", questions: 20 },
-  { id: "16", title: "Myelodysplastic neoplasms", questions: 10 },
+  { id: "16", title: "Myelodysplastic neoplasms", questions: 20 },
   { id: "17", title: "Acute lymphoblastic leukaemia", questions: 10 },
   { id: "18", title: "The chronic lymphocytic leukaemias", questions: 10 },
   { id: "19", title: "Hodgkin lymphoma", questions: 10 },
