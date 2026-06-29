@@ -136,5 +136,135 @@ export const questions: Question[] = [
     },
     answer: "B",
     explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes venetoclax as a direct inhibitor of BCL-2 that is highly active in CLL, inducing frequent responses and a higher rate of minimal residual disease negativity than BTK inhibitors. However, it is less effective in patients with unmutated IGVH genes or TP53 mutation, for whom BTK inhibitors are generally preferred. Ibrutinib is indeed a covalent BTK inhibitor, but remarkably it remains effective even in TP53-mutant disease—unlike standard chemotherapy. Acalabrutinib is a second-generation BTK inhibitor with a lower risk of atrial fibrillation, flutter, and hypertension than ibrutinib, although neutropenia is more common with zanubrutinib. Venetoclax regimens are of fixed duration (usually one year), whereas BTK inhibitors are continued until progression or intolerance. Obinutuzumab is a second-generation glyco-engineered anti-CD20 antibody that is more effective than rituximab and is used in combinations with venetoclax, acalabrutinib, or chlorambucil."
+  },
+  {
+    num: 511,
+    stem: "A 67-year-old man with Rai stage I chronic lymphocytic leukaemia, currently on active surveillance, attends his pre-winter review. He has recurrent upper respiratory tract infections and a serum IgG of 3.2 g/L. He completed primary COVID-19 vaccination but has not received any CLL-specific additional immunisations. Which vaccination and supportive strategy is most appropriate?",
+    options: {
+      A: "Live attenuated zoster vaccine (Zostavax) because cell-mediated immunity is preserved in early-stage CLL.",
+      B: "Conjugated pneumococcal vaccine followed by polysaccharide vaccine, Shingrix recombinant adjuvanted zoster vaccine, annual influenza vaccination, and COVID-19 boosters on an immunocompromised schedule.",
+      C: "Intravenous immunoglobulin replacement alone; vaccines are ineffective in CLL and should be deferred until IgG normalises.",
+      D: "Pneumococcal polysaccharide vaccine only, because conjugate vaccines are contraindicated in patients with lymphoproliferative disorders.",
+      E: "Oral penicillin prophylaxis lifelong because vaccination cannot prevent encapsulated bacterial infections in hypogammaglobulinaemia."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, emphasizes that immunosuppression from hypogammaglobulinaemia and cellular immune dysfunction is a significant problem in CLL. The chapter specifically recommends vaccination with conjugated pneumococcal vaccine, the Shingrix recombinant adjuvanted zoster vaccine, annual influenza vaccination, and COVID-19 vaccines on a schedule recommended for immunocompromised individuals. Live attenuated vaccines such as Zostavax are contraindicated in immunocompromised patients. Intravenous immunoglobulin replacement is reserved for patients with severe hypogammaglobulinaemia and recurrent infections, but it does not replace appropriate vaccination. Penicillin prophylaxis is not standard first-line management; vaccination remains the cornerstone of infection prevention in CLL."
+  },
+  {
+    num: 512,
+    stem: "A 71-year-old woman with chronic lymphocytic leukaemia was previously treated with venetoclax and obinutuzumab for 12 months and achieved a complete response. Eighteen months later she develops progressive lymphadenopathy and fatigue. Molecular testing shows TP53 intact and mutated IGVH genes. She is otherwise fit. Which next treatment approach is most appropriate?",
+    options: {
+      A: "Immediate allogeneic stem cell transplantation because relapse within 2 years after fixed-duration venetoclax indicates high-risk biology.",
+      B: "Re-treatment with fludarabine, cyclophosphamide and rituximab (FCR) because she responded well to first-line chemo-immunotherapy previously.",
+      C: "A Bruton kinase inhibitor such as acalabrutinib or ibrutinib, continued until progression or intolerance.",
+      D: "Pirtobrutinib because relapse after venetoclax implies acquired resistance to both covalent BTK and BCL-2 inhibition.",
+      E: "Idelalisib monotherapy because PI3 kinase inhibition is the standard second-line option after BCL-2 inhibitor failure."
+    },
+    answer: "C",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition (Fig. 18.5), outlines that relapse after first-line venetoclax-based therapy can be managed with a Bruton kinase inhibitor, such as acalabrutinib or ibrutinib, continued until progression or intolerance. The algorithm specifically lists a BTK inhibitor as second-line therapy after venetoclax and obinutuzumab in patients without TP53 disruption. Allogeneic stem cell transplantation is generally reserved for younger patients with multiply relapsed disease, not for a first relapse. FCR is now rarely used and would be inappropriate after effective first-line targeted therapy. Pirtobrutinib is a third-generation non-covalent BTK inhibitor under development for resistance to covalent BTK inhibitors, not for relapse after venetoclax alone."
+  },
+  {
+    num: 513,
+    stem: "A 69-year-old man with chronic lymphocytic leukaemia diagnosed 3 years ago (Rai stage II, active surveillance) develops progressive splenomegaly and a lymphocyte count that doubles over 4 months. Blood film review shows that 25% of the clonal cells are larger than typical CLL lymphocytes, with a single prominent central nucleolus and abundant pale cytoplasm. Which diagnosis and management strategy is most accurate?",
+    options: {
+      A: "B-cell prolymphocytic leukaemia requiring immediate alemtuzumab; this is a distinct WHO5 entity separate from CLL.",
+      B: "Prolymphocytic progression of CLL; manage according to standard CLL treatment indications and algorithm, as B-PLL is no longer recognized in WHO5.",
+      C: "Hairy cell leukaemia variant; administer cladribine because the cells show prolymphocytic morphology.",
+      D: "Mantle cell lymphoma leukaemic phase; start BTK inhibitor monotherapy pending fluorescence in situ hybridization for t(11;14).",
+      E: "Richter transformation; urgent positron emission tomography-computed tomography and biopsy are required before starting R-CHOP."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that prolymphocytic progression of CLL is diagnosed when more than 15% of the clonal cells show a prolymphocytic appearance, characterized by a cell around twice the size of a CLL lymphocyte with a large central nucleolus. The diagnosis of B-cell prolymphocytic leukaemia (B-PLL) is no longer recognized in WHO5, having included several different entities now classified separately. Management should therefore follow CLL treatment algorithms when indications for therapy are met. Alemtuzumab is used for T-cell prolymphocytic leukaemia, not B-cell prolymphocytic progression. Hairy cell leukaemia variant (splenic B-cell lymphoma/leukaemia with prominent nucleoli), mantle cell lymphoma, and Richter transformation have distinct morphology, immunophenotype, or histology that must be confirmed by appropriate testing rather than inferred from prolymphocytic morphology alone."
+  },
+  {
+    num: 514,
+    stem: "A 52-year-old man who emigrated from the Caribbean 20 years ago presents with lethargy, corrected calcium 3.2 mmol/L, widespread skin nodules and generalized lymphadenopathy. Full blood count shows white cell count 28 × 10^9/L with bizarre lymphocytes showing convoluted 'clover-leaf' nuclei. Immunophenotyping shows CD4+ T cells. Serology is positive for human T-cell lymphotropic virus type 1. If the presentation is leukaemia-dominant, which first-line therapy is most appropriate?",
+    options: {
+      A: "Alemtuzumab followed by allogeneic stem cell transplantation, as for T-cell prolymphocytic leukaemia.",
+      B: "Combination chemotherapy with CHOP, because the nodal and skin presentation resembles peripheral T-cell lymphoma.",
+      C: "Zidovudine combined with alpha-interferon, the established first-line approach for leukaemia-dominant adult T-cell leukaemia/lymphoma.",
+      D: "Ibrutinib monotherapy because the malignant cells express CD4 and may retain B-cell receptor-dependent survival signals.",
+      E: "Corticosteroids and calcitonin for hypercalcaemia only; systemic therapy is reserved for lymphoma-dominant presentations."
+    },
+    answer: "C",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes adult T-cell leukaemia/lymphoma (ATLL) as the first malignancy associated with a human retrovirus, HTLV-1, endemic in parts of Japan and the Caribbean. The clinical presentation is often acute, dominated by hypercalcaemia, skin lesions, hepatosplenomegaly and lymphadenopathy, with bizarre lymphocytes showing convoluted 'clover-leaf' nuclei and a consistent CD4+ phenotype. Diagnosis is by morphology and serology. For leukaemia-dominant disease, zidovudine combined with alpha-interferon is first-line therapy, whereas combination chemotherapy is used if the presentation is more lymphoma-like. Alemtuzumab is the treatment for T-cell prolymphocytic leukaemia, and ibrutinib has no role in T-cell malignancies."
+  },
+  {
+    num: 515,
+    stem: "A 50-year-old man presents with recurrent chest infections, pancytopenia and massive splenomegaly. Blood film shows large lymphocytes with villous cytoplasmic projections. Immunophenotyping reveals CD11c+, CD19+, CD103−, CD25− and CD123−. BRAF V600E mutation is absent, but a MAP2K1 mutation is detected. Which diagnosis and treatment strategy is most appropriate?",
+    options: {
+      A: "Classic hairy cell leukaemia; treat with cladribine or pentostatin plus rituximab.",
+      B: "Splenic marginal zone lymphoma with villous lymphocytes; manage with splenectomy as first-line therapy.",
+      C: "Splenic B-cell lymphoma/leukaemia with prominent nucleoli (SBLPN); splenectomy may be required and MAPK pathway inhibitors may be considered.",
+      D: "Mantle cell lymphoma; start combined venetoclax and Bruton kinase inhibitor therapy pending CCND1 fluorescence in situ hybridization.",
+      E: "Follicular lymphoma leukaemic phase; treat with obinutuzumab plus bendamustine."
+    },
+    answer: "C",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, classifies splenic B-cell lymphoma/leukaemia with prominent nucleoli (SBLPN) within the WHO5 grouping of splenic B-cell lymphomas/leukaemias. SBLPN, previously known as the hairy cell leukaemia variant, is distinguished from classic HCL by the absence of BRAF V600E mutation and the typical lack of CD123, CD25 and CD103 expression. Mutations in MAP2K1, which encodes a protein in the MAP kinase pathway, are frequent and specific pathway inhibitors may be considered. The outlook is less favourable than classic HCL, splenectomy may be required in some cases, and responsiveness to chemotherapy is decreased. Classic HCL would be CD103+, CD25+, CD123+ and BRAF V600E-positive, making cladribine or pentostatin the treatment of choice."
+  },
+  {
+    num: 516,
+    stem: "Regarding B-cell receptor (BCR) signalling and the mechanism of Bruton kinase inhibitors in chronic lymphocytic leukaemia, which statement is most accurate?",
+    options: {
+      A: "Bruton kinase inhibitors block SYK-mediated proximal BCR signalling and are ineffective in IGVH-mutated CLL.",
+      B: "Covalent Bruton kinase inhibitors bind BTK at the C481 residue, preventing downstream B-cell survival signals and inducing apoptosis independent of TP53 status.",
+      C: "B-cell receptor signalling is dispensable for CLL cell survival; Bruton kinase inhibitors act primarily by inhibiting T-cell help in the microenvironment.",
+      D: "The Bruton kinase inhibitors ibrutinib, acalabrutinib and zanubrutinib allosterically activate BTK, enhancing pro-apoptotic signalling.",
+      E: "Bruton kinase inhibitors are ineffective in TP53-mutant CLL because the mutant clone bypasses BTK-dependent survival via alternative NF-κB activation."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, explains that the surface immunoglobulin on a B cell acts as the B-cell receptor for antigen, and B cells require stimulatory signals through the BCR to remain alive. Ibrutinib, acalabrutinib and zanubrutinib are oral drugs that covalently bind to and inactivate BTK, leading to B-cell apoptosis. The covalent binding occurs at the C481 residue of BTK, and remarkably these agents remain effective even in TP53-mutant disease. They are effective in both mutated and unmutated IGVH CLL. They are not allosteric activators, nor do they act primarily through T-cell inhibition, and BCR signalling is not dispensable for CLL survival."
+  },
+  {
+    num: 517,
+    stem: "Regarding the role of BCL-2 and the mechanism of venetoclax in chronic lymphocytic leukaemia, which statement is most accurate?",
+    options: {
+      A: "Venetoclax is a BH3 mimetic that displaces pro-apoptotic proteins from BCL-2, thereby restoring mitochondrial apoptosis in CLL cells.",
+      B: "BCL-2 is downregulated in CLL; venetoclax therefore upregulates BCL-2 expression to compensate for MCL1 deficiency.",
+      C: "Venetoclax binds directly to BAX and BAK, activating mitochondrial outer membrane permeabilization independent of BCL-2 family interactions.",
+      D: "Venetoclax is ineffective in patients with mutated IGVH genes and is therefore reserved for unmutated IGVH disease.",
+      E: "Venetoclax regimens are continued indefinitely until progression to maximize minimal residual disease-negative remission duration."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes how CLL cells exhibit up-regulation of the anti-apoptotic proteins BCL-2 and MCL1 and down-regulation of pro-apoptotic proteins such as BCLX, leading to impaired apoptosis and prolonged lifespan. Venetoclax is a direct inhibitor of BCL-2, functioning as a BH3 mimetic that displaces pro-apoptotic BH3-only proteins from BCL-2, thereby restoring the intrinsic apoptotic pathway. It is highly active in CLL and induces a higher rate of minimal residual disease negativity than Bruton kinase inhibitors. Venetoclax is less effective in unmutated IGVH and TP53-mutant disease, but is not ineffective in mutated IGVH. Venetoclax regimens are of fixed duration, usually one year, rather than continuous until progression."
+  },
+  {
+    num: 518,
+    stem: "Regarding the diagnostic immunophenotype of chronic lymphocytic leukaemia, which statement is most accurate?",
+    options: {
+      A: "CLL cells are CD19+, CD5+, CD23+, CD10+, FMC7+ with bright surface immunoglobulin and strong CD79b expression.",
+      B: "CLL cells express CD19, bright CD5 and CD23, dim surface immunoglobulin, dim CD20, and are usually negative for CD10 and FMC7.",
+      C: "CLL cells are CD5−, CD23−, CD10+ and FMC7+, with strong surface immunoglobulin—features that distinguish CLL from follicular lymphoma.",
+      D: "The presence of CD103 and CD25 positivity is characteristic of CLL and supports the diagnosis over hairy cell leukaemia.",
+      E: "CD19 negativity with CD3 positivity is required to establish the clonal B-cell nature of CLL on flow cytometry."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition (Table 18.2), presents the immunophenotype of chronic B-cell leukaemias and lymphomas. CLL is characterized by CD19+ B cells that are brightly positive for CD5 and CD23, but show low levels of surface immunoglobulin, CD20, CD22 and CD79b. CD10 and FMC7 are usually negative. These features distinguish CLL from follicular lymphoma (CD10+ CD23− with bright surface immunoglobulin and strong CD79b), hairy cell leukaemia (CD103+ CD25+ CD123+), and mantle cell lymphoma (CD5+ CD23−). CD19 negativity with CD3 positivity would suggest a T-cell process, not CLL."
+  },
+  {
+    num: 519,
+    stem: "Regarding mechanisms of resistance to covalent Bruton kinase inhibitors in chronic lymphocytic leukaemia, which statement is most accurate?",
+    options: {
+      A: "Resistance is usually mediated by acquisition of the BCR-ABL1 fusion, which redirects survival signalling through ABL1.",
+      B: "The most common resistance mutations occur in BTK (C481S) and PLCγ2, which impair covalent inhibitor binding or restore downstream signalling.",
+      C: "Resistance to covalent Bruton kinase inhibitors cannot be overcome; patients must proceed directly to allogeneic stem cell transplantation.",
+      D: "TP53 mutations acquired during Bruton kinase inhibitor therapy are the sole mechanism of resistance and predict loss of response to all non-covalent Bruton kinase inhibitors.",
+      E: "Resistance is primarily pharmacokinetic due to poor oral bioavailability of ibrutinib and is reversed by switching to intravenous Bruton kinase inhibitors."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, notes that third-generation non-covalent Bruton kinase inhibitors, pirtobrutinib and nemtabrutinib, are being developed to circumvent resistance mechanisms such as BTK C481S and PLCγ2 mutations, which impair the efficacy of covalent Bruton kinase inhibitors. These mutations alter the BTK binding site or restore downstream signalling, respectively, allowing the leukaemic clone to survive despite covalent BTK inhibition. BCR-ABL1 is not relevant to CLL pathogenesis. Resistance does not universally mandate allogeneic transplantation, and non-covalent inhibitors have been designed specifically to address this problem. TP53 mutations are present at diagnosis in some patients but are not the sole acquired resistance mechanism to Bruton kinase inhibitors."
+  },
+  {
+    num: 520,
+    stem: "Regarding splenic B-cell lymphoma/leukaemia with prominent nucleoli (SBLPN) and its distinction from classic hairy cell leukaemia, which statement is most accurate?",
+    options: {
+      A: "SBLPN is CD103+, CD25+, CD123+ and carries the BRAF V600E mutation, identical immunophenotypically to classic hairy cell leukaemia.",
+      B: "SBLPN typically lacks CD103, CD25 and CD123 expression, is BRAF V600E-negative, and frequently harbours MAP2K1 mutations.",
+      C: "SBLPN and classic hairy cell leukaemia both show monocytopenia as a distinctive feature, although SBLPN responds better to cladribine.",
+      D: "SBLPN is characterized by CD10+ B cells with t(14;18) BCL2 rearrangement and bright surface immunoglobulin expression.",
+      E: "SBLPN is a T-cell lymphoproliferative disorder with CD4+ clover-leaf nuclei, related to adult T-cell leukaemia/lymphoma."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes splenic B-cell lymphoma/leukaemia with prominent nucleoli (SBLPN) as part of the WHO5 grouping of splenic B-cell lymphomas/leukaemias. SBLPN typically lacks CD123, CD25 and CD103 expression, monocytopenia is less common than in classic HCL, and BRAF mutation is absent. Mutations in MAP2K1, encoding a protein in the MAP kinase pathway, are frequent, and specific pathway inhibitors may be considered. Classic HCL is CD103+, CD25+, CD123+ and BRAF V600E-positive. SBLPN is therefore immunophenotypically and genetically distinct, with a less favourable outlook and reduced chemotherapy responsiveness than classic HCL."
   }
 ];
