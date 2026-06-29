@@ -136,5 +136,135 @@ export const questions: Question[] = [
     },
     answer: "C",
     explanation: "Hoffbrand's Essential Haematology, 9th Edition (Fig. 17.10), describes blinatumomab as a bi-specific T-cell engager (BiTE) construct consisting of two connected single-chain variable antibody fragments that bring CD19-expressing B cells into proximity with CD3-expressing T cells, resulting in T-cell-mediated lysis. It is not an antibody-drug conjugate. Inotuzumab ozogamicin is an anti-CD22 antibody-cytotoxic drug conjugate. Anti-CD19 CAR-T cell therapy programmes the patient's own T cells to kill CD19-expressing B cells; it is approved for relapsed and refractory B-ALL. However, relapses of ALL with CD19-negative blast subsets may occur after CAR-T therapy, representing a mechanism of immune evasion by the leukaemia cells. Venetoclax is a BCL-2 inhibitor, not a proteasome inhibitor. Daratumumab targets CD38 and is being assessed in clinical trials; it is not approved as first-line therapy for relapsed B-ALL."
+  },
+  {
+    num: 501,
+    stem: "A 22-year-old man is diagnosed with B-cell acute lymphoblastic leukaemia (B-ALL). Full blood count shows a white cell count of 68 x 10^9/L. Conventional cytogenetics and FISH do not show t(9;22), but RNA sequencing classifies the leukaemia as BCR::ABL1-like, with an IGH::CRLF2 rearrangement and a JAK2 pathway mutation detected by targeted sequencing. He is otherwise fit. Which of the following is the most appropriate treatment approach?",
+    options: {
+      A: "Use a standard pediatric-style chemotherapy backbone alone, because BCR::ABL1-like ALL lacks a validated targetable kinase driver.",
+      B: "Incorporate a JAK inhibitor into ALL-directed chemotherapy, because CRLF2-overexpressing BCR::ABL1-like cases frequently harbour JAK-STAT pathway mutations.",
+      C: "Add imatinib to induction, because CRLF2 rearrangements create an ABL-class fusion that responds to ABL tyrosine kinase inhibitors.",
+      D: "Proceed directly to allogeneic stem cell transplantation after 1 week of hydroxycarbamide, because BCR::ABL1-like disease is uniformly chemoresistant and induction is futile.",
+      E: "Use blinatumomab monotherapy as first-line therapy, because CD19 expression in BCR::ABL1-like ALL means immunotherapy should replace chemotherapy entirely."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes BCR::ABL1-like ALL among Philadelphia chromosome-negative cases that share a gene expression signature with BCR::ABL1-positive disease. Approximately 60% of these patients show CRLF2 overexpression, and 85% of those cases have JAK-STAT pathway mutations, including JAK2. For rearrangements involving JAK2 or EPOR, JAK inhibitors may be amenable, and the role of kinase inhibitors is being tested in trials. A standard chemotherapy backbone alone ignores the activated kinase biology; ABL-class tyrosine kinase inhibitors are reserved for fusions involving ABL1, ABL2, CSF1R or PDGFRB, not for CRLF2/JAK2 lesions. Immediate transplantation without induction is unsafe, and blinatumomab is approved for relapsed/refractory disease, not as first-line monotherapy."
+  },
+  {
+    num: 502,
+    stem: "A 5-year-old boy with common B-cell acute lymphoblastic leukaemia is 18 months into maintenance therapy when he develops morning headache, vomiting, and diplopia. Examination reveals papilloedema. Cerebrospinal fluid examination shows 15 blast cells/µL, and bone marrow aspirate shows <5% blasts. Which of the following is the most appropriate next step in management?",
+    options: {
+      A: "Isolated cranial irradiation as the only CNS-directed therapy, because the presence of CSF blasts mandates radiotherapy alone.",
+      B: "Restart oral maintenance mercaptopurine and methotrexate at higher doses, because escalating maintenance drugs will cross the blood-brain barrier and clear the CSF.",
+      C: "Intrathecal methotrexate, cytarabine, and hydrocortisone together with systemic re-induction chemotherapy, with allogeneic stem cell transplantation considered after remission.",
+      D: "Perform a therapeutic lumbar puncture to drain the CSF blasts, then continue standard maintenance therapy unchanged.",
+      E: "Administer intrathecal methotrexate prophylaxis only, because a CNS relapse during maintenance has the same excellent prognosis as disease at initial presentation."
+    },
+    answer: "C",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that CNS relapses present with headache, vomiting, papilloedema and blast cells in the CSF. Treatment is with intrathecal methotrexate, cytarabine and hydrocortisone, with or without cranial irradiation, in addition to systemic chemotherapy, because bone marrow disease is often also present. Relapse during or soon after maintenance chemotherapy carries a relatively poor prognosis; re-induction with intensive chemotherapy followed by allogeneic stem cell transplantation is the traditional approach. Cranial irradiation alone or maintenance escalation is insufficient; a therapeutic lumbar puncture does not replace systemic and intrathecal therapy; CNS relapse during therapy is not equivalent to newly diagnosed disease."
+  },
+  {
+    num: 503,
+    stem: "A 71-year-old woman with CD19-positive, CD22-positive B-cell acute lymphoblastic leukaemia relapses 8 months after completing first-line chemotherapy. She has mild renal impairment (eGFR 48 mL/min), no suitable donor is currently available, and she declines further intensive cytotoxic chemotherapy. Which of the following is the most appropriate contemporary therapy?",
+    options: {
+      A: "High-dose cytarabine and mitoxantrone re-induction, because age alone should not alter the intensity of treatment for relapsed ALL.",
+      B: "Blinatumomab, a CD19/CD3 bispecific T-cell engager, as monotherapy with the goal of remission and bridging to allogeneic stem cell transplantation if a donor and response are achieved.",
+      C: "Oral 6-mercaptopurine and methotrexate maintenance at increased doses, because low-level relapse can be controlled by escalating maintenance therapy.",
+      D: "Cranial irradiation plus intrathecal hydrocortisone, because CNS prophylaxis is the priority even in the absence of CNS symptoms or CSF blasts.",
+      E: "Observation and best supportive care only, because relapsed ALL in older adults is universally fatal and active therapy is futile."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes blinatumomab as a bispecific T-cell engager (BiTE) construct that links CD3 on the patient's T cells to CD19 on malignant B cells, producing T-cell-mediated lysis. It is approved for relapsed/refractory B-ALL and is increasingly used in older adults to avoid the toxicity of intensive chemotherapy. High-dose re-induction would be poorly tolerated with renal impairment. Escalating maintenance therapy is not curative for frank relapse. CNS-directed treatment is only indicated when CNS disease is present. Modern immunotherapy can achieve remission in this setting and may be bridged to allogeneic stem cell transplantation."
+  },
+  {
+    num: 504,
+    stem: "A 17-year-old male with standard-risk B-cell acute lymphoblastic leukaemia is in maintenance therapy and reports progressive bilateral hip and knee pain. MRI demonstrates avascular necrosis of both femoral heads. He is receiving monthly vincristine and dexamethasone pulses. Which of the following best explains this complication and the risk-stratification rationale that could have reduced its likelihood?",
+    options: {
+      A: "Anthracycline-induced vascular injury; reducing daunorubicin exposure is the principal strategy to prevent avascular necrosis.",
+      B: "Corticosteroid-related osteonecrosis; treating more standard-risk patients with lower-intensity protocols reduces exposure to high-dose dexamethasone.",
+      C: "Asparaginase-associated hyperlipidaemia causing fat emboli to bone; switching to non-pegylated asparaginase would reverse established necrosis.",
+      D: "Methotrexate direct bone marrow toxicity; intrathecal methotrexate is the main cause of hip avascular necrosis.",
+      E: "Vinca alkaloid neurotoxicity affecting bone vasculature; reducing vincristine frequency prevents osteonecrosis."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that avascular bone necrosis is seen in teenagers and young adults in association with high doses of dexamethasone. New-generation clinical trials aim to reduce toxicity while preserving anti-leukaemic activity by risk-stratifying patients, so that the intensity of treatment is reduced in standard-risk disease. Anthracyclines are associated with long-term cardiac risk, not avascular necrosis. Asparaginase, methotrexate and vincristine are not implicated in this complication, and established osteonecrosis is not reversed by switching asparaginase formulation."
+  },
+  {
+    num: 505,
+    stem: "A 6-year-old boy with Down syndrome is diagnosed with B-cell acute lymphoblastic leukaemia. Cytogenetic and molecular profiling show no t(9;22), but RNA sequencing demonstrates a BCR::ABL1-like gene expression signature with an IGH::CRLF2 rearrangement. Which statement best describes the biology and therapeutic implications?",
+    options: {
+      A: "Down syndrome confers protection against B-ALL, and the BCR::ABL1-like signature in this context is a benign variant that does not alter therapy.",
+      B: "Children with Down syndrome have a markedly increased risk of B-ALL, and BCR::ABL1-like disease is over-represented in this population; JAK-STAT-targeted agents are under active investigation.",
+      C: "The IGH::CRLF2 rearrangement places him in the mature B-cell leukaemia category, so rituximab plus CHOP-like chemotherapy is indicated.",
+      D: "BCR::ABL1-like ALL in Down syndrome is biologically equivalent to Philadelphia chromosome-positive ALL, so imatinib must be added to induction.",
+      E: "Because of the high risk of therapy-related acute myeloid leukaemia, allogeneic stem cell transplantation should be performed before any chemotherapy."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that children with constitutional trisomy 21 (Down syndrome) have a remarkably increased risk of B-ALL (33-fold increase compared with other children). BCR::ABL1-like ALL is more common in Down syndrome; about 60% of BCR::ABL1-like cases overexpress CRLF2 and many harbour JAK-STAT pathway mutations, so the role of kinase inhibitors is being tested in trials. The disease remains lymphoblastic leukaemia, not mature B-cell neoplasia, and it is not equivalent to BCR::ABL1-positive ALL. Allogeneic stem cell transplantation before chemotherapy is not indicated."
+  },
+  {
+    num: 506,
+    stem: "Regarding the pathogenesis of childhood B-cell acute lymphoblastic leukaemia, which statement most accurately integrates the concepts of prenatal initiation and postnatal progression?",
+    options: {
+      A: "The ETV6::RUNX1 translocation arising in utero is sufficient to produce overt ALL, and all carriers develop leukaemia in early childhood.",
+      B: "Concordance studies in identical twins show that a shared prenatal clone can be present in both twins, but a secondary transforming event is required for clinical leukaemia.",
+      C: "V(D)J recombination occurs only after birth, so all childhood ALL genetic lesions must be postnatal.",
+      D: "Germline polymorphisms in IKZF1 are protective against B-ALL because they enhance normal B-cell development.",
+      E: "Children who attend nursery daycare have a higher incidence of ALL because increased social exposure promotes the first genetic hit."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition (Fig. 17.1), describes the prenatal origin of childhood ALL: identical twins may be born with the same chromosomal abnormality, such as t(12;21)(ETV6::RUNX1), presumed to have arisen in a haemopoietic progenitor disseminated via shared placental circulation. However, the long latency indicates that a secondary event is required for overt leukaemia; only about 1 in 100 newborns carrying the ETV6::RUNX1 clone develop ALL. V(D)J recombination contributes to genomic instability during fetal lymphoid expansion. Germline IKZF1 polymorphisms predispose to B-ALL. High social activity and early daycare are associated with a reduced incidence of ALL, consistent with the 'delayed infection' hypothesis."
+  },
+  {
+    num: 507,
+    stem: "Regarding the role of IKZF1 alterations in B-cell acute lymphoblastic leukaemia, which statement is most accurate?",
+    options: {
+      A: "IKZF1 deletions are rare in B-ALL and are found almost exclusively in low-risk hyperdiploid cases, where they predict an excellent outcome.",
+      B: "IKZF1 is a transcription factor essential for B-cell development; germline polymorphisms and leukaemic deletions are associated with B-ALL, and deletion in BCR::ABL1-positive cases is nearly universal and adverse.",
+      C: "IKZF1 mutations activate the JAK-STAT pathway directly, so they mandate JAK inhibitor therapy regardless of other cytogenetic findings.",
+      D: "Loss of IKZF1 is specific to T-cell ALL and predicts resistance to NOTCH1-targeted therapy.",
+      E: "IKZF1 deletions define the early T-precursor (ETP) ALL subtype by causing loss of CD1a and CD8 expression."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, notes that germline polymorphisms in genes involved in B-cell development, such as IKZF1, appear to predispose to B-ALL. In addition, IKZF1 is deleted in the leukaemic cells in approximately 30% of high-risk B-ALL and 95% of BCR::ABL1-positive cases. IKZF1 encodes the B-cell transcription factor Ikaros, which is essential for normal lymphoid development. It is not specific to T-ALL, does not define ETP ALL, does not directly activate JAK-STAT, and is not a favourable marker."
+  },
+  {
+    num: 508,
+    stem: "According to the prognostic factors for acute lymphoblastic leukaemia presented in Hoffbrand's Essential Haematology, 9th Edition, which combination is most strongly associated with a favourable prognosis?",
+    options: {
+      A: "Age 35 years, male sex, white cell count 80 x 10^9/L B-ALL, hypodiploidy, CNS disease at presentation, MRD 0.1% at 3 months.",
+      B: "Age 4 years, female sex, white cell count 18 x 10^9/L B-ALL, hyperdiploidy with >50 chromosomes, no CNS disease, MRD <0.01% at day 29.",
+      C: "Age 14 months, male sex, white cell count 120 x 10^9/L T-ALL, KMT2A rearrangement, CNS disease, blasts cleared from blood after 2 weeks.",
+      D: "Age 55 years, male sex, white cell count 60 x 10^9/L, BCR::ABL1-positive, persistent MRD at 6 months.",
+      E: "Age 8 years, male sex, white cell count 55 x 10^9/L, normal karyotype, blasts cleared from blood after 10 days."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition (Table 17.4), lists good-prognosis factors as low white cell count (<50 x 10^9/L in B-ALL; <100 x 10^9/L in T-ALL), female sex, age 1-10 years, B-cell immunophenotype in children, normal or hyperdiploid karyotype or ETV6 rearrangement, absence of CNS disease at presentation, and negative or very low minimal residual disease at day 29 in children (or 3 months in adults). Option B combines young age, low WBC, female sex, hyperdiploidy, no CNS disease and early MRD negativity. The other options each contain adverse features such as adult age, high WBC, hypodiploidy, infant/T-cell/KMT2A/CNS disease, BCR::ABL1 positivity, or slow blast clearance."
+  },
+  {
+    num: 509,
+    stem: "A 10-year-old boy with standard-risk B-cell acute lymphoblastic leukaemia has completed induction, consolidation and delayed intensification and is morphologically and minimal residual disease-negative. Which statement best describes contemporary maintenance therapy for this patient?",
+    options: {
+      A: "Maintenance therapy is optional in MRD-negative children because the risk of late relapse after intensive consolidation is negligible.",
+      B: "Daily oral mercaptopurine plus weekly oral methotrexate is given; total intensive therapy finishes around week 38 and maintenance continues until week 112 in girls or 164 in boys.",
+      C: "Maintenance should be stopped at 6 months to minimize the risks of second malignancy and infectious complications.",
+      D: "Intrathecal methotrexate is not given during maintenance because the central nervous system sanctuary has already been sterilised by induction.",
+      E: "Pneumocystis jirovecii prophylaxis is unnecessary during maintenance because mercaptopurine and methotrexate do not impair cellular immunity."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes maintenance therapy with daily oral mercaptopurine and once-weekly oral methotrexate, with monthly or 3-monthly pulses of vincristine and corticosteroid, to prevent late relapses. In typical regimens, intensive chemotherapy finishes around week 38 and maintenance begins again, lasting until week 112 in girls or 164 in boys. Intrathecal chemotherapy is given during all stages of treatment. Pneumocystis prophylaxis with co-trimoxazole or atovaquone, and antiviral prophylaxis, are given because of immunosuppression. Stopping or omitting maintenance would substantially increase relapse risk."
+  },
+  {
+    num: 510,
+    stem: "Which statement most accurately characterizes B-lymphoblastic leukaemia/lymphoma with IGH::IL3 fusion, t(5;14), as classified in Hoffbrand's Essential Haematology, 9th Edition?",
+    options: {
+      A: "It is a T-cell ALL subtype defined by overexpression of the IL-3 receptor on thymic precursors, causing eosinopenia.",
+      B: "It is a B-ALL subtype in which the IGH enhancer drives IL-3 overproduction, often associated with peripheral eosinophilia and sometimes cardiac or other organ involvement from eosinophil infiltration.",
+      C: "It is the most common genetic subtype in adults and carries a favourable prognosis similar to ETV6::RUNX1-positive ALL.",
+      D: "It results from dysregulated PDGFRB signalling and responds to imatinib.",
+      E: "It is classified as B-lymphoblastic leukaemia/lymphoma NOS because the t(5;14) translocation lacks prognostic significance."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition (Table 17.1), lists B-lymphoblastic leukaemia/lymphoma with IGH::IL3 fusion, t(5;14), as a distinct WHO 2022 B-ALL subtype. The IGH enhancer drives ectopic IL3 overexpression, which is frequently associated with peripheral eosinophilia; marked eosinophilia can cause cardiac or other organ infiltration. It is not a T-cell leukaemia, it is not the most common adult subtype, it does not carry the favourable prognosis of ETV6::RUNX1, it is not driven by PDGFRB, and it is a defined entity rather than NOS."
   }
 ];
