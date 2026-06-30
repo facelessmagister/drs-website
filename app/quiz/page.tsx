@@ -20,7 +20,7 @@ const chapters = [
   { id: "16", title: "Myelodysplastic neoplasms", questions: 20 },
   { id: "17", title: "Acute lymphoblastic leukaemia", questions: 20 },
   { id: "18", title: "The chronic lymphocytic leukaemias", questions: 20 },
-  { id: "19", title: "Hodgkin lymphoma", questions: 10 },
+  { id: "19", title: "Hodgkin lymphoma", questions: 20 },
   { id: "20", title: "Non-Hodgkin lymphomas 1: General aspects", questions: 10 },
   { id: "21", title: "Non-Hodgkin lymphomas 2: Individual diseases", questions: 10 },
   { id: "22", title: "Multiple myeloma and related plasma cell neoplasms", questions: 10 },

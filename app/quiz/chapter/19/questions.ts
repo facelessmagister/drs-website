@@ -136,5 +136,135 @@ export const questions: Question[] = [
     },
     answer: "B",
     explanation: "Hoffbrand's Essential Haematology, 9th Edition (Chapter 19, 'The late effects of Hodgkin lymphoma and its treatment'), describes that bleomycin can cause serious lung toxicity, and this is a major reason why less intensive treatment regimens guided by interim PET/CT results are now being explored. If the interim PET is negative, bleomycin can be omitted from subsequent ABVD cycles. The pulmonary toxicity is dose-dependent and related to free radical generation causing damage to endothelial and epithelial cells. Regarding other late effects: MDS/AML are slightly more common after escalated BEACOPP than after ABVD, associated with alkylating agents and radiotherapy. Radiotherapy-related breast cancer is particularly dangerous in women under 20 years, not over 50 — annual screening starting 8 years after radiotherapy or age 30 (whichever is earlier) is recommended. Infertility is more common in men after alkylating drug therapy, and substituting procarbazine for dacarbazine is being explored to reduce gonadotoxicity. Anthracycline cardiotoxicity arises from free radical damage and topoisomerase II inhibition, not DNA alkylation, and may present years after treatment."
+  },
+  {
+    num: 521,
+    stem: "A 16-year-old boy presents with painless left cervical lymphadenopathy and a 9 cm anterior mediastinal mass. PET-CT shows disease confined to the mediastinum and left supraclavicular fossa, with no B symptoms. Excision biopsy confirms nodular sclerosis classical Hodgkin lymphoma. Which treatment approach best aligns with contemporary paediatric/adolescent protocols described in Hoffbrand?",
+    options: {
+      A: "Six cycles of ABVD followed by 30 Gy involved-field radiotherapy, because adolescent patients require the same adult regimen to achieve equivalent cure rates.",
+      B: "Two cycles of vincristine, etoposide, prednisolone, doxorubicin (OEPA) followed by response-adapted cyclophosphamide, vincristine, prednisolone, dacarbazine (COPDac) and low-dose radiotherapy only to slow interim PET responders, designed to reduce cumulative anthracycline, alkylator and radiotherapy exposure.",
+      C: "Four cycles of escalated BEACOPP followed by autologous stem cell transplantation, because bulky mediastinal disease in adolescents is considered advanced-stage and high-risk.",
+      D: "Six cycles of R-CHOP, because nodular sclerosis cHL in adolescents is biologically similar to diffuse large B-cell lymphoma.",
+      E: "Observation alone after surgical excision, because early-stage nodular sclerosis cHL in adolescents frequently undergoes spontaneous regression."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes that for paediatric and adolescent patients (16–24 years), regimens have been designed to reduce late effects and preserve fertility, including reduced cumulative doses of anthracyclines, bleomycin, alkylating agents and radiotherapy. One such regimen is two cycles of vincristine, etoposide, prednisolone, doxorubicin (OEPA) followed by cycles of cyclophosphamide, vincristine, prednisolone, dacarbazine (COPDac), the number dependent on baseline risk. Radiotherapy is given to slow responders on interim PET, with lower doses than used in adults. Adult ABVD is not the standard paediatric approach, escalated BEACOPP is too toxic for routine adolescent first-line use, R-CHOP is not used for cHL, and observation is inappropriate for confirmed cHL."
+  },
+  {
+    num: 522,
+    stem: "A 38-year-old man with known HIV infection (CD4 count 280 cells/μL, on antiretroviral therapy) presents with 3 months of drenching night sweats, fever and painless right cervical lymphadenopathy. Excision biopsy shows mixed cellularity classical Hodgkin lymphoma with EBV-encoded RNA positive Reed–Sternberg cells. PET-CT shows stage IIIB disease with splenic and bone marrow involvement. Which of the following statements best characterises the management approach for this patient?",
+    options: {
+      A: "Defer antiretroviral therapy during chemotherapy because concurrent antiretrovirals increase ABVD-related hepatotoxicity.",
+      B: "Treat with reduced-dose ABVD for six cycles without interim PET adaptation, because HIV-associated cHL is universally resistant to standard chemotherapy.",
+      C: "Continue antiretroviral therapy and treat with standard ABVD or AVD-based chemotherapy with PET-adapted intensification if needed; HIV infection is a recognized risk factor for cHL and should not alter curative intent.",
+      D: "Avoid all chemotherapy and treat with antiretroviral therapy alone, because immune reconstitution inflammatory syndrome can control lymphoma.",
+      E: "Use single-agent brentuximab vedotin as first-line therapy, because HIV-related immunosuppression precludes combination chemotherapy."
+    },
+    answer: "C",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that HIV infection is a risk factor for cHL and HIV status should be determined in all patients. With effective antiretroviral therapy, HIV-associated cHL is treated with curative intent using standard regimens such as ABVD or AVD-based therapy with PET-adapted intensification, similar to HIV-negative patients. Concurrent antiretroviral therapy should generally be continued with attention to drug interactions. HIV-associated cHL is not universally chemotherapy-resistant, immune reconstitution alone does not treat lymphoma, and brentuximab vedotin monotherapy is not standard first-line treatment."
+  },
+  {
+    num: 523,
+    stem: "A 29-year-old woman with newly diagnosed stage IIB nodular sclerosis classical Hodgkin lymphoma is reviewed before starting ABVD chemotherapy. She wishes to preserve fertility. Her partner is supportive and she has regular menstrual cycles. Which of the following management plans best aligns with the fertility preservation guidance described in Hoffbrand?",
+    options: {
+      A: "No fertility preservation is required because ABVD has no clinically relevant gonadotoxicity.",
+      B: "Offer semen storage because she is at risk of azoospermia from procarbazine exposure in ABVD.",
+      C: "Offer oocyte or embryo cryopreservation after ovarian stimulation, and seek specialist fertility advice before alkylator-containing chemotherapy.",
+      D: "Defer all chemotherapy until after she completes a pregnancy, because pregnancy is incompatible with ABVD.",
+      E: "Administer gonadotropin-releasing hormone (GnRH) agonist suppression alone, because this reliably preserves ovarian function after ABVD."
+    },
+    answer: "C",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that semen storage for males should be carried out before therapy, and for females of child-bearing age, specialist fertility advice should be sought with options including storage of stimulated eggs and embryos or cryopreservation of ovarian tissue. ABVD contains alkylating agents (dacarbazine, and procarbazine if escalated BEACOPP is used), which can damage gonadal function. Oocyte or embryo cryopreservation is the established fertility preservation strategy for women. ABVD is gonadotoxic, particularly with cumulative doses; GnRH agonists may reduce ovarian failure risk but are not a standalone reliable preservation method, and deferring curative chemotherapy is unsafe."
+  },
+  {
+    num: 524,
+    stem: "A 52-year-old man relapsed 14 months after first-line ABVD for stage IIIA classical Hodgkin lymphoma. He receives second-line gemcitabine, dexamethasone, cisplatin (GDP) chemotherapy and interim PET-CT shows a Deauville score 4 in a residual 3 cm mediastinal mass; all other disease sites are PET-negative. He is otherwise fit. Which management decision best aligns with current guidelines described in Hoffbrand?",
+    options: {
+      A: "Proceed directly to high-dose chemotherapy with autologous stem cell transplantation because PET positivity at any site qualifies for transplant regardless of localizability.",
+      B: "Add consolidation involved-site radiotherapy at 30 Gy to the residual mediastinal mass and then proceed to autologous stem cell transplantation if response permits.",
+      C: "Stop all therapy and observe, because a Deauville score 4 after salvage chemotherapy represents a false-positive inflammatory response.",
+      D: "Switch immediately to nivolumab monotherapy indefinitely as definitive curative therapy, replacing autologous transplantation.",
+      E: "Repeat the same ABVD regimen, because rechallenge after first relapse frequently induces durable remission."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition (Fig. 19.10), presents the relapsed cHL schema: after second-line chemotherapy, PET-negative responding patients proceed to high-dose chemotherapy and autologous stem cell transplantation. For localized residual PET-avid disease or sites of bulk at relapse, radiotherapy may be considered. The schema notes 'Consider incorporation of radiotherapy if localised disease or sites of bulk at relapse and residual PET avid areas.' A Deauville 4 after salvage is not automatically a false positive; biopsy is preferable when possible. Nivolumab is used as bridge or in combination but has not replaced autologous SCT as definitive curative therapy for first relapse, and ABVD rechallenge is not standard."
+  },
+  {
+    num: 525,
+    stem: "A 67-year-old man with stage IIB classical Hodgkin lymphoma and a 12 cm mediastinal mass is deemed unfit for escalated BEACOPP because of reduced lung function and cardiovascular comorbidity. His interim PET after two cycles of ABVD is negative (Deauville score 2). Which treatment modification best balances efficacy with minimization of treatment-related toxicity in this older patient?",
+    options: {
+      A: "Continue full ABVD for four more cycles because bleomycin toxicity is not age-dependent.",
+      B: "Switch to six cycles of doxorubicin, vinblastine and dacarbazine (AVD) combined with brentuximab vedotin, omitting bleomycin and avoiding the myelosuppression of escalated BEACOPP.",
+      C: "Proceed with mantle field radiotherapy at 36 Gy instead of further chemotherapy, because radiotherapy avoids all chemotherapy toxicity in older patients.",
+      D: "Use single-agent chlorambucil indefinitely, because older patients cannot tolerate curative-intent combination chemotherapy.",
+      E: "Administer two more cycles of ABVD followed by immediate autologous stem cell transplantation, because advanced age alone is not a transplant contraindication."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, notes that outcomes for older patients (over 60 years) with cHL are relatively poor due partly to worse tolerance of chemotherapy. BEACOPP cannot be used safely in this group, and age is a significant risk factor for bleomycin-induced pulmonary toxicity. For fitter older patients, AVD or AVD combined with brentuximab vedotin can be used. The AVD-brentuximab vedotin regimen avoids bleomycin and has shown improved progression-free survival in advanced cHL, though with more febrile neutropenia and peripheral neuropathy. Mantle field radiotherapy at 36 Gy is excessive and not used; ChlVPP is an option for those not fit for anthracyclines, not chlorambucil alone. Autologous SCT is not first-line therapy."
+  },
+  {
+    num: 526,
+    stem: "Regarding the role of Epstein–Barr virus (EBV) in the pathogenesis and epidemiology of classical Hodgkin lymphoma, which statement is most accurate?",
+    options: {
+      A: "EBV genome is detected in approximately 50% of cHL cases and is most strongly associated with the lymphocyte-depleted subtype in developing countries.",
+      B: "EBV is present in all cases of nodular sclerosis cHL and directly transforms B cells through insertion of the LMP1 oncogene into the immunoglobulin heavy chain locus.",
+      C: "EBV infection excludes a diagnosis of classical Hodgkin lymphoma because the presence of EBV indicates infectious mononucleosis rather than lymphoma.",
+      D: "EBV-positive cHL is confined to immunocompromised patients and never occurs in immunocompetent hosts.",
+      E: "The EBV genome in cHL is found only in reactive T cells and never in Reed–Sternberg cells."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that the EBV genome has been detected in approximately 50% of cases in Hodgkin tissue, but its exact role in pathogenesis is unclear. Lymphocyte depletion is more common in developing countries and has a particularly strong association with EBV infection and malnutrition. EBV is not present in all nodular sclerosis cases, does not exclude cHL, occurs in immunocompetent hosts, and is detected in Reed–Sternberg cells rather than exclusively in reactive T cells."
+  },
+  {
+    num: 527,
+    stem: "Which statement best describes the molecular and immunogenetic origin of the Reed–Sternberg (RS) cell in classical Hodgkin lymphoma?",
+    options: {
+      A: "RS cells are derived from T-lymphocyte precursors with clonal T-cell receptor gene rearrangement and express CD3 and CD4.",
+      B: "RS cells arise from germinal centre B cells that frequently acquire crippling immunoglobulin gene mutations, lose HLA class I expression, and show β2-microglobulin gene mutation.",
+      C: "RS cells originate from plasma cells that secrete abundant monoclonal immunoglobulin, explaining the frequent hypergammaglobulinaemia in cHL.",
+      D: "RS cells are derived from follicular dendritic cells and retain strong CD21 expression but lack PDL1 expression.",
+      E: "RS cells arise from NK-cell precursors and are defined by expression of CD56 and perforin."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, describes that immunoglobulin gene rearrangement studies show the RS cell is of B-lymphoid lineage and often derived from a B cell with a 'crippled' immunoglobulin gene caused by mutations that prevent synthesis of full-length immunoglobulin. HLA class I expression is usually lost on neoplastic cells and mutation of the β2-microglobulin gene is frequent. These features explain how RS cells evade immune recognition independent of the PDL1-PD-1 axis. They are not T cells, plasma cells, dendritic cells, or NK cells."
+  },
+  {
+    num: 528,
+    stem: "Which of the following best distinguishes the four histological subtypes of classical Hodgkin lymphoma in the WHO 2022 classification?",
+    options: {
+      A: "The four subtypes differ primarily in EBV status, with identical cellular architecture and equivalent management implications.",
+      B: "Nodular sclerosis shows collagen bands extending from the capsule to encircle nodules and often contains lacunar cells; mixed cellularity has numerous RS cells; lymphocyte-rich has scanty RS cells; lymphocyte-depleted shows reticular or diffuse fibrosis patterns with sparse lymphocytes.",
+      C: "The subtypes are distinguished by CD30 expression intensity, and lymphocyte-depleted cHL is CD30-negative.",
+      D: "Each subtype requires a different chemotherapy backbone: ABVD for nodular sclerosis, BEACOPP for mixed cellularity, R-CHOP for lymphocyte-rich, and radiotherapy alone for lymphocyte-depleted.",
+      E: "Nodular sclerosis is exclusively a paediatric disease, while mixed cellularity occurs only in patients over 60 years of age."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition (Table 19.1), describes the WHO 2022 classification of cHL subtypes. Nodular sclerosis is characterized by collagen bands extending from the node capsule to encircle nodules of abnormal tissue, with a characteristic lacunar cell variant. Mixed cellularity has numerous Reed–Sternberg cells with intermediate lymphocyte numbers. Lymphocyte-rich has scanty RS cells with multiple small lymphocytes. Lymphocyte-depleted shows either a reticular pattern with dominant RS cells or a diffuse fibrosis pattern. There is no significant difference in prognosis or management between subtypes, and they are not age-restricted."
+  },
+  {
+    num: 529,
+    stem: "Regarding nodular lymphocyte-predominant Hodgkin lymphoma (NLPHL), which statement most accurately integrates its pathology, natural history, and treatment principles?",
+    options: {
+      A: "NLPHL is treated identically to classical Hodgkin lymphoma with ABVD or escalated BEACOPP because it shares the same Reed–Sternberg cell biology.",
+      B: "NLPHL lacks Reed–Sternberg cells, contains CD20-positive popcorn-like LP cells, follows an indolent course similar to low-grade non-Hodgkin lymphoma, and can transform to diffuse large B-cell lymphoma in about 10% of cases.",
+      C: "NLPHL is characterized by CD30-positive, CD15-positive LP cells with collagen banding and requires combined modality treatment identical to nodular sclerosis cHL.",
+      D: "NLPHL is always cured by surgical excision alone and never requires chemotherapy or radiotherapy.",
+      E: "NLPHL is a T-cell lymphoma with clonal TCR rearrangements and is treated with CHOP chemotherapy."
+    },
+    answer: "B",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition (Table 19.1 and NLPHL section), states that NLPHL does not show RS cells and has many features of non-Hodgkin lymphoma. The tumour cells are polylobated 'popcorn' B cells (LP cells) that retain typical B-cell markers such as CD20, unlike classical RS cells. The natural history is similar to low-grade non-Hodgkin lymphoma. Early-stage disease is usually managed with surgical excision followed by surveillance or radiotherapy; advanced disease may be watched, treated with R-CVP, or with R-CHOP for stage 3/4 with B symptoms or mediastinal/splenic involvement. High-grade transformation to diffuse large B-cell lymphoma occurs in about 10% of cases."
+  },
+  {
+    num: 530,
+    stem: "Regarding transfusion support in patients with Hodgkin lymphoma, which statement best explains the rationale for irradiating cellular blood components before transfusion?",
+    options: {
+      A: "Irradiation prevents transfusion-associated graft-versus-host disease by inactivating viable donor lymphocytes that could engraft due to the impaired cellular immunity of Hodgkin lymphoma.",
+      B: "Irradiation is required to reduce the risk of EBV transmission from the donor to EBV-associated lymphoma patients.",
+      C: "Irradiation prevents iron overload, which would exacerbate the anaemia caused by chemotherapy-related bone marrow suppression.",
+      D: "Irradiation inactivates Reed–Sternberg cells that might be present in the donor circulation and cause lymphoma transmission.",
+      E: "Irradiation is unnecessary in Hodgkin lymphoma because cell-mediated immunity remains intact."
+    },
+    answer: "A",
+    explanation: "Hoffbrand's Essential Haematology, 9th Edition, states that if blood transfusion is needed in Hodgkin lymphoma patients, it must be irradiated to avoid transfusion-associated graft-versus-host disease due to the infusion of live donor lymphocytes, which can engraft because of the impaired cellular immunity of the HL patient. This is a mechanistic consequence of the disease-related T-cell immune defect, which is particularly relevant in advanced disease. Irradiation does not prevent EBV transmission, iron overload, or lymphoma transmission, and it is definitely required because cell-mediated immunity is impaired."
   }
 ];
